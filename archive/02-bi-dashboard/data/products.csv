@@ -1,0 +1,25 @@
+product_id,product_name,category,unit_price,unit_cost
+1,Wireless Earbuds,Electronics,39.99,14.0
+2,Bluetooth Speaker,Electronics,59.99,22.0
+3,Phone Case,Electronics,19.99,4.5
+4,USB-C Charger,Electronics,24.99,7.0
+5,Smart Watch,Electronics,149.99,55.0
+6,Laptop Stand,Electronics,34.99,11.0
+7,Ceramic Mug Set,Home & Kitchen,29.99,9.0
+8,Air Fryer,Home & Kitchen,89.99,38.0
+9,Cutting Board,Home & Kitchen,22.99,6.5
+10,Throw Blanket,Home & Kitchen,44.99,15.0
+11,Candle Set,Home & Kitchen,26.99,8.0
+12,Cotton T-Shirt,Apparel,18.99,5.0
+13,Denim Jacket,Apparel,79.99,28.0
+14,Running Shoes,Apparel,99.99,35.0
+15,Wool Sweater,Apparel,64.99,21.0
+16,Yoga Pants,Apparel,44.99,13.0
+17,Face Serum,Beauty,34.99,9.5
+18,Shampoo Bar,Beauty,14.99,3.5
+19,Makeup Brush Set,Beauty,27.99,8.0
+20,Sunscreen SPF50,Beauty,19.99,5.5
+21,Yoga Mat,Sports & Outdoors,32.99,10.0
+22,Water Bottle,Sports & Outdoors,21.99,5.5
+23,Camping Tent,Sports & Outdoors,129.99,48.0
+24,Resistance Bands,Sports & Outdoors,17.99,4.0

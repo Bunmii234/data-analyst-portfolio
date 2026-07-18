@@ -1,0 +1,8 @@
+carrier_id,carrier_name,tier,tier_rank,sla_days,premium_rate_pct
+1,USPS Registered Mail,Standard,1,5,1.95
+2,UPS Next Day Air,Standard,1,1,2.15
+3,FedEx Priority Overnight,Standard,1,1,2.15
+4,UPS Next Day Air Early (Sig),Enhanced,2,1,1.45
+5,FedEx Custom Critical,Enhanced,2,2,1.55
+6,Brink's Global Services,High-Security,3,3,0.95
+7,Malca-Amit,High-Security,3,4,1.05

@@ -1,0 +1,75 @@
+claim_id,shipment_id,claim_reason,claim_amount,claim_status,days_to_resolve
+1,56,Carrier Misdelivery,1245.12,Pending,
+2,131,Water Damage,10769.27,Paid,59
+3,153,Crushed Packaging,3098.7,Paid,37
+4,202,Carrier Misdelivery,6404.36,Paid,28
+5,287,Carrier Misdelivery,107577.15,Denied,47
+6,364,Crushed Packaging,3590.0,Paid,41
+7,422,Lost in Transit,2405.6,Paid,33
+8,637,Water Damage,2123.29,Denied,37
+9,732,Crushed Packaging,15746.91,Paid,11
+10,805,Damaged in Transit,6257.55,Pending,
+11,807,Damaged in Transit,1459.63,Paid,38
+12,1035,Lost in Transit,16336.11,Paid,19
+13,1110,Carrier Misdelivery,29042.42,Paid,9
+14,1130,Damaged in Transit,1008.05,Paid,31
+15,1156,Lost in Transit,31962.0,Paid,42
+16,1372,Carrier Misdelivery,2399.47,Paid,54
+17,1514,Crushed Packaging,25059.38,Paid,7
+18,1665,Theft,107845.58,Paid,41
+19,1719,Crushed Packaging,36916.51,Paid,37
+20,1797,Theft,18847.32,Denied,57
+21,1917,Damaged in Transit,49333.74,Paid,60
+22,1976,Crushed Packaging,837.89,Pending,
+23,2009,Carrier Misdelivery,26342.82,Paid,22
+24,2087,Carrier Misdelivery,36458.13,Paid,54
+25,2120,Crushed Packaging,1055.06,Pending,
+26,2130,Water Damage,48914.6,Pending,
+27,2146,Theft,3713.55,Paid,41
+28,2281,Damaged in Transit,10285.96,Paid,36
+29,2361,Crushed Packaging,10489.16,Paid,21
+30,2459,Damaged in Transit,2659.88,Paid,58
+31,2569,Carrier Misdelivery,105469.95,Paid,29
+32,2640,Damaged in Transit,23371.6,Pending,
+33,2670,Carrier Misdelivery,585.15,Paid,33
+34,2688,Carrier Misdelivery,39834.4,Paid,9
+35,2700,Crushed Packaging,1324.25,Paid,35
+36,2757,Lost in Transit,129348.62,Paid,17
+37,2899,Water Damage,3881.9,Paid,56
+38,2961,Crushed Packaging,3943.66,Paid,58
+39,2979,Carrier Misdelivery,48769.03,Paid,9
+40,3025,Crushed Packaging,624.84,Paid,8
+41,3369,Lost in Transit,1290.49,Paid,18
+42,3387,Crushed Packaging,1295.87,Pending,
+43,3470,Carrier Misdelivery,23715.83,Paid,46
+44,3499,Carrier Misdelivery,119706.83,Paid,12
+45,3508,Carrier Misdelivery,28553.78,Pending,
+46,3553,Water Damage,2674.3,Paid,56
+47,3677,Theft,2790.57,Paid,50
+48,3710,Carrier Misdelivery,7868.62,Paid,41
+49,3712,Water Damage,2290.48,Paid,56
+50,3717,Carrier Misdelivery,1534.7,Paid,12
+51,3974,Theft,3873.31,Paid,52
+52,4012,Water Damage,17541.96,Paid,45
+53,4040,Crushed Packaging,2463.74,Denied,53
+54,4058,Damaged in Transit,1967.28,Pending,
+55,4107,Lost in Transit,23375.96,Paid,15
+56,4450,Crushed Packaging,10050.05,Paid,44
+57,4465,Damaged in Transit,2829.65,Paid,46
+58,4495,Crushed Packaging,257395.37,Paid,51
+59,4567,Crushed Packaging,4658.08,Paid,51
+60,4625,Carrier Misdelivery,23383.24,Denied,47
+61,4661,Crushed Packaging,1080.71,Paid,30
+62,4697,Lost in Transit,5806.74,Paid,22
+63,4703,Crushed Packaging,2293.56,Paid,26
+64,4752,Damaged in Transit,3185.78,Pending,
+65,4769,Carrier Misdelivery,4296.31,Paid,16
+66,4780,Crushed Packaging,5888.74,Paid,47
+67,4839,Lost in Transit,36088.35,Pending,
+68,4863,Damaged in Transit,17642.29,Paid,27
+69,4927,Lost in Transit,40928.27,Paid,7
+70,4951,Lost in Transit,922.99,Paid,15
+71,5069,Carrier Misdelivery,4633.69,Denied,30
+72,5075,Crushed Packaging,19028.18,Pending,
+73,5111,Crushed Packaging,4816.43,Paid,9
+74,5126,Water Damage,10899.7,Paid,17

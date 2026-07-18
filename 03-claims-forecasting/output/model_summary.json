@@ -1,0 +1,259 @@
+{
+  "slope_claims_per_month": 0.0125,
+  "intercept": 2.286,
+  "seasonal_index_by_month": {
+    "1": 1.287,
+    "2": 2.496,
+    "3": 1.183,
+    "4": 1.143,
+    "5": 1.414,
+    "6": 0.418,
+    "7": 0.437,
+    "8": 0.646,
+    "9": 0.433,
+    "10": 0.431,
+    "11": 0.857,
+    "12": 1.254
+  },
+  "residual_std": 1.098,
+  "avg_claim_severity_usd": 23987.16,
+  "paid_claim_rate": 0.757,
+  "tier_mix": {
+    "Under $10K": 0.459,
+    "$10K-$50K": 0.351,
+    "$50K-$150K": 0.176,
+    "$150K+": 0.014
+  },
+  "forecast": [
+    {
+      "month": "2026-07",
+      "forecast_claims": 1.16,
+      "lower_80": 0,
+      "upper_80": 2.57,
+      "forecast_reserve_usd": 21056.84,
+      "tier_mix_allocation": {
+        "Under $10K": 9674.76,
+        "$10K-$50K": 7398.35,
+        "$50K-$150K": 3699.17,
+        "$150K+": 284.55
+      }
+    },
+    {
+      "month": "2026-08",
+      "forecast_claims": 1.73,
+      "lower_80": 0.32,
+      "upper_80": 3.13,
+      "forecast_reserve_usd": 31403.73,
+      "tier_mix_allocation": {
+        "Under $10K": 14428.74,
+        "$10K-$50K": 11033.74,
+        "$50K-$150K": 5516.87,
+        "$150K+": 424.37
+      }
+    },
+    {
+      "month": "2026-09",
+      "forecast_claims": 1.16,
+      "lower_80": 0,
+      "upper_80": 2.57,
+      "forecast_reserve_usd": 21056.84,
+      "tier_mix_allocation": {
+        "Under $10K": 9674.76,
+        "$10K-$50K": 7398.35,
+        "$50K-$150K": 3699.17,
+        "$150K+": 284.55
+      }
+    },
+    {
+      "month": "2026-10",
+      "forecast_claims": 1.16,
+      "lower_80": 0,
+      "upper_80": 2.57,
+      "forecast_reserve_usd": 21056.84,
+      "tier_mix_allocation": {
+        "Under $10K": 9674.76,
+        "$10K-$50K": 7398.35,
+        "$50K-$150K": 3699.17,
+        "$150K+": 284.55
+      }
+    },
+    {
+      "month": "2026-11",
+      "forecast_claims": 2.32,
+      "lower_80": 0.92,
+      "upper_80": 3.73,
+      "forecast_reserve_usd": 42113.67,
+      "tier_mix_allocation": {
+        "Under $10K": 19349.52,
+        "$10K-$50K": 14796.69,
+        "$50K-$150K": 7398.35,
+        "$150K+": 569.1
+      }
+    },
+    {
+      "month": "2026-12",
+      "forecast_claims": 3.41,
+      "lower_80": 2.01,
+      "upper_80": 4.82,
+      "forecast_reserve_usd": 61899.84,
+      "tier_mix_allocation": {
+        "Under $10K": 28440.47,
+        "$10K-$50K": 21748.59,
+        "$50K-$150K": 10874.3,
+        "$150K+": 836.48
+      }
+    }
+  ],
+  "history": [
+    {
+      "month": "2024-01",
+      "actual": 1.0,
+      "fitted": 2.94
+    },
+    {
+      "month": "2024-02",
+      "actual": 7.0,
+      "fitted": 5.74
+    },
+    {
+      "month": "2024-03",
+      "actual": 4.0,
+      "fitted": 2.73
+    },
+    {
+      "month": "2024-04",
+      "actual": 3.0,
+      "fitted": 2.66
+    },
+    {
+      "month": "2024-05",
+      "actual": 3.0,
+      "fitted": 3.3
+    },
+    {
+      "month": "2024-06",
+      "actual": 0.0,
+      "fitted": 0.98
+    },
+    {
+      "month": "2024-07",
+      "actual": 1.0,
+      "fitted": 1.03
+    },
+    {
+      "month": "2024-08",
+      "actual": 1.0,
+      "fitted": 1.53
+    },
+    {
+      "month": "2024-09",
+      "actual": 1.0,
+      "fitted": 1.03
+    },
+    {
+      "month": "2024-10",
+      "actual": 1.0,
+      "fitted": 1.03
+    },
+    {
+      "month": "2024-11",
+      "actual": 2.0,
+      "fitted": 2.07
+    },
+    {
+      "month": "2024-12",
+      "actual": 1.0,
+      "fitted": 3.04
+    },
+    {
+      "month": "2025-01",
+      "actual": 4.0,
+      "fitted": 3.13
+    },
+    {
+      "month": "2025-02",
+      "actual": 6.0,
+      "fitted": 6.11
+    },
+    {
+      "month": "2025-03",
+      "actual": 3.0,
+      "fitted": 2.91
+    },
+    {
+      "month": "2025-04",
+      "actual": 1.0,
+      "fitted": 2.83
+    },
+    {
+      "month": "2025-05",
+      "actual": 2.0,
+      "fitted": 3.52
+    },
+    {
+      "month": "2025-06",
+      "actual": 2.0,
+      "fitted": 1.04
+    },
+    {
+      "month": "2025-07",
+      "actual": 1.0,
+      "fitted": 1.1
+    },
+    {
+      "month": "2025-08",
+      "actual": 2.0,
+      "fitted": 1.63
+    },
+    {
+      "month": "2025-09",
+      "actual": 1.0,
+      "fitted": 1.1
+    },
+    {
+      "month": "2025-10",
+      "actual": 1.0,
+      "fitted": 1.1
+    },
+    {
+      "month": "2025-11",
+      "actual": 2.0,
+      "fitted": 2.19
+    },
+    {
+      "month": "2025-12",
+      "actual": 5.0,
+      "fitted": 3.23
+    },
+    {
+      "month": "2026-01",
+      "actual": 4.0,
+      "fitted": 3.33
+    },
+    {
+      "month": "2026-02",
+      "actual": 4.0,
+      "fitted": 6.48
+    },
+    {
+      "month": "2026-03",
+      "actual": 1.0,
+      "fitted": 3.09
+    },
+    {
+      "month": "2026-04",
+      "actual": 4.0,
+      "fitted": 3.0
+    },
+    {
+      "month": "2026-05",
+      "actual": 5.0,
+      "fitted": 3.73
+    },
+    {
+      "month": "2026-06",
+      "actual": 1.0,
+      "fitted": 1.11
+    }
+  ]
+}

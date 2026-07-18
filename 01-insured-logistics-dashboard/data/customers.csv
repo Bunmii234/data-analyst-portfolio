@@ -1,0 +1,261 @@
+customer_id,business_name,customer_type,state,risk_rating
+1,Regal & Co.,Retailer,NJ,Medium
+2,J. Estate,Individual Collector,GA,Medium
+3,Golden & Co.,Retailer,FL,Low
+4,Windsor Jewelers,Retailer,NJ,Medium
+5,T. Private Client,Individual Collector,NY,Medium
+6,Windsor Jewelers,Wholesaler,NY,High
+7,Regal Fine Jewelry,Wholesaler,GA,Low
+8,Luxe Estate Jewelry,Retailer,CA,Medium
+9,Diamond Diamond House,Retailer,NJ,Low
+10,Golden Estate Jewelry,Wholesaler,FL,Low
+11,Pearl & Co.,Wholesaler,PA,Medium
+12,Meridian Fine Jewelry,Wholesaler,CA,Low
+13,Heritage Jewelers,Manufacturer,GA,Medium
+14,Crown Diamond House,Wholesaler,WA,Low
+15,J. Private Client,Individual Collector,TX,Low
+16,Meridian & Co.,Retailer,CO,Low
+17,Pearl Estate Jewelry,Retailer,TX,Medium
+18,Crown Estate Jewelry,Retailer,PA,Low
+19,Golden Fine Jewelry,Retailer,CO,Low
+20,Luxe Diamond House,Retailer,CO,Medium
+21,A. Private Client,Individual Collector,CO,Low
+22,Meridian Fine Jewelry,Retailer,NJ,Low
+23,Heritage Atelier,Wholesaler,AZ,Low
+24,Windsor Atelier,Retailer,CA,Low
+25,Pearl Fine Jewelry,Retailer,MA,High
+26,A. Private Client,Individual Collector,TX,Low
+27,Windsor Gems,Manufacturer,CA,Low
+28,Heritage Jewelers,Retailer,WA,Low
+29,Luxe Jewelers,Retailer,GA,Low
+30,Diamond Fine Jewelry,Retailer,AZ,High
+31,S. Private Client,Individual Collector,NY,Medium
+32,Pearl & Co.,Wholesaler,MA,Low
+33,Windsor Jewelers,Retailer,FL,Low
+34,Golden Fine Jewelry,Retailer,NJ,Medium
+35,Regal Estate Jewelry,Retailer,TX,Low
+36,Golden Atelier,Wholesaler,MA,Low
+37,Luxe Fine Jewelry,Retailer,PA,Medium
+38,Meridian & Co.,Retailer,IL,Low
+39,Golden Diamond House,Retailer,IL,Low
+40,Regal Estate Jewelry,Wholesaler,GA,Low
+41,Pearl Jewelers,Retailer,IL,Medium
+42,J. Private Client,Individual Collector,GA,Medium
+43,Regal Fine Jewelry,Retailer,GA,Medium
+44,Pearl Fine Jewelry,Wholesaler,WA,Medium
+45,M. Collector,Individual Collector,AZ,Medium
+46,M. Private Client,Individual Collector,AZ,Low
+47,Sterling Atelier,Retailer,IL,Low
+48,Diamond Fine Jewelry,Retailer,AZ,Low
+49,A. Collector,Individual Collector,FL,Low
+50,Crown Gems,Wholesaler,WA,Low
+51,R. Private Client,Individual Collector,CO,Low
+52,Golden & Co.,Retailer,FL,Medium
+53,Regal & Co.,Wholesaler,TX,Medium
+54,Windsor & Co.,Retailer,NJ,Low
+55,Regal Gems,Manufacturer,WA,Low
+56,T. Collector,Individual Collector,WA,Medium
+57,T. Estate,Individual Collector,GA,Low
+58,Sterling Atelier,Retailer,CO,High
+59,Regal & Co.,Retailer,FL,High
+60,M. Collector,Individual Collector,IL,Low
+61,Diamond Fine Jewelry,Wholesaler,MA,Low
+62,J. Private Client,Individual Collector,PA,Low
+63,Pearl & Co.,Manufacturer,GA,Medium
+64,Regal Estate Jewelry,Retailer,PA,Low
+65,S. Collector,Individual Collector,CA,Medium
+66,Meridian Estate Jewelry,Retailer,GA,Medium
+67,Pearl Estate Jewelry,Retailer,NJ,Medium
+68,J. Collector,Individual Collector,NY,Low
+69,S. Estate,Individual Collector,NJ,Medium
+70,Diamond Estate Jewelry,Retailer,FL,Medium
+71,Meridian Estate Jewelry,Manufacturer,PA,Low
+72,Heritage Diamond House,Wholesaler,IL,Low
+73,M. Estate,Individual Collector,NJ,Low
+74,Crown Jewelers,Retailer,MA,Medium
+75,Luxe Atelier,Retailer,CA,Low
+76,T. Private Client,Individual Collector,IL,Low
+77,R. Collector,Individual Collector,NJ,Medium
+78,Meridian Gems,Retailer,FL,High
+79,Windsor Estate Jewelry,Retailer,MA,Low
+80,Crown Jewelers,Retailer,NY,Medium
+81,Meridian & Co.,Retailer,MA,Medium
+82,Diamond Fine Jewelry,Retailer,NJ,Low
+83,Heritage Jewelers,Retailer,IL,Low
+84,Regal Fine Jewelry,Retailer,MA,Medium
+85,T. Estate,Individual Collector,GA,Low
+86,S. Estate,Individual Collector,NJ,Medium
+87,Regal & Co.,Retailer,IL,High
+88,T. Collector,Individual Collector,NJ,Medium
+89,Heritage Jewelers,Wholesaler,NJ,Low
+90,Crown Estate Jewelry,Wholesaler,IL,Low
+91,Sterling Estate Jewelry,Wholesaler,NJ,Medium
+92,A. Collector,Individual Collector,IL,Low
+93,Pearl Atelier,Wholesaler,PA,Low
+94,Regal Fine Jewelry,Wholesaler,NY,Low
+95,J. Collector,Individual Collector,GA,Low
+96,Heritage Estate Jewelry,Wholesaler,PA,Low
+97,Windsor Diamond House,Retailer,MA,Low
+98,A. Private Client,Individual Collector,FL,Low
+99,Regal & Co.,Retailer,NY,High
+100,J. Collector,Individual Collector,IL,Medium
+101,Sterling Jewelers,Retailer,MA,Medium
+102,T. Estate,Individual Collector,AZ,Medium
+103,Meridian Gems,Retailer,PA,Low
+104,Crown Fine Jewelry,Retailer,GA,High
+105,Sterling Fine Jewelry,Retailer,CA,Low
+106,Windsor Jewelers,Retailer,GA,Low
+107,Heritage Estate Jewelry,Manufacturer,NJ,Medium
+108,Golden Gems,Retailer,NY,Low
+109,Luxe Fine Jewelry,Retailer,NJ,Medium
+110,Pearl Atelier,Wholesaler,CO,Medium
+111,S. Estate,Individual Collector,AZ,Medium
+112,M. Estate,Individual Collector,CO,Medium
+113,Pearl Diamond House,Retailer,AZ,Low
+114,M. Private Client,Individual Collector,WA,Medium
+115,J. Private Client,Individual Collector,AZ,Medium
+116,Heritage Jewelers,Manufacturer,CA,Low
+117,Golden & Co.,Wholesaler,GA,Medium
+118,Sterling Diamond House,Retailer,FL,Low
+119,Sterling & Co.,Wholesaler,AZ,Medium
+120,S. Collector,Individual Collector,NJ,Medium
+121,Meridian Fine Jewelry,Manufacturer,IL,Medium
+122,Heritage Gems,Retailer,PA,Medium
+123,Windsor Jewelers,Wholesaler,CO,Low
+124,Sterling Estate Jewelry,Retailer,FL,Medium
+125,Regal Fine Jewelry,Retailer,AZ,Low
+126,Diamond Estate Jewelry,Manufacturer,PA,Low
+127,Luxe Diamond House,Retailer,FL,Low
+128,Luxe Diamond House,Manufacturer,PA,Low
+129,Golden Estate Jewelry,Wholesaler,NJ,Low
+130,J. Estate,Individual Collector,GA,Low
+131,R. Estate,Individual Collector,FL,Low
+132,Golden Gems,Retailer,IL,Medium
+133,M. Private Client,Individual Collector,GA,Medium
+134,Golden Diamond House,Retailer,PA,Low
+135,R. Estate,Individual Collector,NY,Low
+136,T. Estate,Individual Collector,AZ,Low
+137,Crown & Co.,Retailer,TX,Low
+138,Crown Atelier,Retailer,FL,Low
+139,Luxe Fine Jewelry,Manufacturer,MA,Low
+140,Diamond Jewelers,Retailer,MA,Low
+141,J. Estate,Individual Collector,CO,Low
+142,Regal Gems,Retailer,MA,High
+143,Heritage Atelier,Wholesaler,MA,Low
+144,T. Estate,Individual Collector,GA,High
+145,Golden Jewelers,Wholesaler,MA,High
+146,Regal Diamond House,Wholesaler,PA,High
+147,Pearl Gems,Retailer,MA,Low
+148,Luxe Fine Jewelry,Retailer,CO,Medium
+149,Heritage Fine Jewelry,Retailer,CO,Low
+150,Regal Diamond House,Retailer,FL,Low
+151,Meridian Estate Jewelry,Wholesaler,TX,Low
+152,R. Estate,Individual Collector,FL,Low
+153,Regal Fine Jewelry,Retailer,TX,Medium
+154,Luxe Atelier,Retailer,NY,Medium
+155,Windsor & Co.,Manufacturer,GA,Low
+156,Luxe Fine Jewelry,Retailer,PA,Medium
+157,Crown Gems,Retailer,GA,Medium
+158,Heritage Jewelers,Wholesaler,FL,Low
+159,Meridian & Co.,Retailer,NY,High
+160,Windsor Diamond House,Retailer,PA,Medium
+161,R. Collector,Individual Collector,GA,Low
+162,R. Collector,Individual Collector,FL,Medium
+163,Pearl Diamond House,Retailer,AZ,Low
+164,Meridian Jewelers,Manufacturer,NY,Medium
+165,Regal Gems,Retailer,NY,Medium
+166,Luxe Gems,Wholesaler,GA,Medium
+167,Golden Jewelers,Wholesaler,GA,Low
+168,M. Estate,Individual Collector,WA,Low
+169,Pearl Fine Jewelry,Retailer,IL,High
+170,T. Collector,Individual Collector,FL,Low
+171,Sterling & Co.,Wholesaler,IL,Medium
+172,Heritage & Co.,Retailer,CO,High
+173,Luxe Gems,Retailer,TX,Medium
+174,Sterling Diamond House,Retailer,MA,Low
+175,Windsor Gems,Retailer,IL,Low
+176,Pearl Jewelers,Manufacturer,FL,Low
+177,Heritage Gems,Retailer,IL,Low
+178,A. Collector,Individual Collector,PA,High
+179,Heritage & Co.,Wholesaler,CO,Low
+180,Diamond Gems,Retailer,NY,High
+181,Diamond Gems,Retailer,AZ,Low
+182,Windsor & Co.,Retailer,TX,High
+183,Golden Gems,Manufacturer,CA,Low
+184,Pearl Diamond House,Manufacturer,IL,Low
+185,Windsor Atelier,Manufacturer,TX,Low
+186,Golden Jewelers,Retailer,NJ,Low
+187,Golden Estate Jewelry,Retailer,FL,High
+188,Luxe Atelier,Retailer,NJ,Medium
+189,Meridian Gems,Retailer,PA,Low
+190,Crown Diamond House,Retailer,NY,High
+191,Heritage Atelier,Wholesaler,MA,Medium
+192,Sterling & Co.,Retailer,NY,Low
+193,Golden Estate Jewelry,Retailer,IL,Low
+194,Diamond Jewelers,Retailer,AZ,Low
+195,Luxe Fine Jewelry,Manufacturer,WA,Low
+196,T. Collector,Individual Collector,FL,Low
+197,Meridian Atelier,Retailer,IL,Low
+198,R. Collector,Individual Collector,CA,High
+199,Luxe Atelier,Retailer,CA,Medium
+200,Crown Atelier,Wholesaler,TX,Low
+201,S. Collector,Individual Collector,MA,Low
+202,M. Estate,Individual Collector,NY,Low
+203,Pearl Fine Jewelry,Wholesaler,MA,Low
+204,J. Estate,Individual Collector,FL,Medium
+205,Meridian Diamond House,Retailer,CA,High
+206,Windsor & Co.,Retailer,CO,Medium
+207,Pearl Atelier,Retailer,NJ,Medium
+208,A. Estate,Individual Collector,IL,Low
+209,Luxe Gems,Retailer,CA,Low
+210,Regal Fine Jewelry,Retailer,WA,High
+211,Golden & Co.,Retailer,FL,Low
+212,Heritage Diamond House,Wholesaler,CO,Medium
+213,Sterling Jewelers,Wholesaler,FL,Low
+214,A. Collector,Individual Collector,FL,High
+215,Heritage Estate Jewelry,Retailer,WA,High
+216,Golden Fine Jewelry,Retailer,CA,Low
+217,Luxe Atelier,Retailer,NY,Medium
+218,Diamond Diamond House,Retailer,FL,Medium
+219,Crown Gems,Retailer,IL,Low
+220,Heritage Atelier,Retailer,TX,Low
+221,Crown Gems,Retailer,NJ,Medium
+222,Meridian Estate Jewelry,Retailer,MA,Low
+223,Windsor Diamond House,Retailer,CO,Medium
+224,Regal & Co.,Wholesaler,MA,Medium
+225,T. Estate,Individual Collector,NY,Low
+226,Diamond Fine Jewelry,Retailer,NY,Low
+227,A. Private Client,Individual Collector,AZ,Low
+228,Sterling & Co.,Retailer,MA,High
+229,Golden & Co.,Retailer,TX,Medium
+230,Regal Gems,Wholesaler,GA,Low
+231,Windsor Jewelers,Retailer,TX,Medium
+232,Regal Gems,Manufacturer,CA,Low
+233,Golden Jewelers,Wholesaler,FL,Low
+234,Sterling & Co.,Retailer,WA,Low
+235,R. Collector,Individual Collector,WA,High
+236,Regal Diamond House,Manufacturer,FL,Medium
+237,Diamond Atelier,Wholesaler,PA,Low
+238,Heritage Jewelers,Retailer,GA,Low
+239,Crown Jewelers,Retailer,AZ,Low
+240,M. Collector,Individual Collector,CO,High
+241,Crown Jewelers,Retailer,PA,Low
+242,Luxe Diamond House,Wholesaler,WA,Low
+243,Windsor Diamond House,Retailer,GA,Low
+244,Sterling Jewelers,Retailer,PA,Medium
+245,Meridian Atelier,Wholesaler,PA,Medium
+246,R. Estate,Individual Collector,CA,Low
+247,Crown Jewelers,Retailer,GA,Medium
+248,Sterling Jewelers,Wholesaler,NJ,Medium
+249,A. Private Client,Individual Collector,NY,Low
+250,R. Private Client,Individual Collector,CA,High
+251,Golden Estate Jewelry,Retailer,NJ,Medium
+252,Meridian Fine Jewelry,Retailer,CA,High
+253,Heritage Jewelers,Manufacturer,WA,Medium
+254,M. Estate,Individual Collector,IL,High
+255,R. Collector,Individual Collector,PA,Low
+256,Luxe Estate Jewelry,Retailer,TX,Low
+257,Heritage Gems,Retailer,CO,Low
+258,T. Estate,Individual Collector,CA,High
+259,A. Collector,Individual Collector,NY,Medium
+260,Crown Atelier,Wholesaler,GA,Low

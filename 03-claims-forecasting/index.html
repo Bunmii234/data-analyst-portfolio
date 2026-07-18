@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claims Frequency Forecasting</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1"></script>
+<style>
+:root{
+  --bg:#fafafa; --card:#ffffff; --text:#171717; --text-sub:#565656;
+  --border:#ececec; --pill-bg:#f2f2f2; --pill-text:#444;
+  --code-bg:#1e1e1e; --code-text:#e5e5e5; --radius:14px;
+  --c1:#4C72B0; --c2:#DD8452; --c3:#55A868;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+a{color:inherit;}
+.wrap{max-width:960px;margin:0 auto;padding:56px 6vw 90px;}
+.back{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--text-sub);text-decoration:none;margin-bottom:28px;}
+.back:hover{color:var(--text);}
+.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--text-sub);margin-bottom:10px;}
+h1{font-size:32px;letter-spacing:-0.02em;margin-bottom:14px;}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:22px;}
+.tag{font-size:11px;background:var(--pill-bg);color:var(--pill-text);padding:4px 10px;border-radius:999px;font-weight:500;}
+.callout{background:var(--card);border:1px solid var(--border);border-left:4px solid #171717;border-radius:10px;padding:18px 22px;margin:24px 0;font-size:15px;}
+.callout b{font-weight:700;}
+h2{font-size:19px;margin:36px 0 14px;letter-spacing:-0.01em;}
+p{font-size:15px;color:var(--text-sub);margin-bottom:14px;}
+ul{margin:0 0 14px 20px;color:var(--text-sub);font-size:15px;}
+li{margin-bottom:6px;}
+code{background:var(--pill-bg);padding:1px 6px;border-radius:4px;font-size:13px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;}
+pre{background:var(--code-bg);color:var(--code-text);padding:18px 20px;border-radius:10px;overflow-x:auto;font-size:13px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:16px;line-height:1.55;}
+table{width:100%;border-collapse:collapse;margin:16px 0 20px;font-size:14px;}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--border);}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--text-sub);font-weight:600;}
+.stat-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin:20px 0 28px;}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 18px;}
+.stat-value{font-size:22px;font-weight:700;}
+.stat-label{font-size:12px;color:var(--text-sub);margin-top:2px;}
+.chart-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px;margin:16px 0 28px;}
+.chart-card h3{font-size:14px;font-weight:600;margin-bottom:2px;}
+.chart-card .sub{font-size:12px;color:var(--text-sub);margin-bottom:14px;}
+.chart-wrap{position:relative;height:300px;}
+footer{margin-top:50px;padding-top:24px;border-top:1px solid var(--border);font-size:13px;color:var(--text-sub);}
+@media (max-width:640px){.wrap{padding:40px 5vw 70px;}h1{font-size:26px;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <a class="back" href="../portfolio-site/work.html">&larr; Back to portfolio</a>
+
+  <div class="eyebrow">Focus: Technical Model</div>
+  <h1>Claims Frequency Forecasting</h1>
+  <div class="tags">
+    <span class="tag">Python</span>
+    <span class="tag">NumPy</span>
+    <span class="tag">Time-Series Decomposition</span>
+    <span class="tag">Reserve Planning</span>
+  </div>
+
+  <div class="callout">
+    <b>The question this answers:</b> how many claims — and how many claim dollars — should underwriting expect next month, so reserves get set <i>before</i> the fact instead of reacted to after? Built on the same insured-jewelry-logistics dataset as the dashboard project, joining claims back to their originating shipment to recover a claim date.
+  </div>
+
+  <h2>Method</h2>
+  <p>Classical trend + seasonal decomposition, implemented directly with NumPy (no <code>statsmodels</code>/<code>sklearn</code> dependency) so every step is auditable rather than a black-box call:</p>
+  <ul>
+    <li>Build a monthly claims-count time series, Jan 2024 &ndash; Jun 2026 (30 points)</li>
+    <li>Fit a linear trend via least squares (<code>numpy.polyfit</code>)</li>
+    <li>Compute a <b>seasonal index</b> per calendar month — the average ratio of actual to trend for that month across all years present</li>
+    <li>Forecast forward = trend projection &times; seasonal index</li>
+    <li>Build an 80% prediction interval from in-sample residual spread (normal approximation)</li>
+    <li>Convert the frequency forecast into a <b>$ reserve forecast</b> using historical average claim severity and the historical mix of claims across declared-value tiers</li>
+  </ul>
+  <p><b>Honest limitation:</b> 30 monthly observations is a thin base for estimating 12 separate seasonal indices — some months are backed by only 2-3 data points. The forecast is directionally useful (it correctly captures the Valentine's Day and holiday-season spikes baked into shipping volume) but the prediction intervals are wide, and that's stated rather than hidden.</p>
+
+  <div class="stat-row">
+    <div class="stat"><div class="stat-value" id="s-trend">-</div><div class="stat-label">Trend (claims/month)</div></div>
+    <div class="stat"><div class="stat-value" id="s-severity">-</div><div class="stat-label">Avg. paid claim severity</div></div>
+    <div class="stat"><div class="stat-value" id="s-paidrate">-</div><div class="stat-label">Claims that end up Paid</div></div>
+    <div class="stat"><div class="stat-value" id="s-resid">-</div><div class="stat-label">Residual std dev (claims)</div></div>
+  </div>
+
+  <div class="chart-card">
+    <h3>Historical Claims: Actual vs. Fitted, + 6-Month Forecast</h3>
+    <div class="sub">Fitted = trend &times; seasonal index. Shaded band = 80% prediction interval on the forecast.</div>
+    <div class="chart-wrap"><canvas id="chart-history"></canvas></div>
+  </div>
+
+  <div class="chart-card">
+    <h3>Seasonal Index by Calendar Month</h3>
+    <div class="sub">1.0 = average month. Feb (Valentine's) and Dec (holidays) run well above baseline; summer months run well below.</div>
+    <div class="chart-wrap" style="height:220px;"><canvas id="chart-seasonal"></canvas></div>
+  </div>
+
+  <h2>6-month forecast &amp; reserve allocation</h2>
+  <table id="forecast-table">
+    <thead><tr><th>Month</th><th>Forecast Claims</th><th>80% CI</th><th>Reserve ($)</th></tr></thead>
+    <tbody></tbody>
+  </table>
+
+  <p>Reserve dollars are allocated across declared-value tiers using the historical claims mix (Under $10K: 45.9%, $10K&ndash;$50K: 35.1%, $50K&ndash;$150K: 17.6%, $150K+: 1.4%) — so a $61.9K December reserve isn't a single number to hold, it's a tier-by-tier planning figure an underwriting team can actually act on.</p>
+
+  <h2>Real scenarios this model addresses</h2>
+  <p style="font-size:13px;color:var(--text-sub);margin-top:-8px;">Grounded in the actual numbers this model produced, not hypotheticals.</p>
+
+  <div style="border-left:3px solid #171717;padding:4px 0 4px 18px;margin:22px 0;">
+    <h4 style="font-size:14.5px;margin-bottom:6px;">1. The reserve shortfall a flat average would have created</h4>
+    <p style="font-size:13.5px;color:var(--text-sub);margin-bottom:8px;">A simpler, common approach to reserving is "take the historical average and hold that every month." Across this dataset's history, that flat average is 2.47 claims/month, implying a reserve of roughly $44,790 for any given month. But December isn't an average month — it's a peak. The seasonal model forecasts <b>3.41 claims and $61,899.84 in reserve for December 2026</b>, meaning a flat-average approach would have under-reserved December by <b>$17,109.42</b> — money that needs to already be set aside before the claims arrive, not scrambled for afterward.</p>
+  </div>
+
+  <div style="border-left:3px solid #171717;padding:4px 0 4px 18px;margin:22px 0;">
+    <h4 style="font-size:14.5px;margin-bottom:6px;">2. The February pattern that shows up every single year</h4>
+    <p style="font-size:13.5px;color:var(--text-sub);margin-bottom:8px;">February claims came in at 7 (2024), 6 (2025), and 4 (2026) — every single year meaningfully above the 2.47/month baseline, consistent with the Valentine's Day shipping surge built into the underlying shipment volume. That's not one lucky/unlucky month; it's the same pattern repeating three years running, which is exactly the kind of signal a seasonal index is supposed to catch (and why February carries the highest seasonal index in the model, at 2.50x baseline) rather than being treated as three unrelated coincidences.</p>
+  </div>
+
+  <div style="border-left:3px solid #171717;padding:4px 0 4px 18px;margin:22px 0;">
+    <h4 style="font-size:14.5px;margin-bottom:6px;">3. Where the model would mislead if taken too literally</h4>
+    <p style="font-size:13.5px;color:var(--text-sub);margin-bottom:8px;">March tells a different story: 4 claims (2024), 3 claims (2025), then just 1 claim (2026) — a real drop that the model's fitted value (around 3.0) didn't see coming. With only three years of data behind each calendar month, a single unusually quiet or busy month swings the seasonal index a lot. That's exactly why this project ships prediction intervals instead of a single number, and why the write-up says outright that the intervals are wide rather than presenting false precision.</p>
+  </div>
+
+  <h2>Files</h2>
+  <div style="background:var(--code-bg);color:var(--code-text);padding:18px 20px;border-radius:10px;font-size:13px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre;overflow-x:auto;margin-bottom:16px;">03-claims-forecasting/
+├── forecast.py              # the model: trend + seasonal decomposition
+├── data/                     shipments.csv, claims.csv (shared with project 1)
+└── output/
+    ├── monthly_history.csv   actual / trend / seasonal index / fitted / residual
+    ├── forecast.csv          6-month forward forecast + reserve $
+    └── model_summary.json    full model parameters + forecast, powers this page</div>
+
+  <h2>How to run</h2>
+  <pre>python3 forecast.py   # prints the model summary and writes output/*.csv, *.json</pre>
+
+  <h2>Skills demonstrated</h2>
+  <p>Implementing a time-series decomposition from first principles (not just calling a library), being explicit about a model's sample-size limitations rather than overselling precision, and translating a statistical forecast into an operational figure (tier-allocated reserve $) that a non-technical stakeholder can use.</p>
+
+  <footer>Data is synthetic, shared with the <a href="../01-insured-logistics-dashboard/dashboard.html">Insured Jewelry Logistics Dashboard</a> project.</footer>
+</div>
+
+<script>
+const SUMMARY = {
+  "slope_claims_per_month": 0.0125,
+  "intercept": 2.286,
+  "seasonal_index_by_month": {
+    "1": 1.287,
+    "2": 2.496,
+    "3": 1.183,
+    "4": 1.143,
+    "5": 1.414,
+    "6": 0.418,
+    "7": 0.437,
+    "8": 0.646,
+    "9": 0.433,
+    "10": 0.431,
+    "11": 0.857,
+    "12": 1.254
+  },
+  "residual_std": 1.098,
+  "avg_claim_severity_usd": 23987.16,
+  "paid_claim_rate": 0.757,
+  "tier_mix": {
+    "Under $10K": 0.459,
+    "$10K-$50K": 0.351,
+    "$50K-$150K": 0.176,
+    "$150K+": 0.014
+  },
+  "forecast": [
+    {
+      "month": "2026-07",
+      "forecast_claims": 1.16,
+      "lower_80": 0,
+      "upper_80": 2.57,
+      "forecast_reserve_usd": 21056.84,
+      "tier_mix_allocation": {
+        "Under $10K": 9674.76,
+        "$10K-$50K": 7398.35,
+        "$50K-$150K": 3699.17,
+        "$150K+": 284.55
+      }
+    },
+    {
+      "month": "2026-08",
+      "forecast_claims": 1.73,
+      "lower_80": 0.32,
+      "upper_80": 3.13,
+      "forecast_reserve_usd": 31403.73,
+      "tier_mix_allocation": {
+        "Under $10K": 14428.74,
+        "$10K-$50K": 11033.74,
+        "$50K-$150K": 5516.87,
+        "$150K+": 424.37
+      }
+    },
+    {
+      "month": "2026-09",
+      "forecast_claims": 1.16,
+      "lower_80": 0,
+      "upper_80": 2.57,
+      "forecast_reserve_usd": 21056.84,
+      "tier_mix_allocation": {
+        "Under $10K": 9674.76,
+        "$10K-$50K": 7398.35,
+        "$50K-$150K": 3699.17,
+        "$150K+": 284.55
+      }
+    },
+    {
+      "month": "2026-10",
+      "forecast_claims": 1.16,
+      "lower_80": 0,
+      "upper_80": 2.57,
+      "forecast_reserve_usd": 21056.84,
+      "tier_mix_allocation": {
+        "Under $10K": 9674.76,
+        "$10K-$50K": 7398.35,
+        "$50K-$150K": 3699.17,
+        "$150K+": 284.55
+      }
+    },
+    {
+      "month": "2026-11",
+      "forecast_claims": 2.32,
+      "lower_80": 0.92,
+      "upper_80": 3.73,
+      "forecast_reserve_usd": 42113.67,
+      "tier_mix_allocation": {
+        "Under $10K": 19349.52,
+        "$10K-$50K": 14796.69,
+        "$50K-$150K": 7398.35,
+        "$150K+": 569.1
+      }
+    },
+    {
+      "month": "2026-12",
+      "forecast_claims": 3.41,
+      "lower_80": 2.01,
+      "upper_80": 4.82,
+      "forecast_reserve_usd": 61899.84,
+      "tier_mix_allocation": {
+        "Under $10K": 28440.47,
+        "$10K-$50K": 21748.59,
+        "$50K-$150K": 10874.3,
+        "$150K+": 836.48
+      }
+    }
+  ],
+  "history": [
+    {
+      "month": "2024-01",
+      "actual": 1.0,
+      "fitted": 2.94
+    },
+    {
+      "month": "2024-02",
+      "actual": 7.0,
+      "fitted": 5.74
+    },
+    {
+      "month": "2024-03",
+      "actual": 4.0,
+      "fitted": 2.73
+    },
+    {
+      "month": "2024-04",
+      "actual": 3.0,
+      "fitted": 2.66
+    },
+    {
+      "month": "2024-05",
+      "actual": 3.0,
+      "fitted": 3.3
+    },
+    {
+      "month": "2024-06",
+      "actual": 0.0,
+      "fitted": 0.98
+    },
+    {
+      "month": "2024-07",
+      "actual": 1.0,
+      "fitted": 1.03
+    },
+    {
+      "month": "2024-08",
+      "actual": 1.0,
+      "fitted": 1.53
+    },
+    {
+      "month": "2024-09",
+      "actual": 1.0,
+      "fitted": 1.03
+    },
+    {
+      "month": "2024-10",
+      "actual": 1.0,
+      "fitted": 1.03
+    },
+    {
+      "month": "2024-11",
+      "actual": 2.0,
+      "fitted": 2.07
+    },
+    {
+      "month": "2024-12",
+      "actual": 1.0,
+      "fitted": 3.04
+    },
+    {
+      "month": "2025-01",
+      "actual": 4.0,
+      "fitted": 3.13
+    },
+    {
+      "month": "2025-02",
+      "actual": 6.0,
+      "fitted": 6.11
+    },
+    {
+      "month": "2025-03",
+      "actual": 3.0,
+      "fitted": 2.91
+    },
+    {
+      "month": "2025-04",
+      "actual": 1.0,
+      "fitted": 2.83
+    },
+    {
+      "month": "2025-05",
+      "actual": 2.0,
+      "fitted": 3.52
+    },
+    {
+      "month": "2025-06",
+      "actual": 2.0,
+      "fitted": 1.04
+    },
+    {
+      "month": "2025-07",
+      "actual": 1.0,
+      "fitted": 1.1
+    },
+    {
+      "month": "2025-08",
+      "actual": 2.0,
+      "fitted": 1.63
+    },
+    {
+      "month": "2025-09",
+      "actual": 1.0,
+      "fitted": 1.1
+    },
+    {
+      "month": "2025-10",
+      "actual": 1.0,
+      "fitted": 1.1
+    },
+    {
+      "month": "2025-11",
+      "actual": 2.0,
+      "fitted": 2.19
+    },
+    {
+      "month": "2025-12",
+      "actual": 5.0,
+      "fitted": 3.23
+    },
+    {
+      "month": "2026-01",
+      "actual": 4.0,
+      "fitted": 3.33
+    },
+    {
+      "month": "2026-02",
+      "actual": 4.0,
+      "fitted": 6.48
+    },
+    {
+      "month": "2026-03",
+      "actual": 1.0,
+      "fitted": 3.09
+    },
+    {
+      "month": "2026-04",
+      "actual": 4.0,
+      "fitted": 3.0
+    },
+    {
+      "month": "2026-05",
+      "actual": 5.0,
+      "fitted": 3.73
+    },
+    {
+      "month": "2026-06",
+      "actual": 1.0,
+      "fitted": 1.11
+    }
+  ]
+};
+
+function fmtCurrency(v){
+  if (Math.abs(v) >= 1e3) return "$" + (v/1e3).toFixed(1) + "K";
+  return "$" + v.toFixed(0);
+}
+
+document.getElementById('s-trend').textContent = (SUMMARY.slope_claims_per_month >= 0 ? '+' : '') + SUMMARY.slope_claims_per_month.toFixed(3);
+document.getElementById('s-severity').textContent = fmtCurrency(SUMMARY.avg_claim_severity_usd);
+document.getElementById('s-paidrate').textContent = (SUMMARY.paid_claim_rate*100).toFixed(1) + '%';
+document.getElementById('s-resid').textContent = SUMMARY.residual_std.toFixed(2);
+
+// History + forecast chart
+const histLabels = SUMMARY.history.map(h => h.month);
+const forecastLabels = SUMMARY.forecast.map(f => f.month);
+const allLabels = histLabels.concat(forecastLabels);
+
+const actualData = SUMMARY.history.map(h => h.actual).concat(forecastLabels.map(()=>null));
+const fittedData = SUMMARY.history.map(h => h.fitted).concat(SUMMARY.forecast.map(f => f.forecast_claims));
+const upperData = histLabels.map(()=>null).concat(SUMMARY.forecast.map(f => f.upper_80));
+const lowerData = histLabels.map(()=>null).concat(SUMMARY.forecast.map(f => f.lower_80));
+
+new Chart(document.getElementById('chart-history').getContext('2d'), {
+  type: 'line',
+  data: {
+    labels: allLabels,
+    datasets: [
+      { label:'Upper 80% CI', data: upperData, borderColor:'transparent', backgroundColor:'#4C72B022', fill:'+1', pointRadius:0, tension:.3 },
+      { label:'Lower 80% CI', data: lowerData, borderColor:'transparent', backgroundColor:'#4C72B022', fill:false, pointRadius:0, tension:.3 },
+      { label:'Actual', data: actualData, borderColor:'#171717', backgroundColor:'#171717', borderWidth:2, pointRadius:3, tension:.25, spanGaps:false },
+      { label:'Fitted / Forecast', data: fittedData, borderColor:'#4C72B0', backgroundColor:'#4C72B0', borderWidth:2, borderDash:[5,3], pointRadius:2, tension:.25 },
+    ]
+  },
+  options: { responsive:true, maintainAspectRatio:false,
+    plugins:{ legend:{ position:'top', labels:{ usePointStyle:true, padding:14, font:{size:11}, filter: (item) => item.text !== 'Lower 80% CI' } } },
+    scales:{ x:{ grid:{display:false}, ticks:{ maxTicksLimit:10 } }, y:{ beginAtZero:true, title:{display:true,text:'Claims',font:{size:10}} } } }
+});
+
+// Seasonal index chart
+const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const seasonalData = monthNames.map((_,i) => SUMMARY.seasonal_index_by_month[String(i+1)]);
+new Chart(document.getElementById('chart-seasonal').getContext('2d'), {
+  type: 'bar',
+  data: { labels: monthNames, datasets: [{ data: seasonalData, backgroundColor: seasonalData.map(v => v >= 1 ? '#DD8452CC' : '#55A868CC'), borderRadius:4 }] },
+  options: { responsive:true, maintainAspectRatio:false,
+    plugins:{ legend:{display:false}, tooltip:{ callbacks:{ label: c => 'Index: ' + c.parsed.y.toFixed(2) } } },
+    scales:{ y:{ beginAtZero:true } } }
+});
+
+// Forecast table
+const tbody = document.querySelector('#forecast-table tbody');
+SUMMARY.forecast.forEach(f => {
+  const tr = document.createElement('tr');
+  tr.innerHTML = `<td>${f.month}</td><td>${f.forecast_claims.toFixed(2)}</td><td>${f.lower_80.toFixed(2)} - ${f.upper_80.toFixed(2)}</td><td>${fmtCurrency(f.forecast_reserve_usd)}</td>`;
+  tbody.appendChild(tr);
+});
+</script>
+</body>
+</html>
