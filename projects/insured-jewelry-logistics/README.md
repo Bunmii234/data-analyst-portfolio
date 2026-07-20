@@ -76,7 +76,7 @@ risk.
 
 ## Dashboard
 
-Open `dashboard.html` in any browser. KPI cards (premium written,
+Open `index.html` in any browser. KPI cards (premium written,
 claims paid, loss ratio, violation rate), an underwriting-signal
 callout that recalculates with your filters, four charts, and the
 flagged-shipment table. Filterable by carrier tier, value tier,

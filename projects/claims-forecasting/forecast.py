@@ -7,7 +7,7 @@ how many claim dollars) should we expect next month, so reserves can be
 set appropriately before the fact rather than reacted to after.
 
 Built on the same insured-jewelry-logistics dataset as project 1
-(01-insured-logistics-dashboard), joining claims to their originating
+(insured-jewelry-logistics), joining claims to their originating
 shipment to recover a claim date, since the source data models when a
 loss occurred at the shipment level.
 

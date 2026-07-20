@@ -5,7 +5,7 @@ decomposition built from first principles with NumPy (no
 `statsmodels`/`sklearn`), forecasting insurance claims volume and
 reserve dollars 6 months forward, allocated across declared-value
 tiers. Built on the same insured-jewelry-logistics dataset as
-[project 1](../01-insured-logistics-dashboard/), joining claims back to
+[project 1](../insured-jewelry-logistics/), joining claims back to
 their originating shipment to recover a claim date.
 
 ## The question this answers
@@ -45,7 +45,7 @@ are wide, and the write-up says so rather than overselling precision.
 ## Files
 
 ```
-03-claims-forecasting/
+claims-forecasting/
 ├── forecast.py              # the model: trend + seasonal decomposition
 ├── data/                     shipments.csv, claims.csv (shared with project 1)
 └── output/

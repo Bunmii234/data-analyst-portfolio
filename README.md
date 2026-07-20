@@ -2,13 +2,32 @@
 
 Three projects, each built to showcase one thing — not a grab-bag of
 charts. All use synthetic data built around the industries I've
-actually worked in (banking/financial services, insured logistics), not
-a generic public dataset, because the metrics and edge cases only mean
-something if they're grounded in a real domain's rules.
+actually worked in (insurance, vendor/ops), not a generic public
+dataset, because the metrics and edge cases only mean something if
+they're grounded in a real domain's rules. Two of the three map
+directly to a job on my resume; the third rounds out the skill set with
+Excel and interactive dashboard reporting.
+
+**Open `index.html` in a browser** — it's a small 3-page site (Home / About / Work), not just a project list. `work.html` has the project grid linking to all three projects below.
 
 ## Projects
 
-1. **[Insured Jewelry Logistics Dashboard](01-insured-logistics-dashboard/)**
+1. **[Vendor Billing Trend & Anomaly Report](projects/vendor-billing-report/)**
+   — *Excel & interactive dashboard reporting.* An Excel workbook (Power
+   Query-style cleaning, PivotTable summaries, native charts) plus a
+   browsable dashboard companion, auditing 1,462 vendor invoices for
+   rate drift, quantity padding, duplicate billing, and undisclosed
+   fees. Found $225K in flagged overbilling, concentrated in 5 vendors.
+   An extension of the vendor billing audit work at Ascendo Resources.
+
+2. **[Claims Frequency Forecasting](projects/claims-forecasting/)**
+   — *technical model.* Trend + seasonal decomposition built from first
+   principles with NumPy, forecasting claims volume and reserve dollars
+   6 months forward, allocated across value tiers. Upfront about the
+   limits of forecasting from 30 monthly data points rather than
+   overselling precision. Paired with Ascendo Resources on the resume.
+
+3. **[Insured Jewelry Logistics Dashboard](projects/insured-jewelry-logistics/)**
    — *domain expertise.* An interactive dashboard built around a real
    underwriting rule (courier security tier must match declared shipment
    value). Surfaces that policy violations are only 6.2% of shipments
@@ -16,65 +35,62 @@ something if they're grounded in a real domain's rules.
    if you understand insured logistics, not just logistics. Modeled on
    my Operations Analyst Intern work at Jewelers Mutual.
 
-2. **[Banking Transaction Reconciliation](02-banking-reconciliation/)**
-   — *data prep and cleaning.* No dashboard, on purpose. Two messy,
-   independently-formatted exports of the same transactions get cleaned
-   (defensive date parsing, currency normalization, deduplication) and
-   reconciled into six actionable categories, isolating $16.7K in real
-   discrepancies from $3.6M+ in timing/formatting noise. Modeled on my
-   Data Analyst Intern work in Banking & Financial Services at Quintrix
-   Solutions.
-
-3. **[Claims Frequency Forecasting](03-claims-forecasting/)**
-   — *technical model.* Trend + seasonal decomposition built from first
-   principles with NumPy, forecasting claims volume and reserve dollars
-   6 months forward, allocated across value tiers. Shares its dataset
-   with project 1, and is upfront about the limits of forecasting from
-   30 monthly data points rather than overselling precision.
-
-An [archive](archive/) folder holds an earlier, more generic e-commerce
-SQL/dashboard pair — kept for reference, not part of the active
-portfolio.
+An [archive](archive/) folder holds earlier project versions no longer
+part of the active portfolio (a generic e-commerce SQL/dashboard pair,
+and a banking transaction reconciliation project) — kept for reference.
 
 ## Suggested resume bullets
 
+- *Vendor Billing Report*: "Built an Excel-based, interactively
+  dashboarded vendor billing audit covering 1,462 invoices; identified $225K in flagged
+  overbilling from rate drift, quantity padding, and duplicate invoices,
+  concentrated in 5 of 12 vendors."
+- *Claims Forecasting*: "Built a trend + seasonal decomposition model
+  from first principles in NumPy to forecast insurance claims volume
+  and reserve requirements 6 months out, allocated across risk tiers
+  for underwriting planning."
 - *Insured Logistics Dashboard*: "Built an interactive dashboard
   modeling insured-shipment risk; identified that policy-violating
   shipments (under-secured for their declared value) carried a 3.5x
   higher loss rate and drove 26% of claims dollars from just 6% of
   volume."
-- *Banking Reconciliation*: "Designed a Python reconciliation pipeline
-  to clean and match 12,000+ transaction records across two
-  inconsistently-formatted banking systems, isolating $16.7K in genuine
-  discrepancies from timing and formatting noise."
-- *Claims Forecasting*: "Built a trend + seasonal decomposition model
-  from first principles in NumPy to forecast insurance claims volume
-  and reserve requirements 6 months out, allocated across risk tiers
-  for underwriting planning."
 
 ## Repo structure
 
 ```
 data-analyst-portfolio/
-├── 01-insured-logistics-dashboard/
-│   ├── README.md
-│   ├── generate_data.py
-│   ├── dashboard.html            # open this in a browser
-│   └── data/
-├── 02-banking-reconciliation/
-│   ├── README.md
-│   ├── generate_data.py
-│   ├── reconcile.py              # the centerpiece
-│   ├── index.html                # open this in a browser
-│   ├── data/{raw,clean}/
-│   └── analysis/summary.md
-├── 03-claims-forecasting/
-│   ├── README.md
-│   ├── forecast.py               # the centerpiece
-│   ├── index.html                # open this in a browser
-│   ├── data/
-│   └── output/
-├── portfolio-site/
-│   └── work.html                 # portfolio landing page, links all three projects
-└── archive/                      # earlier generic e-commerce version (not active)
+├── index.html                              # Home -- open this first
+├── about.html                              # About (bio, experience, skills)
+├── work.html                               # Work (project grid)
+├── README.md
+├── projects/
+│   ├── vendor-billing-report/
+│   │   ├── README.md
+│   │   ├── generate_data.py
+│   │   ├── build_excel_report.py
+│   │   ├── Vendor_Billing_Report.xlsx      # the centerpiece
+│   │   ├── index.html                      # dashboard + scenario write-ups
+│   │   └── data/
+│   ├── claims-forecasting/
+│   │   ├── README.md
+│   │   ├── forecast.py                     # the centerpiece
+│   │   ├── index.html                      # charts + scenario write-ups
+│   │   ├── data/
+│   │   └── output/
+│   └── insured-jewelry-logistics/
+│       ├── README.md
+│       ├── generate_data.py
+│       ├── index.html                      # dashboard
+│       └── data/
+└── archive/                                # earlier project versions (not active)
+```
+
+## How to run locally
+
+Open `index.html` directly in a browser (double-click it, or `open index.html` on macOS), or serve the folder so relative links behave exactly like a real site:
+
+```bash
+cd data-analyst-portfolio
+python3 -m http.server 8000
+# then visit http://localhost:8000 in your browser
 ```

@@ -84,7 +84,7 @@ the kind of shallow analysis this project is trying not to be.
 ## Files
 
 ```
-02-banking-reconciliation/
+banking-reconciliation/
 ├── generate_data.py              # builds the two messy raw exports (for reproducibility)
 ├── reconcile.py                  # the actual project: cleaning + reconciliation logic
 ├── data/

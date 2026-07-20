@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Ogunsaju | Data Analyst</title>
+<style>
+:root{
+  --bg:#fafafa; --card:#ffffff; --text:#171717; --text-sub:#6b6b6b;
+  --border:#ececec; --accent:#171717; --pill-bg:#f2f2f2; --pill-text:#444;
+  --radius:14px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;}
+a{text-decoration:none;color:inherit;}
+
+nav{display:flex;align-items:center;justify-content:space-between;padding:22px 6vw;position:sticky;top:0;background:rgba(250,250,250,0.9);backdrop-filter:blur(8px);z-index:10;border-bottom:1px solid var(--border);}
+.nav-logo{font-weight:700;font-size:17px;letter-spacing:-0.02em;}
+.nav-links{display:flex;gap:28px;font-size:14px;color:var(--text-sub);}
+.nav-links a:hover{color:var(--text);}
+.nav-links a.active{color:var(--text);font-weight:600;}
+
+.hero{padding:100px 6vw 60px;max-width:760px;}
+.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--text-sub);margin-bottom:14px;}
+.hero h1{font-size:52px;letter-spacing:-0.03em;margin-bottom:18px;line-height:1.08;}
+.hero h1 span{color:var(--text-sub);}
+.hero p{font-size:17px;color:var(--text-sub);max-width:600px;margin-bottom:30px;}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap;}
+.btn{padding:12px 24px;border-radius:999px;font-size:14px;font-weight:600;display:inline-flex;align-items:center;gap:6px;}
+.btn-primary{background:var(--accent);color:#fff;}
+.btn-primary:hover{opacity:.85;}
+.btn-secondary{border:1px solid var(--border);color:var(--text);}
+.btn-secondary:hover{border-color:#ccc;background:#f2f2f2;}
+
+.section{padding:20px 6vw 70px;}
+.section-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:26px;flex-wrap:wrap;gap:10px;}
+.section-head h2{font-size:24px;letter-spacing:-0.02em;}
+.see-all{font-size:13px;font-weight:600;color:var(--text-sub);}
+.see-all:hover{color:var(--text);}
+
+.preview-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;}
+.preview-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:transform .18s ease, box-shadow .18s ease;}
+.preview-card:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(0,0,0,0.08);}
+.preview-cover{aspect-ratio:16/9;overflow:hidden;background:#eee;}
+.preview-cover svg{width:100%;height:100%;display:block;}
+.preview-body{padding:18px 20px 20px;}
+.preview-eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--text-sub);margin-bottom:6px;}
+.preview-title{font-size:16px;font-weight:650;letter-spacing:-0.01em;margin-bottom:6px;}
+.preview-desc{font-size:13px;color:var(--text-sub);}
+
+.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;padding:8px 6vw 10px;}
+.stat{border-top:1px solid var(--border);padding-top:14px;}
+.stat-value{font-size:28px;font-weight:700;letter-spacing:-0.02em;}
+.stat-label{font-size:12.5px;color:var(--text-sub);margin-top:4px;}
+
+footer{padding:34px 6vw 50px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:13px;color:var(--text-sub);}
+.footer-links{display:flex;gap:16px;align-items:center;}
+.footer-links a{display:inline-flex;align-items:center;gap:6px;}
+.footer-links a:hover{color:var(--text);}
+
+@media (max-width:640px){
+  .hero{padding:60px 5vw 40px;}
+  .hero h1{font-size:36px;}
+  nav,.section,footer{padding-left:5vw;padding-right:5vw;}
+  .stats-row{padding-left:5vw;padding-right:5vw;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">Daniel</div>
+  <div class="nav-links">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="work.html">Work</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="eyebrow">Data Analyst · Newark, NJ</div>
+  <h1>Daniel Ogunsaju <br><span>turns messy data into decisions.</span></h1>
+  <p>Computer Science graduate with hands-on experience across insurance and enterprise operations — building SQL/Python pipelines, cleaning real-world data, and shipping dashboards people actually use. I care more about understanding a domain than about the chart library.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="work.html">View my work →</a>
+    <a class="btn btn-secondary" href="about.html">About me</a>
+    <a class="btn btn-secondary" href="mailto:olu11bunmi14@gmail.com"><svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor" style="margin-right:2px;"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>Get in touch</a>
+  </div>
+</section>
+
+<div class="stats-row">
+  <div class="stat"><div class="stat-value">3</div><div class="stat-label">Domain-grounded projects</div></div>
+  <div class="stat"><div class="stat-value">2</div><div class="stat-label">Industries — insurance, vendor ops</div></div>
+  <div class="stat"><div class="stat-value">15-25%</div><div class="stat-label">Reporting accuracy/speed gains in past roles</div></div>
+</div>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Selected work</h2>
+    <a class="see-all" href="work.html">See all projects →</a>
+  </div>
+  <div class="preview-grid">
+
+    <a class="preview-card" href="projects/vendor-billing-report/index.html">
+      <div class="preview-cover">
+        <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="hg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1e5631"/><stop offset="100%" stop-color="#55A868"/></linearGradient></defs>
+          <rect width="400" height="225" fill="url(#hg2)"/>
+          <rect x="45" y="130" width="30" height="55" fill="rgba(255,255,255,0.85)"/>
+          <rect x="85" y="100" width="30" height="85" fill="rgba(255,255,255,0.85)"/>
+          <rect x="125" y="65" width="30" height="120" fill="rgba(255,80,80,0.85)"/>
+          <rect x="165" y="110" width="30" height="75" fill="rgba(255,255,255,0.85)"/>
+        </svg>
+      </div>
+      <div class="preview-body">
+        <div class="preview-eyebrow">Excel &amp; BI Reporting</div>
+        <div class="preview-title">Vendor Billing Trend &amp; Anomaly Report</div>
+        <div class="preview-desc">Found $225K in flagged overbilling across 1,462 vendor invoices.</div>
+      </div>
+    </a>
+
+    <a class="preview-card" href="projects/claims-forecasting/index.html">
+      <div class="preview-cover">
+        <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="hg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1e2a3a"/><stop offset="100%" stop-color="#4C72B0"/></linearGradient></defs>
+          <rect width="400" height="225" fill="url(#hg3)"/>
+          <polyline points="30,140 70,132 110,145 150,122 190,132 230,105" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="230,105 270,90 310,68 360,48" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="6,5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="230" cy="105" r="5" fill="#fff"/>
+        </svg>
+      </div>
+      <div class="preview-body">
+        <div class="preview-eyebrow">Technical Model</div>
+        <div class="preview-title">Claims Frequency Forecasting</div>
+        <div class="preview-desc">Trend + seasonal decomposition built from first principles in NumPy.</div>
+      </div>
+    </a>
+
+    <a class="preview-card" href="projects/insured-jewelry-logistics/index.html">
+      <div class="preview-cover">
+        <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="hg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#241a2e"/><stop offset="100%" stop-color="#8172B3"/></linearGradient></defs>
+          <rect width="400" height="225" fill="url(#hg1)"/>
+          <path d="M200 35 L238 58 L238 105 L200 138 L162 105 L162 58 Z" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+          <circle cx="200" cy="85" r="16" fill="rgba(255,255,255,0.85)"/>
+          <text x="200" y="90" font-family="-apple-system,sans-serif" font-size="14" fill="#241a2e" text-anchor="middle" font-weight="700">$</text>
+        </svg>
+      </div>
+      <div class="preview-body">
+        <div class="preview-eyebrow">Domain Expertise</div>
+        <div class="preview-title">Insured Jewelry Logistics Dashboard</div>
+        <div class="preview-desc">Policy violations are 6.2% of shipments but drive 26.4% of claims dollars.</div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<footer>
+  <div>© 2026 Daniel Ogunsaju</div>
+  <div class="footer-links">
+    <a href="https://linkedin.com/in/danielogunsaju" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn</a>
+    <a href="mailto:olu11bunmi14@gmail.com"><svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>olu11bunmi14@gmail.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
