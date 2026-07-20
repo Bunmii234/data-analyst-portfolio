@@ -1,10 +1,9 @@
 # Vendor Billing Trend & Anomaly Report
 
-**Focus of this project: Excel and interactive dashboard reporting.** An
-extension of the vendor billing audit work from my Administrative &
-Operations Specialist role at Ascendo Resources (auditing transaction
-and vendor billing records to identify processing discrepancies) into a
-repeatable Excel/dashboard tool, rather than a one-off manual check.
+**Focus of this project: Excel and interactive dashboard reporting.** A
+self-directed project built to practice the kind of vendor billing
+anomaly detection common in accounts payable audits — designed as a
+repeatable Excel/dashboard tool rather than a one-off manual check.
 
 ## The problem
 

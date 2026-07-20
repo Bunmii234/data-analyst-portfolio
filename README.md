@@ -1,12 +1,13 @@
 # Data Analyst Portfolio
 
 Three projects, each built to showcase one thing — not a grab-bag of
-charts. All use synthetic data built around the industries I've
-actually worked in (insurance, vendor/ops), not a generic public
-dataset, because the metrics and edge cases only mean something if
-they're grounded in a real domain's rules. Two of the three map
-directly to a job on my resume; the third rounds out the skill set with
-Excel and interactive dashboard reporting.
+charts. Each uses synthetic data grounded in a real domain's rules
+rather than a generic public dataset, because the metrics and edge
+cases only mean something if they reflect how that domain actually
+works. The Insured Jewelry Logistics Dashboard is modeled on my
+Operations Analyst Intern experience at Jewelers Mutual; the other two
+are self-directed projects built to round out the skill set with
+insurance forecasting and Excel/dashboard reporting.
 
 **Open `index.html` in a browser** — it's a small 3-page site (Home / About / Work), not just a project list. `work.html` has the project grid linking to all three projects below.
 
@@ -18,14 +19,15 @@ Excel and interactive dashboard reporting.
    browsable dashboard companion, auditing 1,462 vendor invoices for
    rate drift, quantity padding, duplicate billing, and undisclosed
    fees. Found $225K in flagged overbilling, concentrated in 5 vendors.
-   An extension of the vendor billing audit work at Ascendo Resources.
+   A self-directed project practicing the kind of anomaly detection
+   common in accounts payable audits.
 
 2. **[Claims Frequency Forecasting](projects/claims-forecasting/)**
    — *technical model.* Trend + seasonal decomposition built from first
    principles with NumPy, forecasting claims volume and reserve dollars
    6 months forward, allocated across value tiers. Upfront about the
    limits of forecasting from 30 monthly data points rather than
-   overselling precision. Paired with Ascendo Resources on the resume.
+   overselling precision.
 
 3. **[Insured Jewelry Logistics Dashboard](projects/insured-jewelry-logistics/)**
    — *domain expertise.* An interactive dashboard built around a real

@@ -1,7 +1,6 @@
 """
-Synthetic vendor invoice dataset modeled on the vendor billing audit work
-from Ascendo Resources (Administrative & Operations Specialist -- auditing
-transaction and vendor billing records to identify discrepancy patterns).
+Synthetic vendor invoice dataset built to practice the kind of vendor
+billing anomaly detection common in accounts payable audits.
 
 Design: each vendor has a contracted rate per unit (hourly rate, per-seat
 license fee, etc.) for a given service category. Invoices should bill at
