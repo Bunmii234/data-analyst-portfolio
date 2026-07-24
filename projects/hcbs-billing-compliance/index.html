@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HCBS Waiver Billing Compliance Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+:root{
+  --bg:#fafafa; --card:#ffffff; --text:#171717; --text-sub:#6b6b6b;
+  --border:#ececec; --accent:#171717; --pill-bg:#f2f2f2; --pill-text:#444;
+  --radius:14px; --red:#c0392b; --green:#1e5631;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;}
+a{text-decoration:none;color:inherit;}
+
+nav{display:flex;align-items:center;justify-content:space-between;padding:22px 6vw;position:sticky;top:0;background:rgba(250,250,250,0.9);backdrop-filter:blur(8px);z-index:10;border-bottom:1px solid var(--border);}
+.nav-logo{font-weight:700;font-size:17px;letter-spacing:-0.02em;}
+.back-link{font-size:13.5px;color:var(--text-sub);font-weight:600;}
+.back-link:hover{color:var(--text);}
+
+.hero{padding:56px 6vw 30px;max-width:820px;}
+.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--text-sub);margin-bottom:12px;}
+.hero h1{font-size:34px;letter-spacing:-0.03em;margin-bottom:14px;}
+.hero p{font-size:15.5px;color:var(--text-sub);max-width:680px;}
+
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;padding:20px 6vw 10px;}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;}
+.kpi-value{font-size:26px;font-weight:700;letter-spacing:-0.02em;}
+.kpi-label{font-size:12px;color:var(--text-sub);margin-top:4px;}
+.kpi-value.flag{color:var(--red);}
+
+.callout{margin:26px 6vw 10px;padding:20px 22px;background:#fff6f5;border:1px solid #f3d8d5;border-radius:var(--radius);font-size:14px;color:#4a2420;}
+.callout b{color:var(--red);}
+
+.section{padding:26px 6vw 10px;}
+.section h2{font-size:19px;margin-bottom:16px;letter-spacing:-0.01em;}
+
+.filters{display:flex;gap:10px;flex-wrap:wrap;padding:0 6vw 20px;}
+.filter-btn{padding:8px 16px;border-radius:999px;border:1px solid var(--border);background:var(--card);font-size:13px;cursor:pointer;color:var(--text-sub);}
+.filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent);}
+
+.chart-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:22px;padding:0 6vw 10px;}
+.chart-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px;}
+.chart-card h3{font-size:13.5px;color:var(--text-sub);margin-bottom:14px;font-weight:600;}
+.chart-card canvas{max-height:260px;}
+
+table{width:100%;border-collapse:collapse;font-size:13px;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;}
+th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--border);}
+th{color:var(--text-sub);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em;}
+tr:last-child td{border-bottom:none;}
+td.num{text-align:right;font-variant-numeric:tabular-nums;}
+.rate-high{color:var(--red);font-weight:700;}
+.rate-ok{color:var(--text-sub);}
+
+footer{padding:34px 6vw 60px;border-top:1px solid var(--border);margin-top:30px;font-size:13px;color:var(--text-sub);}
+
+@media (max-width:640px){
+  .hero{padding:40px 5vw 20px;}
+  .hero h1{font-size:26px;}
+  nav,.section,.kpi-row,.filters,.chart-grid,footer,.callout{padding-left:5vw;padding-right:5vw;margin-left:0;margin-right:0;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">Daniel</div>
+  <a class="back-link" href="../../work.html">← Back to Work</a>
+</nav>
+
+<section class="hero">
+  <div class="eyebrow">Domain Expertise · Medicaid HCBS Compliance</div>
+  <h1>HCBS Waiver Billing Compliance Dashboard</h1>
+  <p>Built around a real Medicaid HCBS billing rule: every billed service hour must be backed by a matching Electronic Visit Verification (EVV) record, and total monthly billing can't exceed the individual's ISP-authorized hours. This dashboard surfaces where that rule breaks down — and what it costs in denied claims.</p>
+</section>
+
+<div class="kpi-row" id="kpiRow"></div>
+
+<div class="callout" id="callout"></div>
+
+<section class="section">
+  <h2>Violation rate &amp; denied dollars by site</h2>
+</section>
+<div class="filters" id="filters">
+  <button class="filter-btn active" data-filter="all">All Sites</button>
+  <button class="filter-btn" data-filter="Residential Group Home">Residential Group Home</button>
+  <button class="filter-btn" data-filter="Day Program">Day Program</button>
+  <button class="filter-btn" data-filter="Supported Employment">Supported Employment</button>
+</div>
+
+<div class="chart-grid">
+  <div class="chart-card">
+    <h3>Compliance violation rate by site (%)</h3>
+    <canvas id="siteChart"></canvas>
+  </div>
+  <div class="chart-card">
+    <h3>Denied claim dollars by denial reason</h3>
+    <canvas id="reasonChart"></canvas>
+  </div>
+  <div class="chart-card">
+    <h3>Monthly violation rate trend</h3>
+    <canvas id="trendChart"></canvas>
+  </div>
+  <div class="chart-card">
+    <h3>Claim dollars: paid vs. denied vs. pending</h3>
+    <canvas id="statusChart"></canvas>
+  </div>
+</div>
+
+<section class="section">
+  <h2>Site-level detail</h2>
+  <table>
+    <thead>
+      <tr><th>Site</th><th>Type</th><th class="num">Visits</th><th class="num">Violations</th><th class="num">Violation Rate</th><th class="num">Denied $</th></tr>
+    </thead>
+    <tbody id="siteTable"></tbody>
+  </table>
+</section>
+
+<footer>
+  Synthetic data modeled on Medicaid HCBS waiver billing operations. Built with Python, aggregated for this dashboard, and rendered with Chart.js.
+</footer>
+
+<script>
+const DATA = {"kpis": {"total_visits": 66547, "violation_rate": 13.3, "total_billed": 11944768.0, "total_denied": 1198770.0, "total_pending": 902833.0, "pct_denied_dollars_from_violations": 92.1, "denial_rate_violation": 61.7, "denial_rate_compliant": 0.9, "risk_multiplier": 66.3, "n_sites": 12, "n_individuals": 180}, "sites": [{"site": "Morris Day Center", "type": "Day Program", "visits": 6666, "violations": 1886, "violation_rate": 28.3, "billed_amt": 698629.0, "denied_amt": 139154.0}, {"site": "Willow Lane Group Home", "type": "Residential Group Home", "visits": 5549, "violations": 1537, "violation_rate": 27.7, "billed_amt": 1421725.0, "denied_amt": 276015.0}, {"site": "Maplewood Group Home", "type": "Residential Group Home", "visits": 5123, "violations": 1400, "violation_rate": 27.3, "billed_amt": 1280710.0, "denied_amt": 244387.0}, {"site": "Denville Activity Center", "type": "Day Program", "visits": 5943, "violations": 658, "violation_rate": 11.1, "billed_amt": 591404.0, "denied_amt": 49263.0}, {"site": "JobLink Morris", "type": "Supported Employment", "visits": 4805, "violations": 528, "violation_rate": 11.0, "billed_amt": 198310.0, "denied_amt": 15924.0}, {"site": "Fernbrook Group Home", "type": "Residential Group Home", "visits": 9680, "violations": 993, "violation_rate": 10.3, "billed_amt": 2409452.0, "denied_amt": 187854.0}, {"site": "Parsippany Community Hub", "type": "Day Program", "visits": 5869, "violations": 606, "violation_rate": 10.3, "billed_amt": 635908.0, "denied_amt": 49776.0}, {"site": "Hillcrest Group Home", "type": "Residential Group Home", "visits": 3308, "violations": 318, "violation_rate": 9.6, "billed_amt": 844683.0, "denied_amt": 67577.0}, {"site": "Birchwood Group Home", "type": "Residential Group Home", "visits": 4451, "violations": 426, "violation_rate": 9.6, "billed_amt": 1172222.0, "denied_amt": 83142.0}, {"site": "Community Works", "type": "Supported Employment", "visits": 5169, "violations": 184, "violation_rate": 3.6, "billed_amt": 233757.0, "denied_amt": 7016.0}, {"site": "Cedar Grove Group Home", "type": "Residential Group Home", "visits": 5929, "violations": 205, "violation_rate": 3.5, "billed_amt": 1430156.0, "denied_amt": 45941.0}, {"site": "Oakridge Group Home", "type": "Residential Group Home", "visits": 4055, "violations": 126, "violation_rate": 3.1, "billed_amt": 1027813.0, "denied_amt": 32721.0}], "months": [{"month": "2025-01", "violation_rate": 13.3}, {"month": "2025-02", "violation_rate": 13.4}, {"month": "2025-03", "violation_rate": 13.6}, {"month": "2025-04", "violation_rate": 12.9}, {"month": "2025-05", "violation_rate": 12.5}, {"month": "2025-06", "violation_rate": 12.9}, {"month": "2025-07", "violation_rate": 13.9}, {"month": "2025-08", "violation_rate": 13.3}, {"month": "2025-09", "violation_rate": 13.9}, {"month": "2025-10", "violation_rate": 13.2}, {"month": "2025-11", "violation_rate": 13.1}, {"month": "2025-12", "violation_rate": 13.8}, {"month": "2026-01", "violation_rate": 13.2}, {"month": "2026-02", "violation_rate": 13.2}, {"month": "2026-03", "violation_rate": 12.8}, {"month": "2026-04", "violation_rate": 13.3}, {"month": "2026-05", "violation_rate": 13.7}, {"month": "2026-06", "violation_rate": 14.0}], "reasons": [{"reason": "EVV clock-in/out mismatch", "denied_amt": 200773.0, "count": 1076}, {"reason": "Visit outside authorized window", "denied_amt": 199337.0, "count": 1053}, {"reason": "No matching EVV record", "denied_amt": 195779.0, "count": 1045}, {"reason": "Service not in approved ISP", "denied_amt": 179411.0, "count": 799}, {"reason": "Exceeds monthly ISP authorization", "denied_amt": 167698.0, "count": 764}, {"reason": "Missing prior authorization", "denied_amt": 161568.0, "count": 736}], "waivers": [{"waiver": "Community Care Program (CCP)", "visits": 40195, "violation_rate": 13.4}, {"waiver": "Supports Program", "visits": 26352, "violation_rate": 13.2}]};
+
+function fmtMoney(n){ return '$' + Math.round(n).toLocaleString(); }
+
+// KPI cards
+const k = DATA.kpis;
+document.getElementById('kpiRow').innerHTML = `
+  <div class="kpi"><div class="kpi-value">${k.total_visits.toLocaleString()}</div><div class="kpi-label">Total visits (EVV logs)</div></div>
+  <div class="kpi"><div class="kpi-value flag">${k.violation_rate}%</div><div class="kpi-label">Compliance violation rate</div></div>
+  <div class="kpi"><div class="kpi-value">${fmtMoney(k.total_billed)}</div><div class="kpi-label">Total claims billed</div></div>
+  <div class="kpi"><div class="kpi-value flag">${fmtMoney(k.total_denied)}</div><div class="kpi-label">Total claim $ denied</div></div>
+  <div class="kpi"><div class="kpi-value flag">${k.risk_multiplier}x</div><div class="kpi-label">Denial-rate risk multiplier, violation vs. compliant visits</div></div>
+`;
+
+document.getElementById('callout').innerHTML =
+  `<b>${k.violation_rate}%</b> of visits have a compliance violation (missing EVV match or billing above ISP authorization) — but they account for <b>${k.pct_denied_dollars_from_violations}%</b> of all denied claim dollars. Violation visits get denied at <b>${k.denial_rate_violation}%</b> vs. <b>${k.denial_rate_compliant}%</b> for compliant visits — a <b>${k.risk_multiplier}x</b> higher denial rate. Three sites drive most of it (see table below).`;
+
+// Site table + chart, filterable by site type
+function renderSites(filter){
+  const rows = DATA.sites.filter(s => filter === 'all' || s.type === filter);
+  const tbody = document.getElementById('siteTable');
+  tbody.innerHTML = rows.map(s => `
+    <tr>
+      <td>${s.site}</td>
+      <td>${s.type}</td>
+      <td class="num">${s.visits.toLocaleString()}</td>
+      <td class="num">${s.violations.toLocaleString()}</td>
+      <td class="num ${s.violation_rate > 20 ? 'rate-high':'rate-ok'}">${s.violation_rate}%</td>
+      <td class="num">${fmtMoney(s.denied_amt)}</td>
+    </tr>`).join('');
+
+  siteChart.data.labels = rows.map(s => s.site);
+  siteChart.data.datasets[0].data = rows.map(s => s.violation_rate);
+  siteChart.update();
+}
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderSites(btn.dataset.filter);
+  });
+});
+
+const siteChart = new Chart(document.getElementById('siteChart'), {
+  type: 'bar',
+  data: { labels: [], datasets: [{ data: [], backgroundColor: '#8172B3', borderRadius: 4 }] },
+  options: { indexAxis: 'y', plugins:{legend:{display:false}}, scales:{x:{max:35, ticks:{callback:v=>v+'%'}}} }
+});
+
+const reasonChart = new Chart(document.getElementById('reasonChart'), {
+  type: 'bar',
+  data: {
+    labels: DATA.reasons.map(r => r.reason),
+    datasets: [{ data: DATA.reasons.map(r => r.denied_amt), backgroundColor: '#c0392b', borderRadius: 4 }]
+  },
+  options: { indexAxis: 'y', plugins:{legend:{display:false}}, scales:{x:{ticks:{callback:v=>'$'+(v/1000)+'k'}}} }
+});
+
+const trendChart = new Chart(document.getElementById('trendChart'), {
+  type: 'line',
+  data: {
+    labels: DATA.months.map(m => m.month),
+    datasets: [{ data: DATA.months.map(m => m.violation_rate), borderColor:'#4C72B0', backgroundColor:'rgba(76,114,176,0.1)', fill:true, tension:0.3 }]
+  },
+  options: { plugins:{legend:{display:false}}, scales:{y:{ticks:{callback:v=>v+'%'}}} }
+});
+
+const statusChart = new Chart(document.getElementById('statusChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Paid', 'Denied', 'Pending Review'],
+    datasets: [{ data: [k.total_billed - k.total_denied - k.total_pending, k.total_denied, k.total_pending], backgroundColor: ['#55A868','#c0392b','#e0b34d'] }]
+  },
+  options: { plugins:{legend:{position:'bottom'}} }
+});
+
+renderSites('all');
+</script>
+
+</body>
+</html>
