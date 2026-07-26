@@ -16,6 +16,18 @@ check whether an invoice total looks "about right" — they only show up
 when every invoice is checked against what it was actually supposed to
 cost.
 
+## The hard part
+
+Excel mechanics (PivotTables, charts, cleaning up the raw data) weren't
+the hard part here — the hard part was the anomaly logic itself: where
+do you actually draw the line between "rate is a little high, could be
+rounding" and "this is a real overcharge"? A 2% rate bump could be a
+rounding artifact; a 40% one obviously isn't — but the cutoff in
+between is a judgment call, not something SQL or Excel tells you on its
+own. Same problem with quantity padding vs. a legitimately larger job.
+Getting those thresholds right took more iteration than anything else
+in this project.
+
 ## What was built
 
 **`Vendor_Billing_Report.xlsx`** — the primary deliverable:

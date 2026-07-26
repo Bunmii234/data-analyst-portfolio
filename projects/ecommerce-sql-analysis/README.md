@@ -23,6 +23,20 @@ bump in July), segment-driven purchase frequency, and category-level
 return/cancellation noise, so the SQL has real patterns to surface rather
 than random data.
 
+## The hard part
+
+Honestly, all three of the trickier queries gave me trouble in different
+ways. The `LAG`/cohort queries (03 and 04) took the longest to get the
+syntax and join logic right — window functions weren't something I'd
+used much before this. Designing the RFM/segmentation query meant
+deciding what actually counts as "VIP" vs "Returning" in SQL terms, which
+took some trial and error against the raw data before the buckets looked
+right. And the cohort right-censoring issue (query 04) wasn't something
+I spotted immediately — the first version of that query made recent
+cohorts look like a retention problem, and it took a while to realize the
+real explanation was just that those customers hadn't had time to
+reorder yet, not that anything was actually wrong.
+
 ## Business questions answered
 
 Each query lives in `sql/` as a standalone, commented `.sql` file.

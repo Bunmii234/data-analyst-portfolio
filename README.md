@@ -1,21 +1,16 @@
 # Data Analyst Portfolio
 
-Five projects, split into two groups intentionally: three are
-domain-grounded (built around real business rules from insurance
-logistics and Medicaid HCBS billing, modeled on actual work
-experience), and two are general-purpose e-commerce/SQL projects aimed
-at roles where domain-specific work is less relevant — a pure
-e-commerce, tech-product, or general analyst opening. A sixth,
-Customer Churn Prediction, adds a scikit-learn classification model on
-top of the same e-commerce data. Each project uses synthetic data with
-real structure (seasonality, cohort effects, business rules) rather
-than a generic public dataset.
+Three featured projects on the live site, two of them modeled directly
+on real work I've done: Medicaid HCBS billing compliance (my current
+role at Arc of Morris) and insurance-logistics underwriting (my
+internship at Jewelers Mutual), plus a general vendor-billing audit
+project to show the same skills outside a specific domain. Each project
+uses synthetic data with real structure (seasonality, cohort effects,
+business rules) rather than a generic public dataset.
 
 **Open `index.html` in a browser** — it's a small 3-page site (Home / About / Work), not just a project list. `work.html` has the full project grid, filterable by category.
 
-## Projects
-
-**Domain-grounded** (insurance / healthcare compliance):
+## Featured projects
 
 1. **[HCBS Waiver Billing Compliance Dashboard](projects/hcbs-billing-compliance/)**
    — *domain expertise.* An interactive dashboard built around a real
@@ -39,40 +34,24 @@ than a generic public dataset.
    rate drift, quantity padding, duplicate billing, and undisclosed
    fees. Found $225K in flagged overbilling, concentrated in 5 vendors.
 
-**General-purpose** (e-commerce / tech-product analyst roles):
+## Other projects (not currently featured on the live site)
 
-4. **[E-Commerce Business Performance Analysis](projects/ecommerce-sql-analysis/)**
-   — *SQL.* Six business questions answered in standalone SQL against a
-   relational e-commerce dataset — monthly revenue trend, RFM
-   segmentation, cohort repeat-purchase rate, channel performance. VIP
-   customers drive 4.3x the lifetime revenue of new customers; flags a
-   cohort right-censoring artifact rather than reporting it at face
-   value.
+These still exist in `projects/` and still work — I'm keeping them out
+of the main site for now to keep the portfolio to a small number of
+projects I can talk about in real depth, not because they're bad work:
 
-5. **[E-Commerce Performance Dashboard](projects/ecommerce-bi-dashboard/)**
-   — *interactive dashboard.* KPI cards, revenue trend, category/channel/
-   segment breakdowns, and a sortable table, filterable by channel,
-   segment, category, and order status. Uses the same dataset as the
-   SQL project above.
-
-6. **[Customer Churn Prediction](projects/customer-churn-prediction/)**
-   — *predictive modeling.* A scikit-learn classification model (Random
-   Forest + Logistic Regression) predicting which customers won't
-   return, using a leakage-aware feature/outcome time split. Reaches
-   0.954 ROC-AUC and 87.7% accuracy against a 77.3% majority-class
-   baseline; recency and tenure are the top predictive features.
+- **[E-Commerce Business Performance Analysis](projects/ecommerce-sql-analysis/)** — SQL, window functions, cohort analysis
+- **[E-Commerce Performance Dashboard](projects/ecommerce-bi-dashboard/)** — interactive Chart.js dashboard
+- **[Customer Churn Prediction](projects/customer-churn-prediction/)** — scikit-learn classification model
 
 An [archive](archive/) folder holds earlier project versions no longer
 part of the active portfolio (a banking transaction reconciliation
 project and the retired Claims Frequency Forecasting model) — kept for
-reference.
+reference. `projects/bbbs-mentor-gap-analysis/` also exists but isn't
+finished or linked anywhere yet.
 
-## Suggested resume bullets
+## Suggested resume bullets (for the 3 featured projects)
 
-- *Vendor Billing Report*: "Built an Excel-based, interactively
-  dashboarded vendor billing audit covering 1,462 invoices; identified $225K in flagged
-  overbilling from rate drift, quantity padding, and duplicate invoices,
-  concentrated in 5 of 12 vendors."
 - *HCBS Billing Compliance Dashboard*: "Built an interactive dashboard
   modeling Medicaid HCBS billing compliance; identified that visits
   lacking matching EVV records or exceeding ISP-authorized hours
@@ -83,19 +62,10 @@ reference.
   shipments (under-secured for their declared value) carried a 3.5x
   higher loss rate and drove 26% of claims dollars from just 6% of
   volume."
-- *E-Commerce SQL Analysis*: "Wrote six standalone SQL queries (window
-  functions, CTEs, cohort analysis) against a 1,200-customer e-commerce
-  dataset; found VIP customers drive 4.3x the lifetime revenue of new
-  customers and that Paid Search/Email are the strongest acquisition
-  channels by revenue-per-customer."
-- *E-Commerce Dashboard*: "Built a filterable KPI dashboard (Chart.js)
-  covering revenue trend, channel, segment, and category performance
-  across 3,436 orders, with a sortable detail table."
-- *Customer Churn Prediction*: "Built a scikit-learn classification
-  model (Random Forest, Logistic Regression) predicting customer churn
-  from a leakage-aware feature/outcome time split; reached 0.954
-  ROC-AUC and 87.7% accuracy, with recency and tenure as the top
-  predictive features."
+- *Vendor Billing Report*: "Built an Excel-based, interactively
+  dashboarded vendor billing audit covering 1,462 invoices; identified $225K in flagged
+  overbilling from rate drift, quantity padding, and duplicate invoices,
+  concentrated in 5 of 12 vendors."
 
 ## Repo structure
 

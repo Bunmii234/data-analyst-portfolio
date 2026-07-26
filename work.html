@@ -74,16 +74,13 @@ footer{padding:34px 6vw 50px;border-top:1px solid var(--border);display:flex;jus
 <section class="hero">
   <div class="eyebrow">Selected projects</div>
   <h1>Portfolio</h1>
-  <p>Seven projects, each built to showcase one thing: three domain-grounded (insurance, healthcare compliance), two general-purpose (e-commerce SQL and dashboard reporting), one predictive model (churn classification), and one real-world volunteer analytics consulting project — not a grab-bag of charts.</p>
+  <p>Three projects, each tied to real analyst work — two modeled directly on my current role and my internship (insurance logistics, Medicaid HCBS billing compliance), plus one general vendor-billing audit project to show the same skills outside a specific domain.</p>
 </section>
 
 <div class="filters" id="filters">
   <button class="filter-btn active" data-filter="all">All</button>
   <button class="filter-btn" data-filter="domain">Domain Expertise</button>
   <button class="filter-btn" data-filter="reporting">Excel &amp; BI Reporting</button>
-  <button class="filter-btn" data-filter="sql">SQL Analysis</button>
-  <button class="filter-btn" data-filter="predictive">Predictive Modeling</button>
-  <button class="filter-btn" data-filter="consulting">Volunteer Analytics Consulting</button>
 </div>
 
 <div class="grid" id="grid">
@@ -171,113 +168,6 @@ footer{padding:34px 6vw 50px;border-top:1px solid var(--border);display:flex;jus
       <div class="card-title">Insured Jewelry Logistics Dashboard</div>
       <div class="card-desc">Built around a real underwriting rule — courier security tier must match declared shipment value. Surfaces that policy violations are 6.2% of shipments but drive 26.4% of claims dollars.</div>
       <span class="card-link">View project →</span>
-    </div>
-  </a>
-
-  <!-- Project 4: E-Commerce Business Performance Analysis (SQL) -->
-  <a class="card" data-cat="sql" href="projects/ecommerce-sql-analysis/index.html">
-    <div class="card-cover">
-      <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#1a2e35"/>
-            <stop offset="100%" stop-color="#2f8f8f"/>
-          </linearGradient>
-        </defs>
-        <rect width="400" height="250" fill="url(#g5)"/>
-        <text x="30" y="50" font-family="monospace" font-size="14" fill="#d6f5f0">SELECT segment,</text>
-        <text x="30" y="75" font-family="monospace" font-size="14" fill="#d6f5f0">  SUM(revenue)</text>
-        <text x="30" y="100" font-family="monospace" font-size="14" fill="#d6f5f0">FROM orders</text>
-        <rect x="30" y="140" width="90" height="28" rx="14" fill="rgba(255,255,255,0.15)"/>
-        <text x="75" y="158" font-family="-apple-system,sans-serif" font-size="11" fill="#fff" text-anchor="middle">6 SQL queries</text>
-        <rect x="135" y="140" width="115" height="28" rx="14" fill="rgba(255,80,80,0.25)"/>
-        <text x="192" y="158" font-family="-apple-system,sans-serif" font-size="11" fill="#fff" text-anchor="middle">VIP = 4.3x revenue</text>
-      </svg>
-    </div>
-    <div class="card-body">
-      <div class="card-tags"><span class="tag">SQL</span><span class="tag">SQLite</span><span class="tag">Cohort Analysis</span></div>
-      <div class="card-title">E-Commerce Business Performance Analysis</div>
-      <div class="card-desc">Six business questions answered in standalone SQL — revenue trend, RFM segmentation, cohort repeat-purchase rate, channel performance. VIP customers drive 4.3x the revenue of new customers.</div>
-      <span class="card-link">View project →</span>
-    </div>
-  </a>
-
-  <!-- Project 5: E-Commerce Performance Dashboard -->
-  <a class="card" data-cat="reporting" href="projects/ecommerce-bi-dashboard/index.html">
-    <div class="card-cover">
-      <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#2a1e35"/>
-            <stop offset="100%" stop-color="#b06ab3"/>
-          </linearGradient>
-        </defs>
-        <rect width="400" height="250" fill="url(#g6)"/>
-        <rect x="40" y="160" width="30" height="50" fill="rgba(255,255,255,0.85)"/>
-        <rect x="80" y="120" width="30" height="90" fill="rgba(255,255,255,0.85)"/>
-        <rect x="120" y="140" width="30" height="70" fill="rgba(255,255,255,0.85)"/>
-        <circle cx="260" cy="90" r="45" fill="none" stroke="#fff" stroke-width="14" stroke-dasharray="70 212" transform="rotate(-90 260 90)"/>
-        <circle cx="260" cy="90" r="45" fill="none" stroke="rgba(255,80,80,0.8)" stroke-width="14" stroke-dasharray="50 232" stroke-dashoffset="-70" transform="rotate(-90 260 90)"/>
-      </svg>
-    </div>
-    <div class="card-body">
-      <div class="card-tags"><span class="tag">Chart.js</span><span class="tag">Client-Side Filtering</span><span class="tag">KPI Dashboard</span></div>
-      <div class="card-title">E-Commerce Performance Dashboard</div>
-      <div class="card-desc">Interactive KPI dashboard — revenue trend, category/channel/segment breakdowns, sortable table. Filterable by channel, segment, category, and order status.</div>
-      <span class="card-link">View project →</span>
-    </div>
-  </a>
-
-  <!-- Project 6: Customer Churn Prediction -->
-  <a class="card" data-cat="predictive" href="projects/customer-churn-prediction/index.html">
-    <div class="card-cover">
-      <span class="badge">Featured</span>
-      <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="g7" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#1a2540"/>
-            <stop offset="100%" stop-color="#4C72B0"/>
-          </linearGradient>
-        </defs>
-        <rect width="400" height="250" fill="url(#g7)"/>
-        <polyline points="20,220 20,30 380,30" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
-        <path d="M20,220 L60,120 L110,70 L170,45 L250,32 L380,28" fill="none" stroke="#fff" stroke-width="3"/>
-        <path d="M20,220 L380,30" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2" stroke-dasharray="5,5"/>
-        <rect x="250" y="170" width="120" height="30" rx="15" fill="rgba(255,255,255,0.15)"/>
-        <text x="310" y="190" font-family="-apple-system,sans-serif" font-size="11" fill="#fff" text-anchor="middle">0.954 ROC-AUC</text>
-      </svg>
-    </div>
-    <div class="card-body">
-      <div class="card-tags"><span class="tag">Scikit-learn</span><span class="tag">Classification</span><span class="tag">Random Forest</span></div>
-      <div class="card-title">Customer Churn Prediction</div>
-      <div class="card-desc">Classifies at-risk customers using a leakage-aware feature/outcome time split. Random Forest reaches 0.954 ROC-AUC and 87.7% accuracy (vs. a 77.3% majority-class baseline); recency and tenure are the top predictors.</div>
-      <span class="card-link">View project →</span>
-    </div>
-  </a>
-
-  <!-- Project 7: BBBS Mentor Gender Gap Analysis -->
-  <a class="card" data-cat="consulting" href="https://github.com/Bunmii234/data-analyst-portfolio/tree/main/projects/bbbs-mentor-gap-analysis" target="_blank" rel="noopener">
-    <div class="card-cover">
-      <span class="badge">Featured</span>
-      <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="g8" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#1a2e2a"/>
-            <stop offset="100%" stop-color="#2f8f6a"/>
-          </linearGradient>
-        </defs>
-        <rect width="400" height="250" fill="url(#g8)"/>
-        <circle cx="140" cy="90" r="32" fill="rgba(255,80,80,0.85)"/>
-        <circle cx="220" cy="90" r="18" fill="rgba(255,255,255,0.6)"/>
-        <rect x="90" y="140" width="220" height="30" rx="15" fill="rgba(255,255,255,0.15)"/>
-        <text x="200" y="160" font-family="-apple-system,sans-serif" font-size="12" fill="#fff" text-anchor="middle">90.5% of waitlist = boys</text>
-      </svg>
-    </div>
-    <div class="card-body">
-      <div class="card-tags"><span class="tag">Excel</span><span class="tag">Tableau Public</span><span class="tag">Consulting Deck</span></div>
-      <div class="card-title">BBBS Mentor Gender Gap Analysis</div>
-      <div class="card-desc">A volunteer analytics consulting project grounded in Big Brothers Big Sisters' real, publicly reported mentor shortage — boys wait 10.1 months on average vs. 4.6 for girls. Excel dashboard, Tableau Public, and a stakeholder slide deck.</div>
-      <span class="card-link">View on GitHub →</span>
     </div>
   </a>
 

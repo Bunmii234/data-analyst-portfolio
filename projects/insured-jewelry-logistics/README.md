@@ -18,6 +18,21 @@ wildly different risk profiles, even if both arrive "on time." Treating
 them the same — which a generic logistics dashboard would do — misses
 the entire point of underwriting.
 
+## The hard part
+
+Three things slowed this one down, honestly. First, figuring out where
+the carrier-tier thresholds should actually sit ($10K, $50K) took some
+back and forth — it's easy to state a rule, harder to pick cutoffs that
+produce a realistic violation rate instead of an obviously-fake one.
+Second, the loss ratio math (claims paid / premium written, then
+splitting it by carrier tier) took a bit to get right, especially once
+I noticed the Enhanced-tier number looked inflated and had to figure out
+why before deciding it was a small-sample issue rather than a real
+finding. Third — plainly — I'm still building up my JavaScript, so the
+Chart.js filtering logic in the dashboard took longer for me than the
+analysis side did. That's an area I'm actively working on, not something
+I'd claim to have mastered.
+
 This dataset encodes a policy rule that mirrors how jewelry-transit
 insurance actually prices risk: shipments under $10K can use any
 carrier; $10K–$50K requires at least a signature-required "Enhanced"
