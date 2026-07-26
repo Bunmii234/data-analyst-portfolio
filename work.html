@@ -74,7 +74,7 @@ footer{padding:34px 6vw 50px;border-top:1px solid var(--border);display:flex;jus
 <section class="hero">
   <div class="eyebrow">Selected projects</div>
   <h1>Portfolio</h1>
-  <p>Six projects, each built to showcase one thing: three domain-grounded (insurance, healthcare compliance), two general-purpose (e-commerce SQL and dashboard reporting), and one predictive model (churn classification) — not a grab-bag of charts.</p>
+  <p>Seven projects, each built to showcase one thing: three domain-grounded (insurance, healthcare compliance), two general-purpose (e-commerce SQL and dashboard reporting), one predictive model (churn classification), and one real-world volunteer analytics consulting project — not a grab-bag of charts.</p>
 </section>
 
 <div class="filters" id="filters">
@@ -83,6 +83,7 @@ footer{padding:34px 6vw 50px;border-top:1px solid var(--border);display:flex;jus
   <button class="filter-btn" data-filter="reporting">Excel &amp; BI Reporting</button>
   <button class="filter-btn" data-filter="sql">SQL Analysis</button>
   <button class="filter-btn" data-filter="predictive">Predictive Modeling</button>
+  <button class="filter-btn" data-filter="consulting">Volunteer Analytics Consulting</button>
 </div>
 
 <div class="grid" id="grid">
@@ -251,6 +252,32 @@ footer{padding:34px 6vw 50px;border-top:1px solid var(--border);display:flex;jus
       <div class="card-title">Customer Churn Prediction</div>
       <div class="card-desc">Classifies at-risk customers using a leakage-aware feature/outcome time split. Random Forest reaches 0.954 ROC-AUC and 87.7% accuracy (vs. a 77.3% majority-class baseline); recency and tenure are the top predictors.</div>
       <span class="card-link">View project →</span>
+    </div>
+  </a>
+
+  <!-- Project 7: BBBS Mentor Gender Gap Analysis -->
+  <a class="card" data-cat="consulting" href="https://github.com/Bunmii234/data-analyst-portfolio/tree/main/projects/bbbs-mentor-gap-analysis" target="_blank" rel="noopener">
+    <div class="card-cover">
+      <span class="badge">Featured</span>
+      <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="g8" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#1a2e2a"/>
+            <stop offset="100%" stop-color="#2f8f6a"/>
+          </linearGradient>
+        </defs>
+        <rect width="400" height="250" fill="url(#g8)"/>
+        <circle cx="140" cy="90" r="32" fill="rgba(255,80,80,0.85)"/>
+        <circle cx="220" cy="90" r="18" fill="rgba(255,255,255,0.6)"/>
+        <rect x="90" y="140" width="220" height="30" rx="15" fill="rgba(255,255,255,0.15)"/>
+        <text x="200" y="160" font-family="-apple-system,sans-serif" font-size="12" fill="#fff" text-anchor="middle">90.5% of waitlist = boys</text>
+      </svg>
+    </div>
+    <div class="card-body">
+      <div class="card-tags"><span class="tag">Excel</span><span class="tag">Tableau Public</span><span class="tag">Consulting Deck</span></div>
+      <div class="card-title">BBBS Mentor Gender Gap Analysis</div>
+      <div class="card-desc">A volunteer analytics consulting project grounded in Big Brothers Big Sisters' real, publicly reported mentor shortage — boys wait 10.1 months on average vs. 4.6 for girls. Excel dashboard, Tableau Public, and a stakeholder slide deck.</div>
+      <span class="card-link">View on GitHub →</span>
     </div>
   </a>
 
