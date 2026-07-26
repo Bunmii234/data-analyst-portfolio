@@ -1,0 +1,1201 @@
+customer_id,first_name,last_name,email,city,state,signup_date,acquisition_channel,segment
+1,Linda,Smith,linda.smith1@example.com,Dallas,TX,2024-09-07,Referral,Returning
+2,Andrew,Williams,andrew.williams2@example.com,Atlanta,GA,2024-02-02,Direct,New
+3,Kenneth,Smith,kenneth.smith3@example.com,Minneapolis,MN,2025-12-19,Direct,New
+4,Sarah,Sanchez,sarah.sanchez4@example.com,New York,NY,2025-12-15,Paid Search,New
+5,Nancy,Brown,nancy.brown5@example.com,Chicago,IL,2025-01-24,Direct,Returning
+6,Thomas,Sanchez,thomas.sanchez6@example.com,Los Angeles,CA,2025-01-22,Referral,New
+7,Michelle,Lewis,michelle.lewis7@example.com,Denver,CO,2025-08-14,Referral,New
+8,Joseph,Harris,joseph.harris8@example.com,Austin,TX,2026-06-06,Referral,New
+9,Lisa,Garcia,lisa.garcia9@example.com,Denver,CO,2024-12-29,Referral,New
+10,John,Martin,john.martin10@example.com,Philadelphia,PA,2024-02-27,Email,New
+11,Betty,Rodriguez,betty.rodriguez11@example.com,Chicago,IL,2024-11-18,Referral,Returning
+12,Sandra,Jones,sandra.jones12@example.com,Dallas,TX,2024-05-22,Email,Returning
+13,Donna,Wilson,donna.wilson13@example.com,Boston,MA,2025-01-05,Direct,VIP
+14,Ashley,Williams,ashley.williams14@example.com,Los Angeles,CA,2026-05-31,Referral,Returning
+15,Margaret,Martin,margaret.martin15@example.com,Chicago,IL,2024-04-24,Organic Search,New
+16,Thomas,Taylor,thomas.taylor16@example.com,Philadelphia,PA,2025-09-15,Paid Search,New
+17,Andrew,Harris,andrew.harris17@example.com,Nashville,TN,2025-05-15,Email,VIP
+18,Jessica,Johnson,jessica.johnson18@example.com,San Diego,CA,2024-03-21,Organic Search,Returning
+19,Andrew,Harris,andrew.harris19@example.com,Phoenix,AZ,2025-07-16,Direct,Returning
+20,Margaret,Miller,margaret.miller20@example.com,Minneapolis,MN,2025-10-27,Social Media,VIP
+21,Linda,Davis,linda.davis21@example.com,San Diego,CA,2024-03-06,Paid Search,Returning
+22,Donna,Davis,donna.davis22@example.com,New York,NY,2024-03-01,Email,VIP
+23,John,Taylor,john.taylor23@example.com,San Diego,CA,2026-04-06,Referral,New
+24,Margaret,Lopez,margaret.lopez24@example.com,Atlanta,GA,2026-01-16,Referral,Returning
+25,Michael,Johnson,michael.johnson25@example.com,Boston,MA,2026-01-15,Paid Search,VIP
+26,Richard,Miller,richard.miller26@example.com,Minneapolis,MN,2025-04-04,Social Media,New
+27,Jessica,Ramirez,jessica.ramirez27@example.com,Chicago,IL,2026-05-19,Social Media,New
+28,Susan,Ramirez,susan.ramirez28@example.com,Boston,MA,2024-03-01,Social Media,New
+29,Thomas,Robinson,thomas.robinson29@example.com,Miami,FL,2024-10-19,Direct,VIP
+30,Ashley,Jones,ashley.jones30@example.com,San Antonio,TX,2024-10-30,Referral,New
+31,Andrew,Johnson,andrew.johnson31@example.com,Seattle,WA,2024-02-28,Direct,Returning
+32,William,Johnson,william.johnson32@example.com,Nashville,TN,2025-11-22,Direct,New
+33,Jessica,Jackson,jessica.jackson33@example.com,Los Angeles,CA,2025-09-26,Direct,Returning
+34,Kimberly,Hernandez,kimberly.hernandez34@example.com,Dallas,TX,2024-07-28,Email,New
+35,Betty,Jones,betty.jones35@example.com,Austin,TX,2025-04-13,Organic Search,Returning
+36,James,Anderson,james.anderson36@example.com,Houston,TX,2025-06-02,Organic Search,VIP
+37,Jessica,Lopez,jessica.lopez37@example.com,Austin,TX,2024-06-10,Email,Returning
+38,Michelle,Sanchez,michelle.sanchez38@example.com,Nashville,TN,2025-07-21,Paid Search,Returning
+39,Thomas,Brown,thomas.brown39@example.com,Houston,TX,2024-10-05,Email,New
+40,Susan,Perez,susan.perez40@example.com,Dallas,TX,2026-05-16,Email,Returning
+41,Robert,Smith,robert.smith41@example.com,Seattle,WA,2026-02-28,Paid Search,VIP
+42,Donald,Moore,donald.moore42@example.com,Atlanta,GA,2025-07-28,Referral,New
+43,Elizabeth,Moore,elizabeth.moore43@example.com,Los Angeles,CA,2026-05-04,Social Media,Returning
+44,David,Johnson,david.johnson44@example.com,Austin,TX,2025-11-13,Social Media,Returning
+45,Michelle,White,michelle.white45@example.com,Phoenix,AZ,2026-06-21,Email,New
+46,Mark,Sanchez,mark.sanchez46@example.com,San Diego,CA,2024-09-30,Social Media,Returning
+47,Robert,Ramirez,robert.ramirez47@example.com,Portland,OR,2024-08-15,Email,VIP
+48,Karen,Clark,karen.clark48@example.com,San Diego,CA,2024-08-16,Email,New
+49,Sarah,Ramirez,sarah.ramirez49@example.com,Chicago,IL,2026-03-02,Social Media,Returning
+50,Andrew,Hernandez,andrew.hernandez50@example.com,New York,NY,2024-09-24,Email,VIP
+51,Robert,Brown,robert.brown51@example.com,Atlanta,GA,2024-12-19,Direct,New
+52,Paul,Brown,paul.brown52@example.com,Boston,MA,2025-08-13,Social Media,New
+53,James,Taylor,james.taylor53@example.com,Minneapolis,MN,2025-12-04,Referral,Returning
+54,Richard,Lopez,richard.lopez54@example.com,Atlanta,GA,2024-12-04,Organic Search,Returning
+55,Karen,Taylor,karen.taylor55@example.com,Austin,TX,2025-11-13,Email,New
+56,Emily,Jones,emily.jones56@example.com,San Antonio,TX,2024-11-04,Email,Returning
+57,Charles,Miller,charles.miller57@example.com,Atlanta,GA,2025-11-01,Referral,New
+58,Susan,Taylor,susan.taylor58@example.com,Portland,OR,2025-11-05,Referral,Returning
+59,Michelle,Hernandez,michelle.hernandez59@example.com,Chicago,IL,2024-05-30,Social Media,New
+60,Michelle,Ramirez,michelle.ramirez60@example.com,Chicago,IL,2025-04-11,Paid Search,Returning
+61,Anthony,Thomas,anthony.thomas61@example.com,Boston,MA,2024-09-06,Organic Search,Returning
+62,Margaret,Davis,margaret.davis62@example.com,Philadelphia,PA,2025-07-24,Social Media,Returning
+63,David,Sanchez,david.sanchez63@example.com,Miami,FL,2025-11-14,Email,Returning
+64,Donald,Martin,donald.martin64@example.com,Nashville,TN,2025-07-15,Social Media,New
+65,Donald,Rodriguez,donald.rodriguez65@example.com,San Diego,CA,2024-10-08,Paid Search,Returning
+66,Sarah,Hernandez,sarah.hernandez66@example.com,Seattle,WA,2025-07-07,Social Media,New
+67,Elizabeth,Thompson,elizabeth.thompson67@example.com,San Antonio,TX,2024-03-06,Social Media,New
+68,Mark,Johnson,mark.johnson68@example.com,San Antonio,TX,2026-05-02,Direct,VIP
+69,Mary,Ramirez,mary.ramirez69@example.com,Boston,MA,2025-05-03,Social Media,New
+70,Mark,Moore,mark.moore70@example.com,Minneapolis,MN,2024-10-06,Email,New
+71,Betty,White,betty.white71@example.com,Philadelphia,PA,2025-06-30,Direct,New
+72,Mary,Williams,mary.williams72@example.com,Atlanta,GA,2024-07-05,Paid Search,New
+73,Sandra,Hernandez,sandra.hernandez73@example.com,Seattle,WA,2026-05-01,Social Media,Returning
+74,Mary,White,mary.white74@example.com,Minneapolis,MN,2024-12-24,Referral,New
+75,Robert,Harris,robert.harris75@example.com,New York,NY,2024-09-10,Paid Search,New
+76,Jessica,Jones,jessica.jones76@example.com,Portland,OR,2025-11-16,Social Media,VIP
+77,Thomas,Harris,thomas.harris77@example.com,Denver,CO,2024-11-14,Email,New
+78,Joshua,Perez,joshua.perez78@example.com,Boston,MA,2024-07-22,Referral,Returning
+79,Jessica,Brown,jessica.brown79@example.com,Austin,TX,2026-04-04,Organic Search,VIP
+80,Matthew,Moore,matthew.moore80@example.com,Atlanta,GA,2025-11-08,Email,Returning
+81,James,Ramirez,james.ramirez81@example.com,Atlanta,GA,2025-03-21,Referral,Returning
+82,Sarah,Martin,sarah.martin82@example.com,Minneapolis,MN,2025-08-29,Organic Search,VIP
+83,Sarah,Lewis,sarah.lewis83@example.com,Miami,FL,2025-01-23,Email,Returning
+84,Barbara,Thomas,barbara.thomas84@example.com,San Antonio,TX,2024-12-29,Direct,New
+85,Sarah,Moore,sarah.moore85@example.com,New York,NY,2024-03-28,Direct,New
+86,Jessica,Thompson,jessica.thompson86@example.com,Portland,OR,2024-04-05,Paid Search,New
+87,Karen,Perez,karen.perez87@example.com,Denver,CO,2024-12-18,Email,Returning
+88,Matthew,Thompson,matthew.thompson88@example.com,Miami,FL,2024-10-04,Referral,New
+89,Richard,Hernandez,richard.hernandez89@example.com,Houston,TX,2024-07-15,Referral,Returning
+90,Donna,Harris,donna.harris90@example.com,Nashville,TN,2025-09-03,Paid Search,New
+91,Charles,Davis,charles.davis91@example.com,Denver,CO,2024-07-02,Paid Search,Returning
+92,Sarah,Johnson,sarah.johnson92@example.com,Los Angeles,CA,2025-07-20,Referral,VIP
+93,Ashley,Brown,ashley.brown93@example.com,New York,NY,2025-08-10,Email,Returning
+94,Barbara,Johnson,barbara.johnson94@example.com,Dallas,TX,2026-04-21,Direct,Returning
+95,Patricia,Jones,patricia.jones95@example.com,Phoenix,AZ,2024-11-07,Direct,New
+96,Mark,Martin,mark.martin96@example.com,San Diego,CA,2025-03-15,Direct,Returning
+97,Michael,Harris,michael.harris97@example.com,San Antonio,TX,2025-10-02,Paid Search,Returning
+98,Jessica,Garcia,jessica.garcia98@example.com,Minneapolis,MN,2024-03-17,Referral,New
+99,Kenneth,Thomas,kenneth.thomas99@example.com,Austin,TX,2024-02-03,Referral,Returning
+100,Sandra,Williams,sandra.williams100@example.com,San Diego,CA,2025-03-11,Paid Search,New
+101,Sarah,Clark,sarah.clark101@example.com,Phoenix,AZ,2024-03-14,Direct,Returning
+102,Joshua,Robinson,joshua.robinson102@example.com,Austin,TX,2025-03-25,Referral,Returning
+103,Betty,Rodriguez,betty.rodriguez103@example.com,Nashville,TN,2025-07-06,Organic Search,New
+104,Margaret,White,margaret.white104@example.com,Seattle,WA,2025-09-10,Referral,New
+105,Joshua,Jackson,joshua.jackson105@example.com,New York,NY,2025-04-26,Referral,New
+106,Michael,Ramirez,michael.ramirez106@example.com,Philadelphia,PA,2024-12-03,Referral,Returning
+107,Betty,Clark,betty.clark107@example.com,Minneapolis,MN,2024-11-18,Social Media,New
+108,Paul,Clark,paul.clark108@example.com,New York,NY,2025-11-04,Organic Search,Returning
+109,Richard,Taylor,richard.taylor109@example.com,Denver,CO,2025-10-02,Email,New
+110,Emily,Jones,emily.jones110@example.com,Austin,TX,2025-05-11,Direct,VIP
+111,Jessica,Thompson,jessica.thompson111@example.com,Philadelphia,PA,2024-11-14,Organic Search,Returning
+112,Joseph,Clark,joseph.clark112@example.com,Houston,TX,2024-10-06,Social Media,Returning
+113,Jessica,Anderson,jessica.anderson113@example.com,Minneapolis,MN,2024-05-28,Direct,VIP
+114,David,Ramirez,david.ramirez114@example.com,Chicago,IL,2026-05-24,Direct,VIP
+115,Sarah,Clark,sarah.clark115@example.com,New York,NY,2025-11-06,Direct,New
+116,Steven,Lopez,steven.lopez116@example.com,Seattle,WA,2024-11-25,Paid Search,VIP
+117,Joshua,Gonzalez,joshua.gonzalez117@example.com,San Diego,CA,2024-02-14,Social Media,Returning
+118,Anthony,Perez,anthony.perez118@example.com,Phoenix,AZ,2025-08-27,Social Media,New
+119,Michael,Taylor,michael.taylor119@example.com,Miami,FL,2024-06-07,Email,Returning
+120,Nancy,Martin,nancy.martin120@example.com,Boston,MA,2025-10-27,Referral,New
+121,Andrew,Gonzalez,andrew.gonzalez121@example.com,Seattle,WA,2025-07-08,Referral,New
+122,Charles,Davis,charles.davis122@example.com,Chicago,IL,2026-06-12,Email,New
+123,Mary,Johnson,mary.johnson123@example.com,Seattle,WA,2026-03-26,Social Media,New
+124,Elizabeth,Davis,elizabeth.davis124@example.com,Nashville,TN,2026-03-22,Direct,New
+125,Anthony,Martin,anthony.martin125@example.com,San Diego,CA,2024-05-26,Social Media,Returning
+126,Thomas,Perez,thomas.perez126@example.com,New York,NY,2024-06-10,Direct,VIP
+127,Karen,Lee,karen.lee127@example.com,Atlanta,GA,2025-12-07,Paid Search,Returning
+128,Anthony,Ramirez,anthony.ramirez128@example.com,Portland,OR,2024-04-19,Direct,Returning
+129,Charles,Thompson,charles.thompson129@example.com,Austin,TX,2025-11-05,Referral,New
+130,Patricia,Robinson,patricia.robinson130@example.com,Portland,OR,2024-12-26,Email,New
+131,David,Lee,david.lee131@example.com,Houston,TX,2024-11-12,Email,New
+132,David,Williams,david.williams132@example.com,Austin,TX,2024-11-30,Paid Search,New
+133,Andrew,Lewis,andrew.lewis133@example.com,Denver,CO,2024-12-12,Organic Search,Returning
+134,Elizabeth,Harris,elizabeth.harris134@example.com,San Diego,CA,2025-11-21,Direct,VIP
+135,Lisa,Williams,lisa.williams135@example.com,Boston,MA,2024-01-15,Email,New
+136,Thomas,Jackson,thomas.jackson136@example.com,Boston,MA,2025-01-15,Organic Search,New
+137,Michelle,Lewis,michelle.lewis137@example.com,Minneapolis,MN,2024-12-01,Organic Search,New
+138,Sandra,Robinson,sandra.robinson138@example.com,Austin,TX,2025-10-26,Organic Search,New
+139,Karen,Thomas,karen.thomas139@example.com,Houston,TX,2024-04-09,Social Media,Returning
+140,Sandra,Lopez,sandra.lopez140@example.com,Minneapolis,MN,2026-01-14,Organic Search,New
+141,Ashley,Martin,ashley.martin141@example.com,Atlanta,GA,2024-10-13,Social Media,New
+142,Donald,Davis,donald.davis142@example.com,Denver,CO,2025-10-22,Paid Search,New
+143,Linda,Ramirez,linda.ramirez143@example.com,Miami,FL,2024-01-22,Paid Search,New
+144,Joshua,Miller,joshua.miller144@example.com,Chicago,IL,2024-07-31,Paid Search,Returning
+145,Nancy,Harris,nancy.harris145@example.com,Phoenix,AZ,2024-01-03,Paid Search,VIP
+146,Andrew,Rodriguez,andrew.rodriguez146@example.com,Philadelphia,PA,2024-01-27,Paid Search,New
+147,Donna,Hernandez,donna.hernandez147@example.com,New York,NY,2024-06-27,Social Media,New
+148,Kimberly,Brown,kimberly.brown148@example.com,Chicago,IL,2025-05-02,Direct,New
+149,Michael,Anderson,michael.anderson149@example.com,Nashville,TN,2024-11-04,Organic Search,VIP
+150,Steven,Ramirez,steven.ramirez150@example.com,Boston,MA,2025-03-30,Direct,New
+151,Elizabeth,Williams,elizabeth.williams151@example.com,Phoenix,AZ,2024-11-28,Email,Returning
+152,Sandra,Taylor,sandra.taylor152@example.com,Atlanta,GA,2024-08-08,Social Media,VIP
+153,Nancy,Clark,nancy.clark153@example.com,Miami,FL,2024-04-07,Email,New
+154,Lisa,Jones,lisa.jones154@example.com,Portland,OR,2024-03-09,Social Media,New
+155,Michael,White,michael.white155@example.com,Denver,CO,2026-04-11,Direct,New
+156,Emily,Hernandez,emily.hernandez156@example.com,Houston,TX,2025-11-12,Referral,New
+157,Patricia,Martinez,patricia.martinez157@example.com,Austin,TX,2024-12-26,Paid Search,Returning
+158,Steven,Davis,steven.davis158@example.com,Houston,TX,2024-12-24,Email,New
+159,Joshua,Davis,joshua.davis159@example.com,Atlanta,GA,2025-07-24,Referral,VIP
+160,Sarah,Smith,sarah.smith160@example.com,Philadelphia,PA,2024-11-12,Paid Search,New
+161,Elizabeth,Jackson,elizabeth.jackson161@example.com,Boston,MA,2024-03-12,Organic Search,Returning
+162,Jennifer,White,jennifer.white162@example.com,Nashville,TN,2024-08-08,Paid Search,Returning
+163,Lisa,Martinez,lisa.martinez163@example.com,Seattle,WA,2025-09-02,Paid Search,New
+164,Michelle,Johnson,michelle.johnson164@example.com,Chicago,IL,2024-10-05,Direct,New
+165,Donald,Wilson,donald.wilson165@example.com,Dallas,TX,2024-04-26,Referral,New
+166,Donna,Thomas,donna.thomas166@example.com,Nashville,TN,2025-11-14,Direct,New
+167,Patricia,Smith,patricia.smith167@example.com,San Antonio,TX,2024-11-04,Email,Returning
+168,Charles,Hernandez,charles.hernandez168@example.com,Houston,TX,2025-03-16,Referral,New
+169,Joseph,Taylor,joseph.taylor169@example.com,Minneapolis,MN,2024-12-28,Organic Search,VIP
+170,Margaret,Smith,margaret.smith170@example.com,Miami,FL,2025-08-12,Referral,New
+171,Mark,Martinez,mark.martinez171@example.com,Houston,TX,2025-02-18,Direct,New
+172,Sandra,Clark,sandra.clark172@example.com,Denver,CO,2024-03-31,Social Media,New
+173,Donna,Gonzalez,donna.gonzalez173@example.com,Nashville,TN,2024-03-21,Email,New
+174,Joseph,Hernandez,joseph.hernandez174@example.com,Philadelphia,PA,2024-12-23,Referral,VIP
+175,Elizabeth,Davis,elizabeth.davis175@example.com,Houston,TX,2024-05-29,Paid Search,New
+176,John,Garcia,john.garcia176@example.com,Portland,OR,2025-11-28,Referral,Returning
+177,Michelle,Hernandez,michelle.hernandez177@example.com,Seattle,WA,2024-06-03,Referral,Returning
+178,Karen,Sanchez,karen.sanchez178@example.com,Dallas,TX,2025-08-28,Email,Returning
+179,Sandra,Anderson,sandra.anderson179@example.com,Los Angeles,CA,2024-10-20,Organic Search,VIP
+180,Michelle,Martin,michelle.martin180@example.com,Nashville,TN,2024-11-25,Organic Search,Returning
+181,Donald,Brown,donald.brown181@example.com,Seattle,WA,2026-01-01,Organic Search,Returning
+182,Jessica,Thompson,jessica.thompson182@example.com,Miami,FL,2025-09-16,Email,New
+183,Anthony,Wilson,anthony.wilson183@example.com,Seattle,WA,2025-11-26,Referral,Returning
+184,Nancy,Williams,nancy.williams184@example.com,Seattle,WA,2025-01-30,Referral,Returning
+185,Kenneth,Ramirez,kenneth.ramirez185@example.com,Phoenix,AZ,2024-12-07,Email,Returning
+186,Karen,Lee,karen.lee186@example.com,Boston,MA,2024-03-27,Email,New
+187,David,Perez,david.perez187@example.com,Nashville,TN,2024-12-15,Paid Search,Returning
+188,David,Jones,david.jones188@example.com,Chicago,IL,2025-11-08,Paid Search,Returning
+189,Kenneth,Gonzalez,kenneth.gonzalez189@example.com,Phoenix,AZ,2024-06-15,Direct,Returning
+190,William,White,william.white190@example.com,Miami,FL,2025-11-23,Direct,VIP
+191,Charles,Harris,charles.harris191@example.com,Miami,FL,2024-11-12,Paid Search,Returning
+192,Lisa,Perez,lisa.perez192@example.com,Miami,FL,2026-03-07,Paid Search,Returning
+193,Richard,Sanchez,richard.sanchez193@example.com,Phoenix,AZ,2026-06-12,Email,Returning
+194,Emily,Robinson,emily.robinson194@example.com,Houston,TX,2025-12-29,Email,VIP
+195,Jennifer,Harris,jennifer.harris195@example.com,Philadelphia,PA,2024-10-06,Social Media,Returning
+196,Jennifer,Robinson,jennifer.robinson196@example.com,San Diego,CA,2026-04-16,Organic Search,New
+197,Mark,Johnson,mark.johnson197@example.com,Boston,MA,2025-05-29,Organic Search,New
+198,Lisa,Davis,lisa.davis198@example.com,New York,NY,2024-11-22,Referral,Returning
+199,Nancy,Sanchez,nancy.sanchez199@example.com,Phoenix,AZ,2024-05-20,Social Media,VIP
+200,David,Harris,david.harris200@example.com,Portland,OR,2024-03-22,Paid Search,New
+201,Emily,White,emily.white201@example.com,Nashville,TN,2025-03-09,Email,New
+202,Linda,Johnson,linda.johnson202@example.com,San Diego,CA,2025-08-11,Social Media,New
+203,James,Martin,james.martin203@example.com,Denver,CO,2024-07-10,Email,New
+204,John,Taylor,john.taylor204@example.com,Minneapolis,MN,2025-01-17,Organic Search,New
+205,Matthew,Davis,matthew.davis205@example.com,Houston,TX,2026-02-13,Direct,New
+206,Nancy,Clark,nancy.clark206@example.com,Philadelphia,PA,2026-04-10,Social Media,Returning
+207,Robert,Martinez,robert.martinez207@example.com,San Antonio,TX,2026-06-26,Direct,VIP
+208,Betty,Clark,betty.clark208@example.com,Minneapolis,MN,2025-04-29,Paid Search,Returning
+209,Charles,Lopez,charles.lopez209@example.com,Los Angeles,CA,2024-10-06,Social Media,New
+210,Donald,Lewis,donald.lewis210@example.com,Boston,MA,2024-12-13,Social Media,Returning
+211,Lisa,Robinson,lisa.robinson211@example.com,Nashville,TN,2026-04-22,Organic Search,New
+212,Jennifer,Hernandez,jennifer.hernandez212@example.com,Austin,TX,2024-11-09,Paid Search,Returning
+213,Donald,Lopez,donald.lopez213@example.com,Miami,FL,2024-12-27,Referral,New
+214,Patricia,Williams,patricia.williams214@example.com,Boston,MA,2024-02-01,Social Media,Returning
+215,Robert,Jones,robert.jones215@example.com,Chicago,IL,2025-08-03,Social Media,New
+216,Lisa,Lopez,lisa.lopez216@example.com,Miami,FL,2026-02-20,Email,New
+217,Betty,Hernandez,betty.hernandez217@example.com,Dallas,TX,2025-07-29,Referral,Returning
+218,Donald,Miller,donald.miller218@example.com,Austin,TX,2025-12-11,Organic Search,Returning
+219,David,Ramirez,david.ramirez219@example.com,Chicago,IL,2025-04-07,Organic Search,Returning
+220,Daniel,Perez,daniel.perez220@example.com,Denver,CO,2025-12-27,Email,Returning
+221,William,Thompson,william.thompson221@example.com,Philadelphia,PA,2026-03-23,Paid Search,New
+222,David,Davis,david.davis222@example.com,Portland,OR,2025-08-09,Direct,Returning
+223,David,Martin,david.martin223@example.com,Chicago,IL,2024-03-08,Referral,VIP
+224,Steven,Taylor,steven.taylor224@example.com,Atlanta,GA,2025-08-11,Referral,VIP
+225,John,Anderson,john.anderson225@example.com,Miami,FL,2025-11-27,Direct,New
+226,Donna,Garcia,donna.garcia226@example.com,Phoenix,AZ,2026-06-08,Paid Search,New
+227,Karen,Garcia,karen.garcia227@example.com,Philadelphia,PA,2024-11-26,Direct,New
+228,Charles,Ramirez,charles.ramirez228@example.com,Chicago,IL,2024-09-13,Email,VIP
+229,David,Lee,david.lee229@example.com,Austin,TX,2024-06-06,Direct,Returning
+230,Nancy,Clark,nancy.clark230@example.com,Los Angeles,CA,2024-03-24,Direct,Returning
+231,Thomas,Lee,thomas.lee231@example.com,San Antonio,TX,2025-07-12,Social Media,VIP
+232,Jessica,Sanchez,jessica.sanchez232@example.com,Boston,MA,2024-10-31,Paid Search,Returning
+233,Donald,Wilson,donald.wilson233@example.com,Portland,OR,2025-04-20,Email,Returning
+234,Daniel,White,daniel.white234@example.com,Denver,CO,2025-02-12,Direct,New
+235,Michael,Hernandez,michael.hernandez235@example.com,San Diego,CA,2025-04-22,Paid Search,New
+236,Michael,Johnson,michael.johnson236@example.com,Austin,TX,2025-03-04,Paid Search,VIP
+237,Daniel,Robinson,daniel.robinson237@example.com,Seattle,WA,2024-11-11,Social Media,New
+238,Paul,Anderson,paul.anderson238@example.com,San Diego,CA,2024-02-19,Referral,Returning
+239,Steven,Martinez,steven.martinez239@example.com,Minneapolis,MN,2025-03-17,Email,New
+240,Betty,Lopez,betty.lopez240@example.com,Los Angeles,CA,2025-02-14,Email,Returning
+241,Emily,Martinez,emily.martinez241@example.com,Chicago,IL,2025-11-27,Organic Search,New
+242,Betty,Lopez,betty.lopez242@example.com,Seattle,WA,2026-02-12,Social Media,Returning
+243,Paul,Johnson,paul.johnson243@example.com,Los Angeles,CA,2024-02-09,Social Media,New
+244,Kimberly,Anderson,kimberly.anderson244@example.com,Phoenix,AZ,2024-05-23,Paid Search,Returning
+245,Betty,Martin,betty.martin245@example.com,Austin,TX,2025-08-30,Direct,Returning
+246,Ashley,Thompson,ashley.thompson246@example.com,Austin,TX,2025-01-12,Social Media,New
+247,Donna,Martinez,donna.martinez247@example.com,New York,NY,2025-11-02,Direct,Returning
+248,Joseph,White,joseph.white248@example.com,Los Angeles,CA,2025-01-24,Organic Search,Returning
+249,Joshua,Thompson,joshua.thompson249@example.com,Houston,TX,2024-07-14,Paid Search,New
+250,Mark,Thompson,mark.thompson250@example.com,San Antonio,TX,2026-01-14,Paid Search,New
+251,Emily,Hernandez,emily.hernandez251@example.com,Portland,OR,2025-06-22,Social Media,VIP
+252,Andrew,Hernandez,andrew.hernandez252@example.com,Minneapolis,MN,2024-12-28,Referral,VIP
+253,Thomas,Martin,thomas.martin253@example.com,Portland,OR,2025-12-22,Email,Returning
+254,Steven,Lopez,steven.lopez254@example.com,Minneapolis,MN,2024-10-21,Social Media,Returning
+255,Betty,Clark,betty.clark255@example.com,Denver,CO,2024-10-24,Organic Search,VIP
+256,Matthew,Robinson,matthew.robinson256@example.com,Miami,FL,2025-11-02,Paid Search,Returning
+257,Andrew,Rodriguez,andrew.rodriguez257@example.com,Minneapolis,MN,2025-12-13,Referral,New
+258,Donna,Davis,donna.davis258@example.com,San Diego,CA,2025-06-27,Organic Search,New
+259,Mark,Hernandez,mark.hernandez259@example.com,Portland,OR,2024-05-20,Paid Search,Returning
+260,Mark,Lee,mark.lee260@example.com,Portland,OR,2024-11-24,Organic Search,New
+261,Joshua,Davis,joshua.davis261@example.com,Minneapolis,MN,2024-06-28,Organic Search,Returning
+262,Betty,Sanchez,betty.sanchez262@example.com,Portland,OR,2026-06-16,Direct,New
+263,Michael,Robinson,michael.robinson263@example.com,Seattle,WA,2024-10-18,Direct,Returning
+264,Ashley,Lewis,ashley.lewis264@example.com,Phoenix,AZ,2024-10-06,Paid Search,New
+265,Sandra,Lee,sandra.lee265@example.com,Dallas,TX,2026-01-05,Email,Returning
+266,Joshua,Perez,joshua.perez266@example.com,San Antonio,TX,2026-04-26,Social Media,New
+267,Michael,Garcia,michael.garcia267@example.com,Phoenix,AZ,2025-05-03,Email,New
+268,Anthony,Davis,anthony.davis268@example.com,Miami,FL,2026-02-10,Direct,New
+269,Joshua,Smith,joshua.smith269@example.com,Dallas,TX,2025-10-31,Referral,New
+270,Linda,Anderson,linda.anderson270@example.com,Austin,TX,2024-06-12,Referral,Returning
+271,Karen,Thompson,karen.thompson271@example.com,Houston,TX,2024-10-29,Paid Search,New
+272,Steven,Jones,steven.jones272@example.com,Miami,FL,2025-11-11,Referral,Returning
+273,Kenneth,Ramirez,kenneth.ramirez273@example.com,Chicago,IL,2025-06-22,Organic Search,Returning
+274,Joshua,Brown,joshua.brown274@example.com,Los Angeles,CA,2025-06-01,Paid Search,Returning
+275,Daniel,Ramirez,daniel.ramirez275@example.com,Nashville,TN,2025-03-28,Direct,New
+276,Ashley,Williams,ashley.williams276@example.com,Nashville,TN,2025-04-09,Direct,New
+277,Patricia,Moore,patricia.moore277@example.com,Miami,FL,2025-11-19,Social Media,Returning
+278,Thomas,Clark,thomas.clark278@example.com,New York,NY,2026-02-02,Social Media,New
+279,Matthew,Thompson,matthew.thompson279@example.com,Chicago,IL,2025-04-28,Paid Search,New
+280,Mark,Lopez,mark.lopez280@example.com,Boston,MA,2025-11-30,Paid Search,VIP
+281,Matthew,Brown,matthew.brown281@example.com,Philadelphia,PA,2025-07-04,Paid Search,New
+282,James,Harris,james.harris282@example.com,New York,NY,2024-11-01,Social Media,Returning
+283,Andrew,Gonzalez,andrew.gonzalez283@example.com,San Diego,CA,2024-06-07,Referral,VIP
+284,Linda,Johnson,linda.johnson284@example.com,Atlanta,GA,2024-09-03,Organic Search,New
+285,Donald,Martin,donald.martin285@example.com,Los Angeles,CA,2025-07-06,Organic Search,VIP
+286,David,Taylor,david.taylor286@example.com,Austin,TX,2025-11-19,Paid Search,New
+287,Kimberly,Davis,kimberly.davis287@example.com,Atlanta,GA,2024-11-03,Direct,Returning
+288,Barbara,Lee,barbara.lee288@example.com,Atlanta,GA,2025-07-23,Referral,VIP
+289,Anthony,Sanchez,anthony.sanchez289@example.com,Nashville,TN,2024-11-22,Email,New
+290,Anthony,Garcia,anthony.garcia290@example.com,Minneapolis,MN,2025-04-29,Referral,New
+291,Elizabeth,Sanchez,elizabeth.sanchez291@example.com,Miami,FL,2024-05-17,Email,New
+292,Jennifer,Robinson,jennifer.robinson292@example.com,Miami,FL,2026-05-17,Paid Search,Returning
+293,Patricia,Rodriguez,patricia.rodriguez293@example.com,Boston,MA,2025-11-20,Organic Search,New
+294,Richard,Sanchez,richard.sanchez294@example.com,Minneapolis,MN,2024-11-06,Paid Search,New
+295,Linda,White,linda.white295@example.com,Portland,OR,2025-12-21,Direct,VIP
+296,Daniel,Harris,daniel.harris296@example.com,Austin,TX,2025-10-26,Direct,New
+297,Ashley,Anderson,ashley.anderson297@example.com,Houston,TX,2024-11-23,Social Media,New
+298,Robert,Jackson,robert.jackson298@example.com,San Diego,CA,2026-01-29,Direct,New
+299,Donna,White,donna.white299@example.com,Atlanta,GA,2024-10-29,Social Media,New
+300,Joshua,Clark,joshua.clark300@example.com,San Diego,CA,2025-12-02,Social Media,Returning
+301,Ashley,Anderson,ashley.anderson301@example.com,Philadelphia,PA,2024-06-22,Paid Search,Returning
+302,Andrew,Lee,andrew.lee302@example.com,Los Angeles,CA,2025-06-20,Referral,Returning
+303,Patricia,Harris,patricia.harris303@example.com,New York,NY,2025-02-26,Organic Search,Returning
+304,Elizabeth,Smith,elizabeth.smith304@example.com,San Antonio,TX,2025-11-13,Referral,VIP
+305,Ashley,Smith,ashley.smith305@example.com,New York,NY,2024-01-13,Direct,Returning
+306,Charles,Smith,charles.smith306@example.com,Nashville,TN,2024-07-02,Paid Search,New
+307,Jessica,Miller,jessica.miller307@example.com,Nashville,TN,2024-03-21,Direct,New
+308,Jessica,Thompson,jessica.thompson308@example.com,San Diego,CA,2024-11-03,Referral,Returning
+309,Robert,Williams,robert.williams309@example.com,Boston,MA,2025-05-02,Paid Search,New
+310,Jennifer,Thomas,jennifer.thomas310@example.com,Atlanta,GA,2024-02-13,Referral,VIP
+311,Joshua,Thomas,joshua.thomas311@example.com,Dallas,TX,2025-12-01,Direct,VIP
+312,Robert,Garcia,robert.garcia312@example.com,Seattle,WA,2025-08-24,Social Media,Returning
+313,John,Martinez,john.martinez313@example.com,Philadelphia,PA,2025-07-31,Social Media,Returning
+314,Andrew,Hernandez,andrew.hernandez314@example.com,Boston,MA,2026-01-11,Email,Returning
+315,Patricia,Brown,patricia.brown315@example.com,Atlanta,GA,2024-12-14,Direct,Returning
+316,Betty,Harris,betty.harris316@example.com,Seattle,WA,2025-05-17,Social Media,Returning
+317,Margaret,Garcia,margaret.garcia317@example.com,Boston,MA,2025-12-31,Social Media,New
+318,Elizabeth,White,elizabeth.white318@example.com,Boston,MA,2024-11-20,Email,New
+319,Donald,Lopez,donald.lopez319@example.com,Dallas,TX,2024-04-14,Social Media,New
+320,Emily,Moore,emily.moore320@example.com,Nashville,TN,2025-02-21,Direct,New
+321,Jennifer,Martin,jennifer.martin321@example.com,Seattle,WA,2026-06-03,Social Media,New
+322,Jennifer,White,jennifer.white322@example.com,Minneapolis,MN,2024-06-22,Social Media,New
+323,Elizabeth,Williams,elizabeth.williams323@example.com,Philadelphia,PA,2025-03-21,Organic Search,New
+324,Lisa,Rodriguez,lisa.rodriguez324@example.com,San Diego,CA,2025-04-13,Social Media,New
+325,Nancy,Clark,nancy.clark325@example.com,Boston,MA,2025-03-26,Referral,Returning
+326,Kenneth,Jones,kenneth.jones326@example.com,Austin,TX,2024-11-24,Social Media,Returning
+327,Daniel,Garcia,daniel.garcia327@example.com,Boston,MA,2024-11-22,Social Media,Returning
+328,Joshua,Sanchez,joshua.sanchez328@example.com,San Diego,CA,2024-11-29,Social Media,Returning
+329,Lisa,Brown,lisa.brown329@example.com,San Antonio,TX,2024-07-03,Referral,Returning
+330,Sandra,Thompson,sandra.thompson330@example.com,San Antonio,TX,2026-03-25,Referral,Returning
+331,Karen,Davis,karen.davis331@example.com,Dallas,TX,2025-11-05,Social Media,New
+332,John,Anderson,john.anderson332@example.com,Portland,OR,2025-08-19,Referral,Returning
+333,Mark,Moore,mark.moore333@example.com,Los Angeles,CA,2025-12-19,Referral,Returning
+334,Jennifer,Brown,jennifer.brown334@example.com,San Diego,CA,2025-11-04,Direct,New
+335,Robert,Jackson,robert.jackson335@example.com,Boston,MA,2026-02-09,Organic Search,Returning
+336,James,Brown,james.brown336@example.com,Dallas,TX,2025-12-05,Social Media,New
+337,Sandra,Harris,sandra.harris337@example.com,Nashville,TN,2024-06-03,Organic Search,New
+338,Charles,Wilson,charles.wilson338@example.com,Chicago,IL,2026-01-17,Social Media,New
+339,Susan,Taylor,susan.taylor339@example.com,Portland,OR,2024-12-22,Referral,New
+340,Donald,Hernandez,donald.hernandez340@example.com,Chicago,IL,2024-11-03,Organic Search,Returning
+341,Nancy,Lee,nancy.lee341@example.com,Houston,TX,2025-11-24,Referral,VIP
+342,Jessica,Taylor,jessica.taylor342@example.com,Philadelphia,PA,2025-07-19,Social Media,Returning
+343,Joseph,Sanchez,joseph.sanchez343@example.com,Boston,MA,2025-10-06,Social Media,Returning
+344,Betty,Smith,betty.smith344@example.com,San Antonio,TX,2025-02-02,Email,New
+345,John,Jackson,john.jackson345@example.com,Houston,TX,2024-07-10,Organic Search,New
+346,Thomas,Perez,thomas.perez346@example.com,Portland,OR,2024-11-16,Direct,Returning
+347,Linda,Lopez,linda.lopez347@example.com,Denver,CO,2025-12-23,Direct,VIP
+348,Jennifer,Perez,jennifer.perez348@example.com,Phoenix,AZ,2024-11-16,Paid Search,New
+349,Lisa,Thompson,lisa.thompson349@example.com,Phoenix,AZ,2025-06-07,Direct,Returning
+350,Anthony,Wilson,anthony.wilson350@example.com,Philadelphia,PA,2025-12-11,Paid Search,VIP
+351,Emily,Garcia,emily.garcia351@example.com,Portland,OR,2024-10-22,Social Media,New
+352,Michelle,Johnson,michelle.johnson352@example.com,Denver,CO,2025-07-29,Referral,Returning
+353,Ashley,Wilson,ashley.wilson353@example.com,Miami,FL,2025-05-15,Paid Search,Returning
+354,Charles,Johnson,charles.johnson354@example.com,Dallas,TX,2025-06-07,Direct,New
+355,Lisa,Moore,lisa.moore355@example.com,Los Angeles,CA,2025-07-13,Referral,New
+356,Jessica,Martinez,jessica.martinez356@example.com,Los Angeles,CA,2025-04-05,Organic Search,VIP
+357,Donald,Ramirez,donald.ramirez357@example.com,Houston,TX,2025-10-09,Paid Search,Returning
+358,Susan,Sanchez,susan.sanchez358@example.com,Los Angeles,CA,2025-08-06,Direct,New
+359,William,Hernandez,william.hernandez359@example.com,Austin,TX,2025-11-26,Social Media,New
+360,Patricia,Rodriguez,patricia.rodriguez360@example.com,Phoenix,AZ,2025-12-19,Referral,New
+361,Daniel,Clark,daniel.clark361@example.com,San Diego,CA,2025-10-04,Referral,Returning
+362,Jennifer,Gonzalez,jennifer.gonzalez362@example.com,Nashville,TN,2026-02-06,Email,VIP
+363,Sandra,Thomas,sandra.thomas363@example.com,Seattle,WA,2025-08-18,Referral,Returning
+364,Jennifer,White,jennifer.white364@example.com,Miami,FL,2026-04-24,Email,New
+365,Nancy,Moore,nancy.moore365@example.com,Phoenix,AZ,2026-03-18,Organic Search,Returning
+366,Robert,Brown,robert.brown366@example.com,Miami,FL,2024-01-17,Social Media,VIP
+367,Sandra,Smith,sandra.smith367@example.com,Atlanta,GA,2024-11-05,Email,VIP
+368,Jennifer,Lee,jennifer.lee368@example.com,Denver,CO,2024-09-13,Referral,Returning
+369,William,Johnson,william.johnson369@example.com,Boston,MA,2025-10-02,Paid Search,Returning
+370,Margaret,Lee,margaret.lee370@example.com,Chicago,IL,2025-12-21,Organic Search,New
+371,David,Jackson,david.jackson371@example.com,San Diego,CA,2024-01-10,Organic Search,New
+372,Margaret,Thompson,margaret.thompson372@example.com,Phoenix,AZ,2025-05-04,Referral,New
+373,Michael,Brown,michael.brown373@example.com,Seattle,WA,2024-05-20,Paid Search,Returning
+374,Elizabeth,Williams,elizabeth.williams374@example.com,Nashville,TN,2025-07-30,Social Media,Returning
+375,Matthew,White,matthew.white375@example.com,San Antonio,TX,2024-12-25,Paid Search,New
+376,Jessica,Rodriguez,jessica.rodriguez376@example.com,Chicago,IL,2025-12-08,Email,Returning
+377,Susan,Taylor,susan.taylor377@example.com,Nashville,TN,2024-04-25,Organic Search,Returning
+378,Kimberly,Lewis,kimberly.lewis378@example.com,New York,NY,2024-05-15,Social Media,Returning
+379,Lisa,Moore,lisa.moore379@example.com,Philadelphia,PA,2026-02-27,Organic Search,Returning
+380,Thomas,Miller,thomas.miller380@example.com,Los Angeles,CA,2025-12-19,Direct,Returning
+381,Michelle,Jones,michelle.jones381@example.com,Dallas,TX,2024-03-26,Paid Search,Returning
+382,Elizabeth,Moore,elizabeth.moore382@example.com,Seattle,WA,2025-11-28,Social Media,New
+383,Jessica,Johnson,jessica.johnson383@example.com,San Diego,CA,2024-04-28,Email,Returning
+384,Barbara,Brown,barbara.brown384@example.com,New York,NY,2025-12-25,Social Media,New
+385,Matthew,Taylor,matthew.taylor385@example.com,Nashville,TN,2024-09-22,Email,New
+386,Linda,Harris,linda.harris386@example.com,New York,NY,2024-12-09,Organic Search,New
+387,Thomas,Thompson,thomas.thompson387@example.com,Chicago,IL,2025-01-03,Paid Search,VIP
+388,Lisa,Garcia,lisa.garcia388@example.com,Dallas,TX,2026-03-02,Referral,Returning
+389,Linda,Davis,linda.davis389@example.com,Nashville,TN,2024-01-03,Paid Search,VIP
+390,Robert,Thomas,robert.thomas390@example.com,Denver,CO,2026-05-28,Referral,Returning
+391,Mark,Davis,mark.davis391@example.com,Seattle,WA,2024-09-11,Email,Returning
+392,John,Jackson,john.jackson392@example.com,Denver,CO,2024-02-23,Organic Search,Returning
+393,Betty,Williams,betty.williams393@example.com,Miami,FL,2026-06-05,Email,Returning
+394,Jennifer,Moore,jennifer.moore394@example.com,Miami,FL,2024-11-07,Email,New
+395,Donna,Thomas,donna.thomas395@example.com,San Antonio,TX,2024-06-03,Paid Search,New
+396,Andrew,Lopez,andrew.lopez396@example.com,New York,NY,2024-12-09,Referral,Returning
+397,Karen,Brown,karen.brown397@example.com,San Antonio,TX,2024-04-05,Direct,New
+398,Mark,Thompson,mark.thompson398@example.com,Denver,CO,2025-06-01,Organic Search,Returning
+399,Donna,Jackson,donna.jackson399@example.com,Los Angeles,CA,2024-05-13,Email,New
+400,Betty,Thompson,betty.thompson400@example.com,Seattle,WA,2024-11-21,Paid Search,New
+401,David,Harris,david.harris401@example.com,Houston,TX,2024-06-08,Email,New
+402,Mark,Brown,mark.brown402@example.com,Minneapolis,MN,2024-07-31,Organic Search,Returning
+403,Jennifer,Garcia,jennifer.garcia403@example.com,Austin,TX,2025-09-09,Email,Returning
+404,Elizabeth,Williams,elizabeth.williams404@example.com,San Diego,CA,2024-12-30,Email,New
+405,Thomas,Clark,thomas.clark405@example.com,Philadelphia,PA,2026-05-25,Paid Search,Returning
+406,Michael,Anderson,michael.anderson406@example.com,Houston,TX,2024-05-04,Paid Search,Returning
+407,David,Miller,david.miller407@example.com,Boston,MA,2025-10-22,Organic Search,Returning
+408,Mary,Williams,mary.williams408@example.com,San Antonio,TX,2025-10-23,Email,New
+409,Linda,Johnson,linda.johnson409@example.com,Miami,FL,2024-02-21,Referral,Returning
+410,Betty,Thomas,betty.thomas410@example.com,New York,NY,2024-06-25,Email,VIP
+411,Sarah,Anderson,sarah.anderson411@example.com,Phoenix,AZ,2025-09-23,Social Media,New
+412,Emily,Thomas,emily.thomas412@example.com,Los Angeles,CA,2024-03-30,Paid Search,New
+413,Kimberly,Davis,kimberly.davis413@example.com,Minneapolis,MN,2026-03-24,Referral,New
+414,Matthew,Thomas,matthew.thomas414@example.com,Minneapolis,MN,2025-02-01,Direct,New
+415,Joseph,Smith,joseph.smith415@example.com,Dallas,TX,2024-04-12,Direct,New
+416,Patricia,Harris,patricia.harris416@example.com,San Diego,CA,2026-03-27,Paid Search,VIP
+417,Barbara,Davis,barbara.davis417@example.com,Seattle,WA,2024-12-26,Direct,Returning
+418,Richard,Clark,richard.clark418@example.com,Portland,OR,2025-07-09,Organic Search,Returning
+419,Patricia,Davis,patricia.davis419@example.com,San Diego,CA,2024-01-01,Paid Search,Returning
+420,Nancy,Thompson,nancy.thompson420@example.com,Philadelphia,PA,2024-11-27,Referral,New
+421,Elizabeth,Harris,elizabeth.harris421@example.com,Houston,TX,2025-11-09,Email,New
+422,Daniel,Jones,daniel.jones422@example.com,Philadelphia,PA,2026-04-14,Referral,New
+423,Charles,Jones,charles.jones423@example.com,Philadelphia,PA,2026-01-16,Direct,Returning
+424,Betty,Ramirez,betty.ramirez424@example.com,Los Angeles,CA,2024-07-05,Direct,VIP
+425,Joseph,Lee,joseph.lee425@example.com,Houston,TX,2025-05-23,Paid Search,Returning
+426,Matthew,Hernandez,matthew.hernandez426@example.com,Philadelphia,PA,2025-11-17,Social Media,VIP
+427,James,Rodriguez,james.rodriguez427@example.com,San Antonio,TX,2024-12-24,Organic Search,New
+428,Patricia,Gonzalez,patricia.gonzalez428@example.com,Miami,FL,2024-12-25,Social Media,New
+429,Joshua,Lee,joshua.lee429@example.com,San Diego,CA,2024-06-15,Organic Search,Returning
+430,Charles,Smith,charles.smith430@example.com,Seattle,WA,2024-03-16,Paid Search,VIP
+431,John,Moore,john.moore431@example.com,Chicago,IL,2024-12-12,Social Media,Returning
+432,Mary,Wilson,mary.wilson432@example.com,Philadelphia,PA,2024-06-09,Paid Search,New
+433,Mark,Thompson,mark.thompson433@example.com,Minneapolis,MN,2025-07-07,Paid Search,New
+434,Michael,Johnson,michael.johnson434@example.com,Boston,MA,2025-05-17,Social Media,New
+435,Jennifer,Martinez,jennifer.martinez435@example.com,Portland,OR,2024-07-23,Referral,New
+436,Charles,Williams,charles.williams436@example.com,Portland,OR,2026-05-14,Social Media,Returning
+437,Ashley,Lewis,ashley.lewis437@example.com,Dallas,TX,2025-01-31,Email,VIP
+438,Barbara,Anderson,barbara.anderson438@example.com,Los Angeles,CA,2024-09-26,Email,New
+439,Joshua,Johnson,joshua.johnson439@example.com,Phoenix,AZ,2024-04-09,Direct,New
+440,Mark,Harris,mark.harris440@example.com,San Diego,CA,2025-07-20,Direct,New
+441,Mark,Moore,mark.moore441@example.com,Portland,OR,2025-05-02,Referral,New
+442,Robert,Taylor,robert.taylor442@example.com,Nashville,TN,2025-09-27,Social Media,VIP
+443,Barbara,Garcia,barbara.garcia443@example.com,San Antonio,TX,2026-04-07,Organic Search,New
+444,Margaret,Miller,margaret.miller444@example.com,Phoenix,AZ,2024-11-23,Organic Search,VIP
+445,Jennifer,Gonzalez,jennifer.gonzalez445@example.com,Minneapolis,MN,2026-05-27,Organic Search,Returning
+446,Michelle,Jackson,michelle.jackson446@example.com,Nashville,TN,2026-03-11,Paid Search,New
+447,Joshua,Jackson,joshua.jackson447@example.com,Houston,TX,2024-12-18,Referral,New
+448,Ashley,Jackson,ashley.jackson448@example.com,Portland,OR,2024-02-08,Direct,New
+449,Kenneth,Perez,kenneth.perez449@example.com,Boston,MA,2026-06-19,Referral,New
+450,Steven,Robinson,steven.robinson450@example.com,Dallas,TX,2025-01-16,Email,Returning
+451,Karen,Rodriguez,karen.rodriguez451@example.com,Portland,OR,2024-08-21,Social Media,VIP
+452,Daniel,Rodriguez,daniel.rodriguez452@example.com,Atlanta,GA,2024-07-11,Social Media,VIP
+453,Ashley,Harris,ashley.harris453@example.com,Nashville,TN,2026-06-07,Paid Search,New
+454,John,Martinez,john.martinez454@example.com,Nashville,TN,2025-02-17,Direct,VIP
+455,Mary,Garcia,mary.garcia455@example.com,San Antonio,TX,2026-05-07,Organic Search,New
+456,Lisa,Thompson,lisa.thompson456@example.com,San Antonio,TX,2024-10-07,Social Media,Returning
+457,Linda,Perez,linda.perez457@example.com,New York,NY,2024-09-04,Paid Search,Returning
+458,Steven,Jackson,steven.jackson458@example.com,Minneapolis,MN,2024-12-24,Email,Returning
+459,Jennifer,Martinez,jennifer.martinez459@example.com,New York,NY,2025-01-30,Paid Search,VIP
+460,Joseph,Lee,joseph.lee460@example.com,San Diego,CA,2025-11-24,Direct,Returning
+461,Mary,Ramirez,mary.ramirez461@example.com,New York,NY,2025-10-24,Paid Search,Returning
+462,Thomas,Martin,thomas.martin462@example.com,Austin,TX,2025-12-30,Social Media,Returning
+463,Anthony,Ramirez,anthony.ramirez463@example.com,Denver,CO,2025-04-15,Referral,Returning
+464,Kimberly,Clark,kimberly.clark464@example.com,Boston,MA,2025-08-21,Referral,Returning
+465,Lisa,Moore,lisa.moore465@example.com,Austin,TX,2024-11-01,Email,Returning
+466,Sarah,Lee,sarah.lee466@example.com,Seattle,WA,2026-06-01,Referral,Returning
+467,Karen,Miller,karen.miller467@example.com,Phoenix,AZ,2025-11-28,Social Media,New
+468,Charles,Rodriguez,charles.rodriguez468@example.com,Atlanta,GA,2024-12-17,Direct,New
+469,Steven,Robinson,steven.robinson469@example.com,Denver,CO,2025-06-03,Referral,New
+470,Emily,Garcia,emily.garcia470@example.com,Austin,TX,2026-01-28,Paid Search,Returning
+471,Nancy,Lee,nancy.lee471@example.com,Chicago,IL,2024-08-15,Email,Returning
+472,Mark,Sanchez,mark.sanchez472@example.com,Seattle,WA,2025-01-15,Organic Search,New
+473,Steven,Johnson,steven.johnson473@example.com,Chicago,IL,2025-05-27,Direct,Returning
+474,Karen,Wilson,karen.wilson474@example.com,Los Angeles,CA,2024-12-16,Social Media,Returning
+475,Elizabeth,Hernandez,elizabeth.hernandez475@example.com,Philadelphia,PA,2026-03-08,Paid Search,New
+476,Daniel,Lee,daniel.lee476@example.com,Los Angeles,CA,2025-10-10,Social Media,New
+477,Anthony,Smith,anthony.smith477@example.com,Los Angeles,CA,2025-06-30,Organic Search,New
+478,Daniel,Harris,daniel.harris478@example.com,Nashville,TN,2024-07-14,Referral,New
+479,Jessica,Davis,jessica.davis479@example.com,Denver,CO,2024-11-15,Direct,New
+480,Karen,Garcia,karen.garcia480@example.com,Chicago,IL,2026-04-23,Social Media,VIP
+481,Kimberly,Martin,kimberly.martin481@example.com,Nashville,TN,2024-12-11,Paid Search,Returning
+482,Nancy,Lewis,nancy.lewis482@example.com,Portland,OR,2026-04-11,Referral,New
+483,David,Miller,david.miller483@example.com,New York,NY,2024-05-06,Organic Search,Returning
+484,Anthony,Lewis,anthony.lewis484@example.com,Dallas,TX,2025-03-02,Email,New
+485,Steven,Thompson,steven.thompson485@example.com,Phoenix,AZ,2025-10-07,Organic Search,New
+486,Kimberly,Rodriguez,kimberly.rodriguez486@example.com,Phoenix,AZ,2025-09-24,Organic Search,New
+487,Ashley,Miller,ashley.miller487@example.com,San Antonio,TX,2026-03-07,Paid Search,Returning
+488,Matthew,Thompson,matthew.thompson488@example.com,Atlanta,GA,2024-10-29,Paid Search,Returning
+489,Steven,Hernandez,steven.hernandez489@example.com,San Diego,CA,2024-01-03,Organic Search,New
+490,Joshua,Perez,joshua.perez490@example.com,Portland,OR,2024-10-30,Paid Search,New
+491,Robert,Ramirez,robert.ramirez491@example.com,Austin,TX,2024-11-16,Organic Search,New
+492,James,Ramirez,james.ramirez492@example.com,Phoenix,AZ,2025-11-10,Social Media,New
+493,Michelle,Rodriguez,michelle.rodriguez493@example.com,Chicago,IL,2024-07-06,Social Media,New
+494,Sarah,Clark,sarah.clark494@example.com,Boston,MA,2025-12-07,Referral,Returning
+495,William,Brown,william.brown495@example.com,Phoenix,AZ,2025-12-13,Paid Search,VIP
+496,Michael,Wilson,michael.wilson496@example.com,Portland,OR,2025-03-24,Email,New
+497,Michelle,Smith,michelle.smith497@example.com,Phoenix,AZ,2025-03-27,Email,New
+498,James,Thompson,james.thompson498@example.com,Nashville,TN,2025-11-16,Referral,Returning
+499,Michelle,Brown,michelle.brown499@example.com,Atlanta,GA,2025-11-08,Referral,Returning
+500,Anthony,Jones,anthony.jones500@example.com,Minneapolis,MN,2025-09-19,Paid Search,Returning
+501,Paul,Ramirez,paul.ramirez501@example.com,Portland,OR,2024-06-18,Paid Search,Returning
+502,Nancy,Rodriguez,nancy.rodriguez502@example.com,Los Angeles,CA,2025-06-03,Social Media,Returning
+503,Jessica,Williams,jessica.williams503@example.com,Miami,FL,2025-04-03,Email,Returning
+504,Linda,Thomas,linda.thomas504@example.com,New York,NY,2024-04-15,Direct,New
+505,James,Clark,james.clark505@example.com,Chicago,IL,2024-07-30,Email,Returning
+506,Lisa,Clark,lisa.clark506@example.com,Los Angeles,CA,2026-04-16,Direct,Returning
+507,Michelle,Martin,michelle.martin507@example.com,Portland,OR,2024-08-15,Referral,New
+508,Charles,Moore,charles.moore508@example.com,Nashville,TN,2025-05-19,Referral,Returning
+509,Mark,Brown,mark.brown509@example.com,Dallas,TX,2025-09-17,Social Media,New
+510,Susan,Anderson,susan.anderson510@example.com,San Antonio,TX,2026-01-03,Organic Search,Returning
+511,Donna,Brown,donna.brown511@example.com,Miami,FL,2025-05-31,Direct,Returning
+512,Patricia,Moore,patricia.moore512@example.com,Atlanta,GA,2024-05-11,Direct,Returning
+513,Daniel,Taylor,daniel.taylor513@example.com,Boston,MA,2025-12-10,Email,New
+514,Charles,Anderson,charles.anderson514@example.com,Phoenix,AZ,2024-05-21,Referral,Returning
+515,Paul,Martinez,paul.martinez515@example.com,Minneapolis,MN,2026-05-31,Direct,Returning
+516,Susan,Miller,susan.miller516@example.com,San Antonio,TX,2025-12-04,Referral,Returning
+517,Barbara,Taylor,barbara.taylor517@example.com,Minneapolis,MN,2025-12-11,Email,Returning
+518,Emily,Thomas,emily.thomas518@example.com,Atlanta,GA,2025-11-21,Email,Returning
+519,Margaret,Sanchez,margaret.sanchez519@example.com,New York,NY,2025-06-19,Organic Search,New
+520,Patricia,Miller,patricia.miller520@example.com,Dallas,TX,2025-12-08,Direct,New
+521,Robert,Lopez,robert.lopez521@example.com,Miami,FL,2025-11-22,Referral,VIP
+522,Emily,Gonzalez,emily.gonzalez522@example.com,San Diego,CA,2025-12-10,Social Media,VIP
+523,Mark,Sanchez,mark.sanchez523@example.com,Seattle,WA,2025-07-19,Paid Search,Returning
+524,Michelle,Ramirez,michelle.ramirez524@example.com,Miami,FL,2026-04-29,Referral,Returning
+525,Lisa,Harris,lisa.harris525@example.com,Minneapolis,MN,2024-07-17,Referral,New
+526,John,Garcia,john.garcia526@example.com,Philadelphia,PA,2025-01-21,Email,New
+527,David,Garcia,david.garcia527@example.com,Dallas,TX,2024-01-06,Paid Search,Returning
+528,Robert,Jones,robert.jones528@example.com,Seattle,WA,2025-09-03,Direct,VIP
+529,Karen,Thomas,karen.thomas529@example.com,Minneapolis,MN,2025-01-01,Direct,Returning
+530,Joseph,Garcia,joseph.garcia530@example.com,Nashville,TN,2024-06-12,Organic Search,Returning
+531,Matthew,Davis,matthew.davis531@example.com,San Antonio,TX,2025-11-10,Paid Search,New
+532,Michelle,Taylor,michelle.taylor532@example.com,Portland,OR,2025-10-26,Social Media,Returning
+533,Jessica,Lewis,jessica.lewis533@example.com,San Diego,CA,2024-11-24,Organic Search,Returning
+534,Anthony,Rodriguez,anthony.rodriguez534@example.com,Minneapolis,MN,2026-01-11,Email,VIP
+535,Paul,Sanchez,paul.sanchez535@example.com,Nashville,TN,2024-07-16,Organic Search,New
+536,William,Harris,william.harris536@example.com,Minneapolis,MN,2025-06-30,Referral,New
+537,Susan,Ramirez,susan.ramirez537@example.com,Atlanta,GA,2026-05-05,Referral,Returning
+538,Margaret,Lee,margaret.lee538@example.com,Chicago,IL,2024-12-05,Paid Search,New
+539,Thomas,Moore,thomas.moore539@example.com,Chicago,IL,2024-09-21,Social Media,Returning
+540,Margaret,Hernandez,margaret.hernandez540@example.com,New York,NY,2025-07-01,Organic Search,Returning
+541,Donna,Johnson,donna.johnson541@example.com,Chicago,IL,2024-04-18,Direct,Returning
+542,Jennifer,Martinez,jennifer.martinez542@example.com,Miami,FL,2025-11-07,Paid Search,New
+543,David,White,david.white543@example.com,Boston,MA,2025-07-12,Email,Returning
+544,Lisa,Smith,lisa.smith544@example.com,Minneapolis,MN,2024-05-06,Social Media,Returning
+545,Andrew,Moore,andrew.moore545@example.com,Chicago,IL,2024-11-08,Referral,Returning
+546,Matthew,Miller,matthew.miller546@example.com,Atlanta,GA,2024-05-25,Email,New
+547,Richard,Brown,richard.brown547@example.com,Philadelphia,PA,2025-11-18,Direct,VIP
+548,Sandra,Lee,sandra.lee548@example.com,Minneapolis,MN,2024-03-15,Organic Search,New
+549,Richard,White,richard.white549@example.com,Portland,OR,2024-12-04,Paid Search,Returning
+550,Michael,Martinez,michael.martinez550@example.com,Chicago,IL,2024-07-17,Direct,Returning
+551,Karen,Thompson,karen.thompson551@example.com,Phoenix,AZ,2026-04-07,Organic Search,New
+552,Daniel,Davis,daniel.davis552@example.com,San Diego,CA,2025-12-30,Email,New
+553,David,Perez,david.perez553@example.com,Seattle,WA,2025-04-01,Direct,New
+554,Michael,Garcia,michael.garcia554@example.com,Chicago,IL,2026-05-11,Direct,Returning
+555,Richard,Rodriguez,richard.rodriguez555@example.com,Chicago,IL,2026-01-14,Direct,New
+556,Mary,Clark,mary.clark556@example.com,Boston,MA,2025-07-06,Email,Returning
+557,Betty,Davis,betty.davis557@example.com,Austin,TX,2025-06-06,Organic Search,New
+558,Jessica,Ramirez,jessica.ramirez558@example.com,Philadelphia,PA,2025-04-01,Direct,Returning
+559,Elizabeth,White,elizabeth.white559@example.com,Portland,OR,2025-01-02,Paid Search,Returning
+560,John,Rodriguez,john.rodriguez560@example.com,Denver,CO,2024-08-27,Email,New
+561,Anthony,Thomas,anthony.thomas561@example.com,Miami,FL,2026-06-21,Email,VIP
+562,Michael,Thompson,michael.thompson562@example.com,Nashville,TN,2024-06-27,Direct,New
+563,John,Taylor,john.taylor563@example.com,Dallas,TX,2024-12-27,Social Media,New
+564,Kenneth,Smith,kenneth.smith564@example.com,Nashville,TN,2026-06-22,Organic Search,New
+565,Paul,Lee,paul.lee565@example.com,Dallas,TX,2024-08-04,Direct,New
+566,Linda,Perez,linda.perez566@example.com,San Diego,CA,2026-01-07,Social Media,Returning
+567,Susan,Jackson,susan.jackson567@example.com,Philadelphia,PA,2024-01-23,Direct,New
+568,William,Jones,william.jones568@example.com,Nashville,TN,2024-05-30,Paid Search,New
+569,Kimberly,Gonzalez,kimberly.gonzalez569@example.com,New York,NY,2025-11-08,Paid Search,VIP
+570,Donald,Martin,donald.martin570@example.com,Portland,OR,2025-09-07,Paid Search,Returning
+571,Michelle,Perez,michelle.perez571@example.com,Nashville,TN,2024-09-27,Social Media,Returning
+572,Kenneth,Jackson,kenneth.jackson572@example.com,Chicago,IL,2024-08-23,Organic Search,New
+573,Richard,Taylor,richard.taylor573@example.com,Nashville,TN,2025-12-01,Organic Search,New
+574,Barbara,Thomas,barbara.thomas574@example.com,Los Angeles,CA,2025-12-15,Social Media,New
+575,Anthony,Lopez,anthony.lopez575@example.com,Houston,TX,2025-03-11,Paid Search,Returning
+576,Jennifer,Martinez,jennifer.martinez576@example.com,Minneapolis,MN,2025-02-22,Referral,New
+577,James,Jackson,james.jackson577@example.com,Nashville,TN,2025-12-05,Organic Search,New
+578,Elizabeth,Wilson,elizabeth.wilson578@example.com,Dallas,TX,2025-09-18,Paid Search,Returning
+579,Mark,Moore,mark.moore579@example.com,Minneapolis,MN,2025-05-09,Social Media,Returning
+580,Thomas,Martinez,thomas.martinez580@example.com,Denver,CO,2026-01-23,Organic Search,VIP
+581,Joseph,Anderson,joseph.anderson581@example.com,Philadelphia,PA,2024-04-12,Email,New
+582,Emily,Martin,emily.martin582@example.com,Los Angeles,CA,2024-06-13,Organic Search,Returning
+583,Elizabeth,Thomas,elizabeth.thomas583@example.com,Atlanta,GA,2024-03-31,Organic Search,New
+584,Kenneth,Johnson,kenneth.johnson584@example.com,Boston,MA,2025-06-17,Organic Search,VIP
+585,Barbara,Lee,barbara.lee585@example.com,Portland,OR,2025-03-25,Direct,VIP
+586,Charles,Miller,charles.miller586@example.com,Los Angeles,CA,2025-09-21,Paid Search,New
+587,James,Garcia,james.garcia587@example.com,Chicago,IL,2024-12-27,Paid Search,New
+588,Kimberly,Smith,kimberly.smith588@example.com,Chicago,IL,2025-08-19,Email,VIP
+589,Joseph,Martin,joseph.martin589@example.com,San Antonio,TX,2025-08-11,Direct,New
+590,Michael,Moore,michael.moore590@example.com,Chicago,IL,2025-05-30,Direct,VIP
+591,Thomas,Lewis,thomas.lewis591@example.com,Minneapolis,MN,2026-02-27,Social Media,New
+592,Sandra,Lewis,sandra.lewis592@example.com,New York,NY,2025-05-08,Referral,New
+593,Joseph,Perez,joseph.perez593@example.com,San Diego,CA,2026-03-30,Direct,VIP
+594,Andrew,Smith,andrew.smith594@example.com,Dallas,TX,2024-09-11,Referral,New
+595,Nancy,Williams,nancy.williams595@example.com,Minneapolis,MN,2024-07-01,Direct,New
+596,Sarah,Garcia,sarah.garcia596@example.com,San Antonio,TX,2026-06-12,Paid Search,New
+597,Michelle,Lopez,michelle.lopez597@example.com,Phoenix,AZ,2026-03-08,Referral,VIP
+598,Ashley,Martin,ashley.martin598@example.com,New York,NY,2026-06-08,Direct,New
+599,Sarah,Gonzalez,sarah.gonzalez599@example.com,San Diego,CA,2025-07-07,Referral,New
+600,Barbara,Anderson,barbara.anderson600@example.com,Houston,TX,2025-12-16,Organic Search,New
+601,James,Perez,james.perez601@example.com,San Antonio,TX,2024-11-29,Paid Search,VIP
+602,Emily,Rodriguez,emily.rodriguez602@example.com,San Diego,CA,2025-09-19,Social Media,New
+603,Susan,Wilson,susan.wilson603@example.com,Denver,CO,2024-10-13,Direct,Returning
+604,Joseph,Clark,joseph.clark604@example.com,Houston,TX,2026-01-08,Social Media,New
+605,Anthony,Miller,anthony.miller605@example.com,Phoenix,AZ,2024-01-10,Referral,Returning
+606,Kimberly,Moore,kimberly.moore606@example.com,Seattle,WA,2025-08-04,Paid Search,New
+607,Patricia,Miller,patricia.miller607@example.com,Dallas,TX,2024-04-08,Email,New
+608,Lisa,Moore,lisa.moore608@example.com,Minneapolis,MN,2026-04-09,Organic Search,New
+609,Matthew,Ramirez,matthew.ramirez609@example.com,San Antonio,TX,2026-03-10,Direct,New
+610,Ashley,Harris,ashley.harris610@example.com,Miami,FL,2026-06-29,Social Media,Returning
+611,Elizabeth,Ramirez,elizabeth.ramirez611@example.com,Philadelphia,PA,2024-12-11,Social Media,Returning
+612,John,Williams,john.williams612@example.com,Philadelphia,PA,2024-12-17,Email,New
+613,Sarah,Martin,sarah.martin613@example.com,Boston,MA,2025-02-27,Paid Search,VIP
+614,Jessica,Perez,jessica.perez614@example.com,Dallas,TX,2024-03-22,Organic Search,New
+615,John,Robinson,john.robinson615@example.com,Portland,OR,2025-07-15,Direct,Returning
+616,Jennifer,Brown,jennifer.brown616@example.com,Dallas,TX,2025-09-24,Social Media,Returning
+617,Karen,Davis,karen.davis617@example.com,San Diego,CA,2026-01-25,Paid Search,Returning
+618,Kimberly,Clark,kimberly.clark618@example.com,Philadelphia,PA,2024-01-30,Email,New
+619,Steven,Anderson,steven.anderson619@example.com,Minneapolis,MN,2025-12-15,Social Media,Returning
+620,Joshua,Wilson,joshua.wilson620@example.com,Nashville,TN,2024-11-13,Paid Search,Returning
+621,Jennifer,Anderson,jennifer.anderson621@example.com,Austin,TX,2024-06-08,Paid Search,New
+622,Matthew,Martinez,matthew.martinez622@example.com,Portland,OR,2025-07-01,Social Media,VIP
+623,Karen,Smith,karen.smith623@example.com,Atlanta,GA,2026-03-28,Organic Search,New
+624,Emily,Lopez,emily.lopez624@example.com,San Antonio,TX,2025-03-23,Referral,New
+625,Anthony,Clark,anthony.clark625@example.com,Boston,MA,2024-08-13,Paid Search,New
+626,Kimberly,Harris,kimberly.harris626@example.com,Dallas,TX,2025-02-26,Paid Search,New
+627,Charles,Brown,charles.brown627@example.com,Miami,FL,2025-09-24,Social Media,Returning
+628,Richard,Hernandez,richard.hernandez628@example.com,New York,NY,2024-06-04,Paid Search,Returning
+629,Michael,Martinez,michael.martinez629@example.com,Dallas,TX,2026-01-14,Organic Search,New
+630,Ashley,Miller,ashley.miller630@example.com,Seattle,WA,2025-03-06,Email,Returning
+631,Sandra,Thompson,sandra.thompson631@example.com,Los Angeles,CA,2024-12-04,Paid Search,Returning
+632,Patricia,Rodriguez,patricia.rodriguez632@example.com,Boston,MA,2024-07-04,Social Media,Returning
+633,James,Brown,james.brown633@example.com,San Diego,CA,2025-03-29,Paid Search,VIP
+634,Sandra,White,sandra.white634@example.com,Houston,TX,2025-11-28,Paid Search,VIP
+635,Robert,White,robert.white635@example.com,Minneapolis,MN,2025-06-17,Email,Returning
+636,Richard,Lopez,richard.lopez636@example.com,Los Angeles,CA,2024-04-25,Organic Search,New
+637,William,Sanchez,william.sanchez637@example.com,Dallas,TX,2025-08-21,Organic Search,Returning
+638,Robert,Jackson,robert.jackson638@example.com,Portland,OR,2025-12-05,Organic Search,New
+639,Jessica,Garcia,jessica.garcia639@example.com,Portland,OR,2024-12-12,Referral,VIP
+640,Patricia,Johnson,patricia.johnson640@example.com,Denver,CO,2025-10-22,Organic Search,Returning
+641,David,Thomas,david.thomas641@example.com,San Diego,CA,2024-11-20,Email,Returning
+642,Donald,White,donald.white642@example.com,San Antonio,TX,2025-07-26,Paid Search,Returning
+643,Joshua,Garcia,joshua.garcia643@example.com,Minneapolis,MN,2024-12-22,Direct,Returning
+644,Emily,Garcia,emily.garcia644@example.com,Chicago,IL,2025-06-27,Email,New
+645,Andrew,Lopez,andrew.lopez645@example.com,Miami,FL,2025-06-02,Organic Search,New
+646,Michelle,Ramirez,michelle.ramirez646@example.com,Denver,CO,2024-11-24,Direct,Returning
+647,Anthony,Miller,anthony.miller647@example.com,Nashville,TN,2025-11-30,Direct,Returning
+648,Charles,Hernandez,charles.hernandez648@example.com,Atlanta,GA,2025-10-18,Referral,New
+649,John,Johnson,john.johnson649@example.com,Phoenix,AZ,2024-07-25,Organic Search,New
+650,Joshua,Lee,joshua.lee650@example.com,Boston,MA,2025-11-04,Direct,Returning
+651,Thomas,Johnson,thomas.johnson651@example.com,Denver,CO,2024-03-13,Referral,VIP
+652,Ashley,Robinson,ashley.robinson652@example.com,Chicago,IL,2024-03-03,Social Media,Returning
+653,Lisa,Sanchez,lisa.sanchez653@example.com,Los Angeles,CA,2025-06-25,Email,New
+654,John,Miller,john.miller654@example.com,Nashville,TN,2024-04-09,Social Media,New
+655,Richard,Miller,richard.miller655@example.com,Nashville,TN,2025-11-03,Paid Search,Returning
+656,Emily,White,emily.white656@example.com,Minneapolis,MN,2025-12-20,Paid Search,VIP
+657,Barbara,Moore,barbara.moore657@example.com,Boston,MA,2025-05-31,Direct,New
+658,Donald,Robinson,donald.robinson658@example.com,Denver,CO,2024-11-18,Email,VIP
+659,Mark,Harris,mark.harris659@example.com,Atlanta,GA,2025-09-15,Social Media,Returning
+660,Emily,Robinson,emily.robinson660@example.com,Dallas,TX,2025-06-14,Organic Search,VIP
+661,Karen,Davis,karen.davis661@example.com,San Antonio,TX,2026-05-26,Referral,Returning
+662,Sarah,Robinson,sarah.robinson662@example.com,Minneapolis,MN,2025-08-08,Email,New
+663,Elizabeth,Jones,elizabeth.jones663@example.com,Dallas,TX,2024-09-12,Organic Search,Returning
+664,Joshua,Gonzalez,joshua.gonzalez664@example.com,San Antonio,TX,2026-01-21,Social Media,New
+665,Barbara,Thomas,barbara.thomas665@example.com,Houston,TX,2025-08-13,Email,Returning
+666,Matthew,Lewis,matthew.lewis666@example.com,Atlanta,GA,2025-10-09,Organic Search,New
+667,Daniel,Moore,daniel.moore667@example.com,Phoenix,AZ,2024-11-30,Organic Search,New
+668,Betty,Anderson,betty.anderson668@example.com,Nashville,TN,2024-04-02,Social Media,New
+669,Elizabeth,Jones,elizabeth.jones669@example.com,Seattle,WA,2026-02-02,Organic Search,New
+670,Betty,Taylor,betty.taylor670@example.com,Atlanta,GA,2026-02-19,Social Media,Returning
+671,Betty,Lee,betty.lee671@example.com,San Antonio,TX,2025-07-28,Paid Search,Returning
+672,Jessica,Williams,jessica.williams672@example.com,Dallas,TX,2026-03-06,Direct,Returning
+673,Jennifer,Brown,jennifer.brown673@example.com,Atlanta,GA,2025-03-09,Email,New
+674,Kenneth,Lee,kenneth.lee674@example.com,New York,NY,2026-02-27,Direct,VIP
+675,Donald,Martin,donald.martin675@example.com,Phoenix,AZ,2025-03-27,Paid Search,Returning
+676,Lisa,Jones,lisa.jones676@example.com,Chicago,IL,2026-04-19,Organic Search,New
+677,Karen,Anderson,karen.anderson677@example.com,Portland,OR,2024-01-24,Paid Search,Returning
+678,Susan,Moore,susan.moore678@example.com,Nashville,TN,2026-02-07,Referral,Returning
+679,Elizabeth,Thompson,elizabeth.thompson679@example.com,New York,NY,2025-11-10,Organic Search,New
+680,Charles,Miller,charles.miller680@example.com,Dallas,TX,2024-01-09,Referral,Returning
+681,Lisa,Ramirez,lisa.ramirez681@example.com,Houston,TX,2024-01-20,Social Media,VIP
+682,Joseph,Gonzalez,joseph.gonzalez682@example.com,Nashville,TN,2025-12-27,Direct,New
+683,Andrew,Williams,andrew.williams683@example.com,Philadelphia,PA,2024-07-22,Referral,Returning
+684,Mary,Johnson,mary.johnson684@example.com,San Diego,CA,2025-06-26,Referral,Returning
+685,William,Smith,william.smith685@example.com,Denver,CO,2025-12-01,Paid Search,Returning
+686,Paul,Rodriguez,paul.rodriguez686@example.com,Los Angeles,CA,2025-10-02,Organic Search,New
+687,Emily,Rodriguez,emily.rodriguez687@example.com,San Diego,CA,2024-06-04,Paid Search,New
+688,Jennifer,White,jennifer.white688@example.com,Boston,MA,2025-12-03,Paid Search,New
+689,Margaret,Martinez,margaret.martinez689@example.com,Seattle,WA,2024-07-30,Referral,Returning
+690,Richard,Ramirez,richard.ramirez690@example.com,Phoenix,AZ,2024-11-12,Paid Search,VIP
+691,Margaret,Robinson,margaret.robinson691@example.com,Phoenix,AZ,2025-11-02,Email,VIP
+692,John,Moore,john.moore692@example.com,Minneapolis,MN,2026-01-06,Paid Search,New
+693,Mary,Harris,mary.harris693@example.com,Seattle,WA,2025-02-25,Referral,Returning
+694,Sarah,Jones,sarah.jones694@example.com,San Antonio,TX,2024-04-19,Direct,New
+695,Michelle,Rodriguez,michelle.rodriguez695@example.com,San Diego,CA,2025-09-02,Email,Returning
+696,Jennifer,Thompson,jennifer.thompson696@example.com,Portland,OR,2025-10-27,Social Media,VIP
+697,Steven,Jones,steven.jones697@example.com,Philadelphia,PA,2024-07-16,Organic Search,New
+698,Sarah,Wilson,sarah.wilson698@example.com,San Diego,CA,2024-03-08,Social Media,VIP
+699,Michelle,Thomas,michelle.thomas699@example.com,Seattle,WA,2024-09-09,Direct,Returning
+700,Anthony,White,anthony.white700@example.com,Seattle,WA,2025-07-03,Organic Search,VIP
+701,Kimberly,Brown,kimberly.brown701@example.com,Miami,FL,2024-02-20,Email,New
+702,Charles,Anderson,charles.anderson702@example.com,Philadelphia,PA,2025-03-08,Referral,VIP
+703,Kimberly,Lewis,kimberly.lewis703@example.com,Phoenix,AZ,2025-04-07,Paid Search,Returning
+704,Donna,Lewis,donna.lewis704@example.com,Minneapolis,MN,2024-05-18,Organic Search,New
+705,Barbara,Anderson,barbara.anderson705@example.com,San Antonio,TX,2024-09-13,Referral,Returning
+706,William,Thompson,william.thompson706@example.com,Houston,TX,2024-04-03,Email,New
+707,Jennifer,Taylor,jennifer.taylor707@example.com,Boston,MA,2024-06-12,Paid Search,New
+708,Nancy,Jackson,nancy.jackson708@example.com,Phoenix,AZ,2024-11-12,Email,VIP
+709,Barbara,Brown,barbara.brown709@example.com,Phoenix,AZ,2024-07-26,Organic Search,Returning
+710,Sandra,Thomas,sandra.thomas710@example.com,Portland,OR,2024-08-31,Social Media,Returning
+711,Mark,Anderson,mark.anderson711@example.com,Chicago,IL,2024-07-31,Referral,New
+712,Matthew,Johnson,matthew.johnson712@example.com,Phoenix,AZ,2026-05-24,Direct,Returning
+713,Karen,Hernandez,karen.hernandez713@example.com,Chicago,IL,2024-02-20,Paid Search,VIP
+714,Charles,Martin,charles.martin714@example.com,Minneapolis,MN,2024-02-06,Email,New
+715,Anthony,Clark,anthony.clark715@example.com,Chicago,IL,2025-07-17,Organic Search,Returning
+716,Sarah,Hernandez,sarah.hernandez716@example.com,Nashville,TN,2025-12-13,Direct,New
+717,Kimberly,Williams,kimberly.williams717@example.com,Portland,OR,2024-10-21,Email,Returning
+718,Kimberly,Jackson,kimberly.jackson718@example.com,Denver,CO,2026-04-07,Referral,Returning
+719,Charles,Miller,charles.miller719@example.com,New York,NY,2024-05-01,Organic Search,Returning
+720,Susan,Sanchez,susan.sanchez720@example.com,Atlanta,GA,2025-02-27,Referral,New
+721,Susan,Smith,susan.smith721@example.com,San Antonio,TX,2025-12-07,Email,Returning
+722,Karen,Taylor,karen.taylor722@example.com,Minneapolis,MN,2024-11-27,Email,New
+723,Nancy,Gonzalez,nancy.gonzalez723@example.com,New York,NY,2026-05-02,Email,New
+724,Steven,Robinson,steven.robinson724@example.com,Portland,OR,2026-03-27,Paid Search,New
+725,Sandra,Lewis,sandra.lewis725@example.com,Minneapolis,MN,2024-12-09,Referral,Returning
+726,Patricia,Clark,patricia.clark726@example.com,Nashville,TN,2024-11-02,Direct,Returning
+727,Andrew,Smith,andrew.smith727@example.com,San Antonio,TX,2026-03-25,Email,VIP
+728,Mary,Hernandez,mary.hernandez728@example.com,Boston,MA,2025-02-02,Email,New
+729,Daniel,Thompson,daniel.thompson729@example.com,Los Angeles,CA,2024-10-05,Paid Search,Returning
+730,Lisa,Anderson,lisa.anderson730@example.com,Austin,TX,2024-06-28,Paid Search,Returning
+731,Jennifer,Anderson,jennifer.anderson731@example.com,Nashville,TN,2025-05-27,Social Media,New
+732,Kimberly,Martinez,kimberly.martinez732@example.com,Seattle,WA,2024-05-15,Social Media,New
+733,Kimberly,Brown,kimberly.brown733@example.com,New York,NY,2024-11-14,Direct,Returning
+734,Jennifer,Hernandez,jennifer.hernandez734@example.com,Miami,FL,2026-06-29,Referral,Returning
+735,Karen,Smith,karen.smith735@example.com,Austin,TX,2024-11-24,Direct,New
+736,Daniel,Harris,daniel.harris736@example.com,Miami,FL,2025-11-18,Email,New
+737,Linda,Smith,linda.smith737@example.com,Minneapolis,MN,2025-06-10,Direct,Returning
+738,Daniel,Rodriguez,daniel.rodriguez738@example.com,Phoenix,AZ,2025-12-22,Paid Search,Returning
+739,John,Martinez,john.martinez739@example.com,Seattle,WA,2025-07-07,Social Media,New
+740,Patricia,Brown,patricia.brown740@example.com,Boston,MA,2024-02-25,Referral,New
+741,Kenneth,Lewis,kenneth.lewis741@example.com,Miami,FL,2025-09-23,Paid Search,New
+742,Andrew,Williams,andrew.williams742@example.com,Miami,FL,2025-08-04,Referral,Returning
+743,Sandra,Brown,sandra.brown743@example.com,Miami,FL,2024-11-13,Social Media,Returning
+744,Steven,Davis,steven.davis744@example.com,San Diego,CA,2025-09-23,Paid Search,New
+745,Nancy,Sanchez,nancy.sanchez745@example.com,Seattle,WA,2024-12-25,Email,Returning
+746,Matthew,Martin,matthew.martin746@example.com,Phoenix,AZ,2025-06-04,Organic Search,Returning
+747,Daniel,Moore,daniel.moore747@example.com,Chicago,IL,2026-03-22,Direct,Returning
+748,Mark,Davis,mark.davis748@example.com,San Diego,CA,2025-07-15,Organic Search,Returning
+749,Nancy,Miller,nancy.miller749@example.com,Atlanta,GA,2025-12-29,Direct,Returning
+750,Kenneth,Anderson,kenneth.anderson750@example.com,Seattle,WA,2025-07-22,Email,New
+751,Betty,Williams,betty.williams751@example.com,Houston,TX,2025-12-02,Social Media,Returning
+752,Daniel,Thomas,daniel.thomas752@example.com,Los Angeles,CA,2024-04-02,Direct,New
+753,James,Harris,james.harris753@example.com,Phoenix,AZ,2025-11-07,Social Media,Returning
+754,Michelle,Jackson,michelle.jackson754@example.com,Miami,FL,2024-07-19,Email,VIP
+755,Joshua,Sanchez,joshua.sanchez755@example.com,Austin,TX,2024-12-18,Direct,Returning
+756,Paul,Gonzalez,paul.gonzalez756@example.com,Phoenix,AZ,2026-05-22,Direct,New
+757,Patricia,Smith,patricia.smith757@example.com,Minneapolis,MN,2026-06-05,Direct,New
+758,Betty,Lee,betty.lee758@example.com,Seattle,WA,2025-12-29,Direct,New
+759,Susan,Perez,susan.perez759@example.com,Philadelphia,PA,2025-05-01,Email,Returning
+760,Mark,Jones,mark.jones760@example.com,Austin,TX,2024-05-17,Paid Search,Returning
+761,Ashley,Perez,ashley.perez761@example.com,Atlanta,GA,2024-05-19,Social Media,Returning
+762,Sandra,Lewis,sandra.lewis762@example.com,Atlanta,GA,2025-09-30,Direct,Returning
+763,Donald,Gonzalez,donald.gonzalez763@example.com,Denver,CO,2024-08-19,Direct,Returning
+764,Ashley,Ramirez,ashley.ramirez764@example.com,San Diego,CA,2025-12-30,Direct,New
+765,Joshua,Lopez,joshua.lopez765@example.com,Los Angeles,CA,2025-12-22,Referral,Returning
+766,Jennifer,Jones,jennifer.jones766@example.com,Nashville,TN,2026-03-08,Direct,Returning
+767,Michelle,Williams,michelle.williams767@example.com,San Diego,CA,2025-11-10,Referral,New
+768,Andrew,Sanchez,andrew.sanchez768@example.com,Austin,TX,2025-09-19,Organic Search,New
+769,Steven,Anderson,steven.anderson769@example.com,Nashville,TN,2024-12-05,Email,VIP
+770,Charles,Garcia,charles.garcia770@example.com,Los Angeles,CA,2025-12-12,Referral,Returning
+771,Joshua,Rodriguez,joshua.rodriguez771@example.com,Los Angeles,CA,2025-11-03,Direct,Returning
+772,Mary,Martinez,mary.martinez772@example.com,Portland,OR,2024-03-25,Email,New
+773,Thomas,Jones,thomas.jones773@example.com,Dallas,TX,2025-09-10,Paid Search,Returning
+774,Donald,Lopez,donald.lopez774@example.com,Philadelphia,PA,2025-11-07,Paid Search,Returning
+775,Joshua,White,joshua.white775@example.com,Denver,CO,2024-02-23,Email,New
+776,Steven,White,steven.white776@example.com,Minneapolis,MN,2024-08-27,Social Media,Returning
+777,Thomas,Jones,thomas.jones777@example.com,Nashville,TN,2026-06-10,Social Media,New
+778,Anthony,Perez,anthony.perez778@example.com,Seattle,WA,2024-02-12,Email,Returning
+779,Margaret,Martin,margaret.martin779@example.com,Dallas,TX,2024-12-09,Email,Returning
+780,Donna,Gonzalez,donna.gonzalez780@example.com,Miami,FL,2025-06-16,Paid Search,Returning
+781,Daniel,Moore,daniel.moore781@example.com,New York,NY,2025-11-19,Social Media,New
+782,Michael,Taylor,michael.taylor782@example.com,Houston,TX,2025-12-02,Email,New
+783,Thomas,Miller,thomas.miller783@example.com,Los Angeles,CA,2025-11-03,Direct,New
+784,Linda,Thompson,linda.thompson784@example.com,Houston,TX,2024-05-13,Referral,Returning
+785,Joshua,Sanchez,joshua.sanchez785@example.com,Philadelphia,PA,2024-09-16,Organic Search,Returning
+786,Sandra,Robinson,sandra.robinson786@example.com,Dallas,TX,2025-11-14,Paid Search,New
+787,John,Rodriguez,john.rodriguez787@example.com,Los Angeles,CA,2024-03-02,Paid Search,Returning
+788,Donald,Williams,donald.williams788@example.com,Portland,OR,2024-07-24,Social Media,New
+789,Michael,Jones,michael.jones789@example.com,Minneapolis,MN,2024-04-15,Referral,New
+790,Thomas,Harris,thomas.harris790@example.com,Miami,FL,2025-11-11,Email,New
+791,Betty,Jackson,betty.jackson791@example.com,New York,NY,2025-03-22,Organic Search,Returning
+792,Andrew,Davis,andrew.davis792@example.com,New York,NY,2025-01-02,Organic Search,New
+793,Jennifer,Lopez,jennifer.lopez793@example.com,Minneapolis,MN,2025-10-25,Social Media,Returning
+794,Richard,Martinez,richard.martinez794@example.com,Boston,MA,2026-01-22,Organic Search,New
+795,Donna,Davis,donna.davis795@example.com,Portland,OR,2025-02-02,Email,Returning
+796,Ashley,Moore,ashley.moore796@example.com,Miami,FL,2024-01-17,Referral,New
+797,Robert,Gonzalez,robert.gonzalez797@example.com,Houston,TX,2025-11-14,Direct,VIP
+798,Elizabeth,White,elizabeth.white798@example.com,San Diego,CA,2024-03-14,Referral,New
+799,Mary,Thomas,mary.thomas799@example.com,Los Angeles,CA,2024-05-13,Email,Returning
+800,Michael,Anderson,michael.anderson800@example.com,Philadelphia,PA,2025-03-12,Referral,Returning
+801,Betty,Hernandez,betty.hernandez801@example.com,Houston,TX,2025-12-01,Paid Search,New
+802,Robert,Jackson,robert.jackson802@example.com,Philadelphia,PA,2024-12-09,Social Media,New
+803,William,Thompson,william.thompson803@example.com,Denver,CO,2025-07-20,Direct,New
+804,Robert,Jones,robert.jones804@example.com,Houston,TX,2025-09-19,Social Media,New
+805,Jennifer,Smith,jennifer.smith805@example.com,New York,NY,2025-12-24,Social Media,VIP
+806,Steven,Thompson,steven.thompson806@example.com,Phoenix,AZ,2024-07-30,Social Media,New
+807,Mark,Davis,mark.davis807@example.com,Philadelphia,PA,2025-09-02,Organic Search,Returning
+808,Karen,Lopez,karen.lopez808@example.com,Atlanta,GA,2024-07-15,Organic Search,Returning
+809,Michelle,Lopez,michelle.lopez809@example.com,Minneapolis,MN,2025-06-03,Referral,Returning
+810,Susan,Rodriguez,susan.rodriguez810@example.com,Los Angeles,CA,2024-07-17,Social Media,New
+811,Ashley,Garcia,ashley.garcia811@example.com,Philadelphia,PA,2025-11-17,Email,New
+812,Charles,Miller,charles.miller812@example.com,Atlanta,GA,2024-09-14,Social Media,Returning
+813,Robert,Brown,robert.brown813@example.com,Los Angeles,CA,2025-07-04,Social Media,Returning
+814,Paul,Brown,paul.brown814@example.com,Chicago,IL,2025-03-05,Email,Returning
+815,Joseph,Harris,joseph.harris815@example.com,Houston,TX,2024-11-29,Social Media,New
+816,Richard,Gonzalez,richard.gonzalez816@example.com,San Diego,CA,2025-05-11,Paid Search,New
+817,Michelle,Anderson,michelle.anderson817@example.com,Philadelphia,PA,2025-10-09,Email,New
+818,David,Johnson,david.johnson818@example.com,Los Angeles,CA,2024-10-14,Social Media,VIP
+819,Mark,Garcia,mark.garcia819@example.com,Seattle,WA,2025-09-10,Direct,Returning
+820,William,Jackson,william.jackson820@example.com,Minneapolis,MN,2026-05-25,Direct,New
+821,Ashley,Ramirez,ashley.ramirez821@example.com,San Antonio,TX,2025-04-18,Referral,Returning
+822,Jessica,Davis,jessica.davis822@example.com,Seattle,WA,2024-04-10,Direct,New
+823,James,Thompson,james.thompson823@example.com,Atlanta,GA,2024-08-11,Referral,New
+824,Jennifer,Smith,jennifer.smith824@example.com,Portland,OR,2025-11-16,Direct,Returning
+825,Donna,Smith,donna.smith825@example.com,Miami,FL,2025-12-21,Organic Search,VIP
+826,Anthony,Lewis,anthony.lewis826@example.com,Seattle,WA,2025-06-27,Email,New
+827,Michelle,Moore,michelle.moore827@example.com,San Antonio,TX,2025-11-21,Social Media,New
+828,Lisa,Anderson,lisa.anderson828@example.com,Los Angeles,CA,2026-03-03,Paid Search,VIP
+829,Andrew,Brown,andrew.brown829@example.com,Portland,OR,2025-12-20,Paid Search,Returning
+830,Daniel,Lopez,daniel.lopez830@example.com,Dallas,TX,2024-10-10,Social Media,New
+831,Ashley,Taylor,ashley.taylor831@example.com,Nashville,TN,2026-04-29,Referral,Returning
+832,Andrew,Lewis,andrew.lewis832@example.com,Austin,TX,2025-12-10,Organic Search,VIP
+833,Richard,Lewis,richard.lewis833@example.com,Miami,FL,2024-03-30,Email,VIP
+834,John,Brown,john.brown834@example.com,Philadelphia,PA,2024-10-09,Paid Search,New
+835,Susan,Taylor,susan.taylor835@example.com,New York,NY,2024-10-27,Paid Search,Returning
+836,Steven,Lopez,steven.lopez836@example.com,Atlanta,GA,2024-01-22,Paid Search,New
+837,Kimberly,Lee,kimberly.lee837@example.com,Seattle,WA,2025-11-02,Direct,New
+838,Kimberly,Clark,kimberly.clark838@example.com,Minneapolis,MN,2025-08-03,Paid Search,Returning
+839,Thomas,Davis,thomas.davis839@example.com,Portland,OR,2024-05-31,Paid Search,Returning
+840,Michelle,Robinson,michelle.robinson840@example.com,Philadelphia,PA,2025-12-29,Paid Search,New
+841,Elizabeth,Garcia,elizabeth.garcia841@example.com,San Diego,CA,2024-04-29,Paid Search,New
+842,Donald,Rodriguez,donald.rodriguez842@example.com,Denver,CO,2024-07-07,Referral,Returning
+843,Daniel,Lopez,daniel.lopez843@example.com,Phoenix,AZ,2026-02-25,Email,Returning
+844,Elizabeth,Smith,elizabeth.smith844@example.com,Minneapolis,MN,2025-06-03,Social Media,Returning
+845,Charles,Harris,charles.harris845@example.com,Phoenix,AZ,2025-03-28,Social Media,New
+846,Robert,Jones,robert.jones846@example.com,Minneapolis,MN,2024-04-29,Paid Search,New
+847,Donald,Lopez,donald.lopez847@example.com,Chicago,IL,2024-11-30,Direct,Returning
+848,Kimberly,Davis,kimberly.davis848@example.com,Dallas,TX,2024-07-19,Social Media,Returning
+849,Jennifer,Taylor,jennifer.taylor849@example.com,Boston,MA,2024-07-18,Direct,Returning
+850,Patricia,Robinson,patricia.robinson850@example.com,Denver,CO,2025-02-11,Email,VIP
+851,Anthony,Lopez,anthony.lopez851@example.com,New York,NY,2024-10-18,Social Media,New
+852,Emily,Williams,emily.williams852@example.com,San Antonio,TX,2026-04-02,Referral,New
+853,Margaret,White,margaret.white853@example.com,Atlanta,GA,2025-09-04,Social Media,New
+854,Kimberly,Hernandez,kimberly.hernandez854@example.com,Chicago,IL,2024-03-31,Email,Returning
+855,Mark,Garcia,mark.garcia855@example.com,Minneapolis,MN,2024-07-23,Direct,New
+856,Ashley,Johnson,ashley.johnson856@example.com,Austin,TX,2025-04-19,Paid Search,Returning
+857,Thomas,Martinez,thomas.martinez857@example.com,Portland,OR,2024-10-21,Referral,Returning
+858,Jessica,Smith,jessica.smith858@example.com,Houston,TX,2026-02-22,Organic Search,VIP
+859,Kenneth,White,kenneth.white859@example.com,Denver,CO,2025-12-11,Referral,New
+860,Joshua,Smith,joshua.smith860@example.com,Dallas,TX,2024-05-29,Paid Search,VIP
+861,Matthew,Garcia,matthew.garcia861@example.com,Los Angeles,CA,2024-10-06,Email,Returning
+862,Patricia,Martinez,patricia.martinez862@example.com,Austin,TX,2026-02-22,Direct,Returning
+863,Daniel,Ramirez,daniel.ramirez863@example.com,Seattle,WA,2026-03-30,Referral,Returning
+864,Lisa,Brown,lisa.brown864@example.com,Minneapolis,MN,2025-08-16,Paid Search,New
+865,Kimberly,Martinez,kimberly.martinez865@example.com,Denver,CO,2024-12-14,Paid Search,New
+866,Elizabeth,Taylor,elizabeth.taylor866@example.com,San Diego,CA,2026-05-01,Direct,VIP
+867,Kimberly,Ramirez,kimberly.ramirez867@example.com,Minneapolis,MN,2025-12-30,Organic Search,Returning
+868,Mark,Anderson,mark.anderson868@example.com,Chicago,IL,2024-11-15,Social Media,New
+869,Kenneth,Taylor,kenneth.taylor869@example.com,Seattle,WA,2024-05-01,Paid Search,VIP
+870,Joseph,Martinez,joseph.martinez870@example.com,Phoenix,AZ,2024-08-02,Referral,New
+871,Linda,Williams,linda.williams871@example.com,New York,NY,2025-03-17,Referral,New
+872,Paul,Jackson,paul.jackson872@example.com,Los Angeles,CA,2025-04-25,Organic Search,New
+873,Karen,Perez,karen.perez873@example.com,New York,NY,2026-02-11,Direct,New
+874,Susan,Jackson,susan.jackson874@example.com,San Antonio,TX,2024-07-08,Paid Search,New
+875,Sarah,Jackson,sarah.jackson875@example.com,Denver,CO,2024-12-26,Referral,Returning
+876,Michelle,Davis,michelle.davis876@example.com,Nashville,TN,2025-08-06,Organic Search,Returning
+877,Kimberly,Miller,kimberly.miller877@example.com,San Antonio,TX,2024-10-15,Organic Search,Returning
+878,Michael,Robinson,michael.robinson878@example.com,San Antonio,TX,2025-05-01,Social Media,Returning
+879,Michael,Garcia,michael.garcia879@example.com,Denver,CO,2025-06-10,Email,New
+880,Linda,Anderson,linda.anderson880@example.com,Houston,TX,2025-06-16,Referral,Returning
+881,Charles,Moore,charles.moore881@example.com,Los Angeles,CA,2024-03-25,Email,New
+882,Sandra,Martin,sandra.martin882@example.com,Austin,TX,2025-12-04,Direct,New
+883,Mark,Martinez,mark.martinez883@example.com,Atlanta,GA,2025-11-26,Referral,New
+884,Ashley,Perez,ashley.perez884@example.com,Houston,TX,2025-11-05,Social Media,New
+885,Betty,Thompson,betty.thompson885@example.com,Houston,TX,2024-06-21,Email,VIP
+886,Richard,Martin,richard.martin886@example.com,Boston,MA,2024-05-05,Social Media,New
+887,Sarah,Harris,sarah.harris887@example.com,Dallas,TX,2024-12-30,Social Media,Returning
+888,Ashley,Taylor,ashley.taylor888@example.com,Dallas,TX,2024-04-20,Paid Search,Returning
+889,David,Smith,david.smith889@example.com,Houston,TX,2026-01-25,Referral,New
+890,Mary,Garcia,mary.garcia890@example.com,Boston,MA,2024-06-05,Organic Search,Returning
+891,Kimberly,Harris,kimberly.harris891@example.com,Portland,OR,2025-07-09,Direct,VIP
+892,Mary,Harris,mary.harris892@example.com,Los Angeles,CA,2024-05-01,Social Media,New
+893,Donald,Anderson,donald.anderson893@example.com,Los Angeles,CA,2024-02-03,Email,Returning
+894,William,Thomas,william.thomas894@example.com,Atlanta,GA,2024-05-17,Organic Search,New
+895,Joshua,Perez,joshua.perez895@example.com,Portland,OR,2025-11-06,Social Media,Returning
+896,Steven,Moore,steven.moore896@example.com,Philadelphia,PA,2025-06-02,Direct,New
+897,Anthony,Martin,anthony.martin897@example.com,Denver,CO,2024-11-24,Paid Search,Returning
+898,Lisa,Lopez,lisa.lopez898@example.com,New York,NY,2024-12-15,Email,New
+899,Mark,Lopez,mark.lopez899@example.com,Los Angeles,CA,2025-11-08,Email,New
+900,Donna,Williams,donna.williams900@example.com,Chicago,IL,2026-06-08,Organic Search,New
+901,Andrew,Hernandez,andrew.hernandez901@example.com,Los Angeles,CA,2025-03-07,Direct,Returning
+902,Mary,Hernandez,mary.hernandez902@example.com,Boston,MA,2025-08-07,Social Media,Returning
+903,Michael,Thompson,michael.thompson903@example.com,San Antonio,TX,2024-12-10,Referral,Returning
+904,Nancy,Garcia,nancy.garcia904@example.com,Austin,TX,2024-07-25,Organic Search,Returning
+905,Andrew,Miller,andrew.miller905@example.com,Austin,TX,2024-09-28,Social Media,VIP
+906,Joseph,Martin,joseph.martin906@example.com,Chicago,IL,2024-10-06,Social Media,Returning
+907,Margaret,Miller,margaret.miller907@example.com,Denver,CO,2026-03-25,Direct,Returning
+908,Karen,Wilson,karen.wilson908@example.com,Minneapolis,MN,2024-11-16,Direct,New
+909,Paul,Anderson,paul.anderson909@example.com,Minneapolis,MN,2026-06-02,Referral,Returning
+910,Sandra,Rodriguez,sandra.rodriguez910@example.com,Minneapolis,MN,2024-09-03,Email,Returning
+911,Margaret,Wilson,margaret.wilson911@example.com,Seattle,WA,2026-05-16,Referral,Returning
+912,William,Rodriguez,william.rodriguez912@example.com,San Diego,CA,2025-02-19,Organic Search,New
+913,Jessica,Sanchez,jessica.sanchez913@example.com,Austin,TX,2025-03-22,Paid Search,VIP
+914,William,Rodriguez,william.rodriguez914@example.com,Phoenix,AZ,2024-01-30,Referral,Returning
+915,Emily,Garcia,emily.garcia915@example.com,Los Angeles,CA,2024-01-21,Email,VIP
+916,Kenneth,Martinez,kenneth.martinez916@example.com,Chicago,IL,2025-11-18,Referral,New
+917,David,Davis,david.davis917@example.com,Houston,TX,2024-04-02,Email,New
+918,Nancy,Clark,nancy.clark918@example.com,Boston,MA,2024-08-11,Email,New
+919,Donald,Wilson,donald.wilson919@example.com,Dallas,TX,2025-12-17,Social Media,New
+920,Steven,Perez,steven.perez920@example.com,San Diego,CA,2024-05-28,Email,Returning
+921,Mary,Lee,mary.lee921@example.com,Los Angeles,CA,2025-12-08,Email,Returning
+922,Emily,Gonzalez,emily.gonzalez922@example.com,Austin,TX,2025-12-02,Social Media,VIP
+923,Anthony,Smith,anthony.smith923@example.com,Boston,MA,2024-09-18,Paid Search,VIP
+924,Karen,Miller,karen.miller924@example.com,Philadelphia,PA,2025-10-21,Organic Search,New
+925,Ashley,Thomas,ashley.thomas925@example.com,Atlanta,GA,2026-05-11,Organic Search,New
+926,William,Thompson,william.thompson926@example.com,Dallas,TX,2025-06-02,Referral,New
+927,Emily,White,emily.white927@example.com,Seattle,WA,2026-02-19,Referral,Returning
+928,Donald,Sanchez,donald.sanchez928@example.com,Phoenix,AZ,2025-10-05,Organic Search,Returning
+929,William,Davis,william.davis929@example.com,Nashville,TN,2025-12-31,Paid Search,Returning
+930,Kenneth,Perez,kenneth.perez930@example.com,Atlanta,GA,2026-01-22,Direct,New
+931,Daniel,Sanchez,daniel.sanchez931@example.com,Austin,TX,2024-07-22,Social Media,New
+932,Anthony,Clark,anthony.clark932@example.com,San Diego,CA,2025-07-25,Organic Search,Returning
+933,Sandra,Miller,sandra.miller933@example.com,Dallas,TX,2025-12-19,Direct,New
+934,Margaret,Martin,margaret.martin934@example.com,Dallas,TX,2024-06-01,Direct,New
+935,Linda,Smith,linda.smith935@example.com,Nashville,TN,2025-05-21,Paid Search,Returning
+936,Sarah,Martinez,sarah.martinez936@example.com,Portland,OR,2025-01-26,Direct,VIP
+937,Susan,Clark,susan.clark937@example.com,Austin,TX,2025-03-04,Organic Search,Returning
+938,Charles,Rodriguez,charles.rodriguez938@example.com,San Diego,CA,2025-09-24,Direct,New
+939,Sandra,Williams,sandra.williams939@example.com,New York,NY,2025-04-25,Referral,New
+940,Betty,Perez,betty.perez940@example.com,San Antonio,TX,2025-12-31,Direct,New
+941,Thomas,Williams,thomas.williams941@example.com,Houston,TX,2025-07-24,Paid Search,New
+942,Steven,Robinson,steven.robinson942@example.com,Denver,CO,2024-01-06,Email,Returning
+943,Betty,Perez,betty.perez943@example.com,Denver,CO,2025-07-26,Paid Search,New
+944,Paul,Thomas,paul.thomas944@example.com,Seattle,WA,2024-04-01,Paid Search,Returning
+945,Thomas,Brown,thomas.brown945@example.com,Seattle,WA,2026-05-04,Social Media,New
+946,Charles,Lewis,charles.lewis946@example.com,Dallas,TX,2024-11-19,Paid Search,Returning
+947,Emily,Ramirez,emily.ramirez947@example.com,Miami,FL,2024-02-24,Paid Search,New
+948,Robert,Thomas,robert.thomas948@example.com,Dallas,TX,2025-03-22,Social Media,VIP
+949,Robert,Anderson,robert.anderson949@example.com,Denver,CO,2025-12-27,Organic Search,Returning
+950,Elizabeth,Brown,elizabeth.brown950@example.com,Denver,CO,2024-04-05,Paid Search,New
+951,Paul,Clark,paul.clark951@example.com,Dallas,TX,2025-08-22,Organic Search,VIP
+952,Kimberly,Harris,kimberly.harris952@example.com,Philadelphia,PA,2025-11-24,Email,New
+953,Linda,Gonzalez,linda.gonzalez953@example.com,Denver,CO,2024-06-06,Referral,Returning
+954,Steven,Anderson,steven.anderson954@example.com,Dallas,TX,2024-12-03,Social Media,Returning
+955,Daniel,White,daniel.white955@example.com,Phoenix,AZ,2024-11-26,Direct,Returning
+956,Kenneth,Gonzalez,kenneth.gonzalez956@example.com,Chicago,IL,2025-02-12,Social Media,New
+957,Jennifer,Smith,jennifer.smith957@example.com,San Antonio,TX,2024-06-15,Referral,New
+958,Elizabeth,Brown,elizabeth.brown958@example.com,Austin,TX,2024-11-13,Email,Returning
+959,Michael,Clark,michael.clark959@example.com,Denver,CO,2025-06-08,Social Media,New
+960,Steven,Rodriguez,steven.rodriguez960@example.com,Atlanta,GA,2026-04-10,Referral,New
+961,Margaret,Williams,margaret.williams961@example.com,Los Angeles,CA,2025-06-09,Paid Search,Returning
+962,Elizabeth,Robinson,elizabeth.robinson962@example.com,Portland,OR,2025-06-21,Organic Search,Returning
+963,Steven,Martinez,steven.martinez963@example.com,Phoenix,AZ,2024-11-03,Email,Returning
+964,Joshua,Johnson,joshua.johnson964@example.com,Minneapolis,MN,2025-06-09,Organic Search,New
+965,Sandra,Perez,sandra.perez965@example.com,Dallas,TX,2024-12-29,Direct,New
+966,Mary,Brown,mary.brown966@example.com,Miami,FL,2026-05-13,Referral,New
+967,Karen,Hernandez,karen.hernandez967@example.com,Miami,FL,2024-12-15,Paid Search,VIP
+968,Susan,Garcia,susan.garcia968@example.com,Chicago,IL,2024-04-18,Social Media,New
+969,Linda,Smith,linda.smith969@example.com,Philadelphia,PA,2025-11-02,Referral,Returning
+970,Kenneth,White,kenneth.white970@example.com,Portland,OR,2024-11-06,Email,VIP
+971,Betty,Sanchez,betty.sanchez971@example.com,Austin,TX,2024-03-30,Organic Search,New
+972,Mary,Thompson,mary.thompson972@example.com,San Antonio,TX,2026-05-29,Paid Search,Returning
+973,Jessica,Wilson,jessica.wilson973@example.com,Minneapolis,MN,2024-07-14,Paid Search,Returning
+974,Steven,Wilson,steven.wilson974@example.com,New York,NY,2024-04-29,Referral,New
+975,Donald,Thomas,donald.thomas975@example.com,Portland,OR,2025-08-22,Social Media,New
+976,Patricia,Hernandez,patricia.hernandez976@example.com,New York,NY,2025-12-31,Social Media,New
+977,Donna,Martin,donna.martin977@example.com,Minneapolis,MN,2024-10-24,Direct,New
+978,Donna,White,donna.white978@example.com,Portland,OR,2025-06-24,Direct,Returning
+979,John,Rodriguez,john.rodriguez979@example.com,Atlanta,GA,2025-10-23,Organic Search,Returning
+980,William,Martinez,william.martinez980@example.com,San Antonio,TX,2025-04-25,Paid Search,New
+981,Donna,Robinson,donna.robinson981@example.com,Seattle,WA,2025-11-20,Social Media,New
+982,William,Martin,william.martin982@example.com,San Antonio,TX,2024-05-12,Social Media,New
+983,Michael,Sanchez,michael.sanchez983@example.com,Atlanta,GA,2025-05-20,Organic Search,New
+984,Mary,Lopez,mary.lopez984@example.com,Dallas,TX,2024-12-31,Direct,New
+985,Robert,Sanchez,robert.sanchez985@example.com,Chicago,IL,2024-12-11,Organic Search,Returning
+986,Emily,Davis,emily.davis986@example.com,Portland,OR,2026-03-14,Direct,New
+987,Sarah,Lewis,sarah.lewis987@example.com,Phoenix,AZ,2026-06-10,Referral,New
+988,Charles,Thompson,charles.thompson988@example.com,Miami,FL,2024-12-08,Paid Search,New
+989,Donald,Wilson,donald.wilson989@example.com,New York,NY,2025-04-30,Organic Search,Returning
+990,Sarah,Lopez,sarah.lopez990@example.com,Atlanta,GA,2024-09-08,Social Media,Returning
+991,Joseph,Jones,joseph.jones991@example.com,Atlanta,GA,2025-03-29,Direct,New
+992,John,Williams,john.williams992@example.com,Seattle,WA,2024-11-18,Social Media,Returning
+993,Patricia,Gonzalez,patricia.gonzalez993@example.com,Los Angeles,CA,2025-11-07,Direct,New
+994,Patricia,Lee,patricia.lee994@example.com,Nashville,TN,2024-10-29,Referral,VIP
+995,Emily,Ramirez,emily.ramirez995@example.com,Austin,TX,2024-12-18,Direct,New
+996,Michelle,Robinson,michelle.robinson996@example.com,Phoenix,AZ,2025-12-18,Direct,Returning
+997,Michelle,Sanchez,michelle.sanchez997@example.com,Miami,FL,2025-12-15,Referral,Returning
+998,Betty,Harris,betty.harris998@example.com,San Antonio,TX,2026-06-21,Email,New
+999,Anthony,White,anthony.white999@example.com,Phoenix,AZ,2024-10-17,Email,Returning
+1000,Kimberly,Hernandez,kimberly.hernandez1000@example.com,Philadelphia,PA,2024-01-24,Direct,Returning
+1001,Thomas,Davis,thomas.davis1001@example.com,Austin,TX,2025-06-01,Email,New
+1002,Thomas,Lee,thomas.lee1002@example.com,Nashville,TN,2024-12-28,Organic Search,Returning
+1003,Donald,Martinez,donald.martinez1003@example.com,New York,NY,2025-04-09,Referral,New
+1004,Donna,Jackson,donna.jackson1004@example.com,Minneapolis,MN,2024-12-24,Referral,Returning
+1005,Joshua,Perez,joshua.perez1005@example.com,Phoenix,AZ,2026-01-25,Direct,New
+1006,Richard,Clark,richard.clark1006@example.com,Denver,CO,2025-04-10,Social Media,Returning
+1007,Jennifer,Williams,jennifer.williams1007@example.com,Los Angeles,CA,2025-05-02,Referral,New
+1008,Kimberly,Gonzalez,kimberly.gonzalez1008@example.com,Minneapolis,MN,2026-06-11,Social Media,Returning
+1009,Donald,Thompson,donald.thompson1009@example.com,Portland,OR,2026-04-23,Social Media,Returning
+1010,Sandra,Jones,sandra.jones1010@example.com,Nashville,TN,2025-12-12,Referral,Returning
+1011,William,Moore,william.moore1011@example.com,Denver,CO,2025-02-22,Email,New
+1012,Robert,Taylor,robert.taylor1012@example.com,Phoenix,AZ,2024-04-30,Email,VIP
+1013,Charles,Thomas,charles.thomas1013@example.com,New York,NY,2026-03-21,Social Media,Returning
+1014,Patricia,Robinson,patricia.robinson1014@example.com,Austin,TX,2026-06-29,Referral,New
+1015,Ashley,Smith,ashley.smith1015@example.com,Houston,TX,2025-07-14,Social Media,VIP
+1016,Steven,Jackson,steven.jackson1016@example.com,Austin,TX,2025-08-02,Social Media,New
+1017,Steven,Clark,steven.clark1017@example.com,Phoenix,AZ,2026-02-19,Social Media,Returning
+1018,Donald,Jones,donald.jones1018@example.com,Seattle,WA,2025-11-11,Social Media,New
+1019,Nancy,Moore,nancy.moore1019@example.com,Los Angeles,CA,2025-11-17,Referral,Returning
+1020,Jennifer,Ramirez,jennifer.ramirez1020@example.com,Philadelphia,PA,2025-12-25,Referral,Returning
+1021,Karen,Moore,karen.moore1021@example.com,Houston,TX,2025-07-08,Direct,New
+1022,Kimberly,Miller,kimberly.miller1022@example.com,Portland,OR,2025-06-28,Paid Search,New
+1023,Jessica,Clark,jessica.clark1023@example.com,Miami,FL,2025-09-13,Social Media,Returning
+1024,Mary,Hernandez,mary.hernandez1024@example.com,Atlanta,GA,2024-07-03,Email,VIP
+1025,Anthony,Rodriguez,anthony.rodriguez1025@example.com,Chicago,IL,2025-07-08,Email,New
+1026,Jennifer,Jones,jennifer.jones1026@example.com,Austin,TX,2024-11-29,Email,Returning
+1027,Anthony,Brown,anthony.brown1027@example.com,Seattle,WA,2024-05-25,Social Media,New
+1028,Linda,Johnson,linda.johnson1028@example.com,San Antonio,TX,2025-08-23,Direct,Returning
+1029,Anthony,Brown,anthony.brown1029@example.com,Dallas,TX,2024-03-03,Organic Search,Returning
+1030,Steven,Smith,steven.smith1030@example.com,Atlanta,GA,2025-10-10,Email,VIP
+1031,Emily,Jackson,emily.jackson1031@example.com,Houston,TX,2024-11-07,Referral,New
+1032,Paul,Miller,paul.miller1032@example.com,Phoenix,AZ,2025-07-22,Social Media,New
+1033,Michelle,Martinez,michelle.martinez1033@example.com,Philadelphia,PA,2024-01-01,Email,VIP
+1034,Kenneth,Rodriguez,kenneth.rodriguez1034@example.com,Boston,MA,2024-12-25,Direct,New
+1035,Charles,Johnson,charles.johnson1035@example.com,Philadelphia,PA,2024-03-12,Organic Search,New
+1036,David,White,david.white1036@example.com,Minneapolis,MN,2026-04-01,Email,Returning
+1037,Thomas,Harris,thomas.harris1037@example.com,Miami,FL,2024-10-06,Email,VIP
+1038,Susan,Anderson,susan.anderson1038@example.com,Seattle,WA,2025-11-19,Referral,Returning
+1039,Ashley,Harris,ashley.harris1039@example.com,Boston,MA,2025-07-05,Referral,VIP
+1040,John,Moore,john.moore1040@example.com,New York,NY,2024-12-27,Direct,New
+1041,Matthew,Gonzalez,matthew.gonzalez1041@example.com,Philadelphia,PA,2025-12-14,Email,New
+1042,Richard,Anderson,richard.anderson1042@example.com,New York,NY,2026-02-15,Email,VIP
+1043,Richard,Williams,richard.williams1043@example.com,Austin,TX,2025-01-06,Referral,Returning
+1044,Kenneth,Miller,kenneth.miller1044@example.com,New York,NY,2025-10-15,Direct,VIP
+1045,Paul,Thomas,paul.thomas1045@example.com,Philadelphia,PA,2025-07-19,Referral,Returning
+1046,Kenneth,Jackson,kenneth.jackson1046@example.com,Philadelphia,PA,2026-02-02,Direct,New
+1047,Joseph,Lewis,joseph.lewis1047@example.com,Nashville,TN,2025-12-10,Referral,Returning
+1048,Emily,Lewis,emily.lewis1048@example.com,Miami,FL,2025-10-27,Social Media,VIP
+1049,Mark,Rodriguez,mark.rodriguez1049@example.com,Houston,TX,2025-11-27,Direct,Returning
+1050,Robert,Lewis,robert.lewis1050@example.com,San Diego,CA,2024-02-18,Social Media,New
+1051,Daniel,Smith,daniel.smith1051@example.com,Boston,MA,2024-07-18,Organic Search,VIP
+1052,Joseph,Thompson,joseph.thompson1052@example.com,Atlanta,GA,2024-07-20,Referral,New
+1053,Michael,Smith,michael.smith1053@example.com,Portland,OR,2024-12-08,Social Media,New
+1054,Jessica,Hernandez,jessica.hernandez1054@example.com,Los Angeles,CA,2026-04-21,Organic Search,Returning
+1055,Kenneth,Martin,kenneth.martin1055@example.com,Miami,FL,2026-02-21,Organic Search,New
+1056,Jennifer,Johnson,jennifer.johnson1056@example.com,Los Angeles,CA,2025-01-21,Organic Search,Returning
+1057,David,Johnson,david.johnson1057@example.com,Miami,FL,2024-02-26,Organic Search,Returning
+1058,Michael,Perez,michael.perez1058@example.com,Los Angeles,CA,2025-07-26,Social Media,Returning
+1059,Michael,Martin,michael.martin1059@example.com,Atlanta,GA,2024-04-13,Organic Search,VIP
+1060,Sandra,Taylor,sandra.taylor1060@example.com,Seattle,WA,2025-08-24,Direct,New
+1061,John,Jackson,john.jackson1061@example.com,San Antonio,TX,2025-08-09,Email,Returning
+1062,Mark,Thomas,mark.thomas1062@example.com,Miami,FL,2024-07-09,Organic Search,Returning
+1063,David,Martinez,david.martinez1063@example.com,Atlanta,GA,2026-03-05,Direct,Returning
+1064,Nancy,Martinez,nancy.martinez1064@example.com,Denver,CO,2025-11-04,Direct,New
+1065,Emily,Ramirez,emily.ramirez1065@example.com,Los Angeles,CA,2025-03-08,Referral,VIP
+1066,Richard,Sanchez,richard.sanchez1066@example.com,Chicago,IL,2024-12-15,Referral,Returning
+1067,Sandra,Martin,sandra.martin1067@example.com,Seattle,WA,2024-12-09,Paid Search,New
+1068,Michael,Anderson,michael.anderson1068@example.com,Los Angeles,CA,2025-05-22,Paid Search,New
+1069,Joseph,Anderson,joseph.anderson1069@example.com,San Antonio,TX,2024-12-05,Social Media,New
+1070,Barbara,Clark,barbara.clark1070@example.com,New York,NY,2025-01-06,Direct,New
+1071,Linda,Jones,linda.jones1071@example.com,Austin,TX,2025-03-26,Email,Returning
+1072,Robert,Smith,robert.smith1072@example.com,San Antonio,TX,2024-07-21,Email,New
+1073,Barbara,Hernandez,barbara.hernandez1073@example.com,Minneapolis,MN,2024-09-08,Email,New
+1074,Michael,Smith,michael.smith1074@example.com,Phoenix,AZ,2026-06-25,Email,VIP
+1075,Sandra,Davis,sandra.davis1075@example.com,Denver,CO,2026-04-08,Direct,New
+1076,Michelle,Lewis,michelle.lewis1076@example.com,Atlanta,GA,2024-05-01,Paid Search,VIP
+1077,Richard,Moore,richard.moore1077@example.com,Boston,MA,2025-12-12,Referral,Returning
+1078,Jessica,Robinson,jessica.robinson1078@example.com,Los Angeles,CA,2024-12-01,Email,Returning
+1079,David,Ramirez,david.ramirez1079@example.com,Nashville,TN,2025-11-10,Social Media,New
+1080,Paul,Lopez,paul.lopez1080@example.com,Portland,OR,2024-11-25,Social Media,Returning
+1081,Ashley,Thomas,ashley.thomas1081@example.com,Dallas,TX,2025-08-18,Direct,VIP
+1082,Robert,Miller,robert.miller1082@example.com,San Diego,CA,2024-07-26,Paid Search,New
+1083,Karen,Wilson,karen.wilson1083@example.com,Boston,MA,2025-08-08,Email,Returning
+1084,Emily,Williams,emily.williams1084@example.com,Phoenix,AZ,2026-02-08,Email,New
+1085,Joseph,Jackson,joseph.jackson1085@example.com,Los Angeles,CA,2024-12-10,Social Media,Returning
+1086,Lisa,Sanchez,lisa.sanchez1086@example.com,Portland,OR,2024-11-20,Social Media,New
+1087,Joseph,Rodriguez,joseph.rodriguez1087@example.com,Chicago,IL,2024-08-21,Organic Search,New
+1088,Andrew,Miller,andrew.miller1088@example.com,Seattle,WA,2024-07-20,Referral,New
+1089,Sarah,Miller,sarah.miller1089@example.com,Phoenix,AZ,2024-09-24,Email,New
+1090,Betty,Gonzalez,betty.gonzalez1090@example.com,New York,NY,2026-06-05,Referral,New
+1091,Susan,Thomas,susan.thomas1091@example.com,San Diego,CA,2024-12-14,Paid Search,New
+1092,Margaret,Harris,margaret.harris1092@example.com,Atlanta,GA,2024-08-02,Organic Search,VIP
+1093,Lisa,Jones,lisa.jones1093@example.com,Phoenix,AZ,2024-11-08,Referral,New
+1094,Matthew,Hernandez,matthew.hernandez1094@example.com,San Diego,CA,2025-03-05,Referral,Returning
+1095,Andrew,Martinez,andrew.martinez1095@example.com,Seattle,WA,2025-08-24,Paid Search,Returning
+1096,Elizabeth,Hernandez,elizabeth.hernandez1096@example.com,Boston,MA,2025-01-25,Direct,New
+1097,Anthony,Miller,anthony.miller1097@example.com,Portland,OR,2024-04-21,Referral,VIP
+1098,Karen,Williams,karen.williams1098@example.com,Philadelphia,PA,2024-06-30,Social Media,Returning
+1099,Mary,Garcia,mary.garcia1099@example.com,San Antonio,TX,2025-01-30,Referral,New
+1100,Kimberly,Williams,kimberly.williams1100@example.com,Miami,FL,2024-01-12,Social Media,VIP
+1101,Betty,Garcia,betty.garcia1101@example.com,Houston,TX,2026-06-05,Email,VIP
+1102,Margaret,Clark,margaret.clark1102@example.com,Portland,OR,2024-11-13,Referral,Returning
+1103,Sandra,Rodriguez,sandra.rodriguez1103@example.com,San Antonio,TX,2025-04-01,Paid Search,New
+1104,Kimberly,Hernandez,kimberly.hernandez1104@example.com,Portland,OR,2025-04-12,Email,Returning
+1105,Betty,Martin,betty.martin1105@example.com,Philadelphia,PA,2025-03-01,Referral,VIP
+1106,Margaret,Anderson,margaret.anderson1106@example.com,Boston,MA,2025-11-05,Social Media,Returning
+1107,Robert,Davis,robert.davis1107@example.com,Philadelphia,PA,2025-07-04,Referral,VIP
+1108,Susan,Robinson,susan.robinson1108@example.com,Portland,OR,2025-07-20,Organic Search,New
+1109,Paul,Harris,paul.harris1109@example.com,Seattle,WA,2024-09-15,Organic Search,New
+1110,John,Lee,john.lee1110@example.com,Miami,FL,2025-02-10,Referral,New
+1111,David,Hernandez,david.hernandez1111@example.com,Miami,FL,2025-03-24,Paid Search,Returning
+1112,William,Clark,william.clark1112@example.com,New York,NY,2025-09-13,Direct,New
+1113,Betty,Garcia,betty.garcia1113@example.com,Chicago,IL,2025-11-18,Paid Search,Returning
+1114,Donald,Lopez,donald.lopez1114@example.com,Philadelphia,PA,2025-11-22,Organic Search,New
+1115,Kimberly,Lee,kimberly.lee1115@example.com,Houston,TX,2025-03-30,Social Media,New
+1116,Richard,Robinson,richard.robinson1116@example.com,San Diego,CA,2024-07-23,Organic Search,New
+1117,Nancy,Clark,nancy.clark1117@example.com,San Antonio,TX,2025-11-27,Organic Search,New
+1118,William,White,william.white1118@example.com,Philadelphia,PA,2024-11-26,Paid Search,New
+1119,Andrew,Gonzalez,andrew.gonzalez1119@example.com,Atlanta,GA,2024-05-03,Email,New
+1120,Barbara,Smith,barbara.smith1120@example.com,Boston,MA,2025-10-31,Social Media,New
+1121,Joseph,Williams,joseph.williams1121@example.com,Dallas,TX,2024-02-14,Email,New
+1122,Kenneth,Thomas,kenneth.thomas1122@example.com,Houston,TX,2025-12-30,Direct,VIP
+1123,William,Rodriguez,william.rodriguez1123@example.com,Houston,TX,2025-09-06,Social Media,Returning
+1124,David,Hernandez,david.hernandez1124@example.com,Philadelphia,PA,2025-12-05,Social Media,VIP
+1125,John,Hernandez,john.hernandez1125@example.com,New York,NY,2025-04-04,Paid Search,Returning
+1126,Paul,Jackson,paul.jackson1126@example.com,New York,NY,2024-08-26,Organic Search,Returning
+1127,Karen,Davis,karen.davis1127@example.com,Atlanta,GA,2026-02-14,Paid Search,New
+1128,Lisa,Thomas,lisa.thomas1128@example.com,Austin,TX,2024-07-25,Organic Search,New
+1129,Jessica,Robinson,jessica.robinson1129@example.com,Miami,FL,2024-05-17,Organic Search,Returning
+1130,Kimberly,Sanchez,kimberly.sanchez1130@example.com,Atlanta,GA,2026-02-07,Email,Returning
+1131,Nancy,Davis,nancy.davis1131@example.com,San Antonio,TX,2025-07-06,Paid Search,VIP
+1132,Joseph,Martin,joseph.martin1132@example.com,Boston,MA,2025-06-17,Organic Search,New
+1133,John,Ramirez,john.ramirez1133@example.com,Portland,OR,2024-05-08,Paid Search,Returning
+1134,Jessica,Taylor,jessica.taylor1134@example.com,Chicago,IL,2024-11-14,Social Media,New
+1135,Barbara,Martin,barbara.martin1135@example.com,San Diego,CA,2024-11-06,Referral,New
+1136,Richard,Rodriguez,richard.rodriguez1136@example.com,Portland,OR,2026-05-24,Email,VIP
+1137,Kenneth,Moore,kenneth.moore1137@example.com,Phoenix,AZ,2024-09-20,Email,New
+1138,Anthony,Moore,anthony.moore1138@example.com,Portland,OR,2024-03-14,Paid Search,Returning
+1139,Elizabeth,Robinson,elizabeth.robinson1139@example.com,San Antonio,TX,2024-01-05,Referral,Returning
+1140,Lisa,Thomas,lisa.thomas1140@example.com,Boston,MA,2025-05-16,Organic Search,VIP
+1141,Mark,Lewis,mark.lewis1141@example.com,Los Angeles,CA,2024-05-07,Paid Search,Returning
+1142,Margaret,Rodriguez,margaret.rodriguez1142@example.com,Denver,CO,2025-12-14,Social Media,New
+1143,Jessica,Davis,jessica.davis1143@example.com,Portland,OR,2025-11-23,Paid Search,Returning
+1144,Thomas,Martin,thomas.martin1144@example.com,Miami,FL,2025-11-28,Direct,New
+1145,William,Smith,william.smith1145@example.com,Houston,TX,2026-02-28,Social Media,Returning
+1146,Betty,Thompson,betty.thompson1146@example.com,Chicago,IL,2026-06-16,Email,Returning
+1147,Karen,Taylor,karen.taylor1147@example.com,Minneapolis,MN,2025-11-05,Referral,Returning
+1148,Mark,Harris,mark.harris1148@example.com,Chicago,IL,2026-04-13,Referral,Returning
+1149,Betty,Thompson,betty.thompson1149@example.com,Austin,TX,2024-04-09,Direct,Returning
+1150,Mark,Lee,mark.lee1150@example.com,Austin,TX,2024-06-29,Paid Search,Returning
+1151,Ashley,Garcia,ashley.garcia1151@example.com,Nashville,TN,2024-04-22,Paid Search,Returning
+1152,Richard,Johnson,richard.johnson1152@example.com,Philadelphia,PA,2026-06-11,Direct,Returning
+1153,Michael,Ramirez,michael.ramirez1153@example.com,Philadelphia,PA,2024-03-22,Email,New
+1154,John,Hernandez,john.hernandez1154@example.com,New York,NY,2025-08-22,Organic Search,Returning
+1155,James,Johnson,james.johnson1155@example.com,Dallas,TX,2025-11-12,Organic Search,VIP
+1156,Susan,Taylor,susan.taylor1156@example.com,New York,NY,2026-02-18,Email,Returning
+1157,Kenneth,Wilson,kenneth.wilson1157@example.com,Seattle,WA,2024-12-17,Email,Returning
+1158,Betty,Gonzalez,betty.gonzalez1158@example.com,Los Angeles,CA,2024-12-30,Organic Search,Returning
+1159,Sandra,Ramirez,sandra.ramirez1159@example.com,Boston,MA,2024-05-22,Direct,New
+1160,Sarah,Thompson,sarah.thompson1160@example.com,San Diego,CA,2025-12-03,Social Media,Returning
+1161,Richard,Smith,richard.smith1161@example.com,Seattle,WA,2026-06-13,Email,Returning
+1162,Donald,Davis,donald.davis1162@example.com,Portland,OR,2026-03-24,Social Media,New
+1163,Michael,White,michael.white1163@example.com,Boston,MA,2025-12-30,Direct,Returning
+1164,Paul,Johnson,paul.johnson1164@example.com,Phoenix,AZ,2024-11-04,Social Media,VIP
+1165,William,Lewis,william.lewis1165@example.com,Miami,FL,2025-07-07,Referral,New
+1166,Jennifer,Brown,jennifer.brown1166@example.com,Atlanta,GA,2026-01-02,Email,VIP
+1167,Anthony,Harris,anthony.harris1167@example.com,Dallas,TX,2025-11-12,Organic Search,VIP
+1168,David,Robinson,david.robinson1168@example.com,Minneapolis,MN,2024-12-06,Direct,VIP
+1169,John,Lee,john.lee1169@example.com,Seattle,WA,2026-05-26,Email,New
+1170,Linda,Martinez,linda.martinez1170@example.com,Chicago,IL,2024-04-24,Paid Search,Returning
+1171,Linda,Jackson,linda.jackson1171@example.com,Denver,CO,2024-01-02,Paid Search,Returning
+1172,Anthony,Wilson,anthony.wilson1172@example.com,Seattle,WA,2025-11-26,Referral,New
+1173,Kenneth,Jackson,kenneth.jackson1173@example.com,San Diego,CA,2024-04-19,Social Media,Returning
+1174,Daniel,Jones,daniel.jones1174@example.com,Austin,TX,2026-05-07,Paid Search,Returning
+1175,Kenneth,Martinez,kenneth.martinez1175@example.com,Phoenix,AZ,2024-11-12,Email,Returning
+1176,Joshua,Thomas,joshua.thomas1176@example.com,San Antonio,TX,2025-05-21,Organic Search,VIP
+1177,Nancy,Jones,nancy.jones1177@example.com,San Antonio,TX,2026-04-09,Paid Search,Returning
+1178,Ashley,White,ashley.white1178@example.com,Boston,MA,2024-11-02,Paid Search,Returning
+1179,Mary,Moore,mary.moore1179@example.com,Boston,MA,2024-12-11,Email,Returning
+1180,Betty,Gonzalez,betty.gonzalez1180@example.com,Chicago,IL,2025-07-15,Direct,New
+1181,Patricia,Ramirez,patricia.ramirez1181@example.com,Austin,TX,2025-08-14,Email,Returning
+1182,Elizabeth,Miller,elizabeth.miller1182@example.com,San Antonio,TX,2025-08-12,Paid Search,Returning
+1183,Anthony,Wilson,anthony.wilson1183@example.com,Philadelphia,PA,2024-02-27,Paid Search,VIP
+1184,Patricia,Brown,patricia.brown1184@example.com,Nashville,TN,2025-10-27,Paid Search,New
+1185,Betty,Davis,betty.davis1185@example.com,Los Angeles,CA,2024-05-01,Referral,Returning
+1186,Kenneth,Garcia,kenneth.garcia1186@example.com,Boston,MA,2025-01-26,Email,Returning
+1187,James,Brown,james.brown1187@example.com,Houston,TX,2024-03-25,Direct,Returning
+1188,Joseph,Smith,joseph.smith1188@example.com,Portland,OR,2024-07-04,Referral,VIP
+1189,Margaret,Martinez,margaret.martinez1189@example.com,Phoenix,AZ,2024-04-11,Direct,Returning
+1190,Barbara,Gonzalez,barbara.gonzalez1190@example.com,New York,NY,2025-11-05,Direct,New
+1191,Barbara,Smith,barbara.smith1191@example.com,Minneapolis,MN,2024-05-05,Referral,Returning
+1192,William,Williams,william.williams1192@example.com,Minneapolis,MN,2024-02-05,Email,New
+1193,Lisa,Moore,lisa.moore1193@example.com,Philadelphia,PA,2025-11-04,Direct,New
+1194,Charles,Perez,charles.perez1194@example.com,Minneapolis,MN,2025-03-31,Email,Returning
+1195,Kimberly,Robinson,kimberly.robinson1195@example.com,Denver,CO,2025-11-09,Paid Search,New
+1196,Elizabeth,Martinez,elizabeth.martinez1196@example.com,San Antonio,TX,2024-10-11,Organic Search,Returning
+1197,Emily,Rodriguez,emily.rodriguez1197@example.com,Dallas,TX,2024-06-16,Email,New
+1198,Margaret,Thompson,margaret.thompson1198@example.com,Phoenix,AZ,2025-07-02,Email,Returning
+1199,Richard,Thompson,richard.thompson1199@example.com,Denver,CO,2025-07-31,Direct,Returning
+1200,William,Wilson,william.wilson1200@example.com,Phoenix,AZ,2024-11-19,Organic Search,New
